@@ -1,0 +1,37 @@
+check,source,description,n_fits,n_rows,n_affected
+value,wp,"no Out_Of_Fold pre-ball WP within [0, 1]",,189648,0
+value,li,no finite LI of at least 0,,189648,0
+value,pi_bat,"no pi_bat within [0, 100] for the Delivery's Role",,182377,0
+value,pi_bowl,"no pi_bowl within [0, 100] for the Delivery's Role",,189648,0
+value,pi_bowl_extras_free,"no pi_bowl_extras_free within [0, 100] for the Delivery's Role",,189648,0
+agreement,wp_pressure,the pressure table's WP differs from the Primary_Models' Out_Of_Fold WP,,189648,0
+agreement,wp_m3_table,the Primary_Models' WP differs from the WP of the M3 table that names its fits,,189648,0
+agreement,li_primary,the pressure table's LI differs from the LI of the Primary_Models' Out_Of_Fold predictions,,189648,0
+fold,fold_primary,the fold stored with the Primary_Models' predictions differs from the match's fold in the Fold_Table,,189648,0
+fold,fold_m3_table,the fold stored with the M3 WP table differs from the match's fold in the Fold_Table,,189648,0
+fit_registered,wp_fit,"the M3 outer fit that the win_prob WP table records for the pre-ball WP: no fit recorded, or a fit that the FitRegistry does not hold",10,189648,0
+fit_excludes_match,wp_fit,"the M3 outer fit that the win_prob WP table records for the pre-ball WP: its Training_Rows hold the Delivery's match, or it does not exclude the Delivery's fold",10,189648,0
+fit_serves_match,wp_fit,the M3 outer fit that the win_prob WP table records for the pre-ball WP: the Delivery's match is not among its predicted matches,10,189648,0
+fit_registered,wp_calibrator,"the calibrator that the win_prob WP table records for the pre-ball WP: no fit recorded, or a fit that the FitRegistry does not hold",10,189648,0
+fit_excludes_match,wp_calibrator,"the calibrator that the win_prob WP table records for the pre-ball WP: its Training_Rows hold the Delivery's match, or it does not exclude the Delivery's fold",10,189648,0
+fit_serves_match,wp_calibrator,the calibrator that the win_prob WP table records for the pre-ball WP: the Delivery's match is not among its predicted matches,10,189648,0
+fit_registered,wp_outer_fit,"the M3 Primary_Model's outer fit of the fold (Post_Outcome_State WP, LI, WP after): no fit recorded, or a fit that the FitRegistry does not hold",10,189648,0
+fit_excludes_match,wp_outer_fit,"the M3 Primary_Model's outer fit of the fold (Post_Outcome_State WP, LI, WP after): its Training_Rows hold the Delivery's match, or it does not exclude the Delivery's fold",10,189648,0
+fit_serves_match,wp_outer_fit,"the M3 Primary_Model's outer fit of the fold (Post_Outcome_State WP, LI, WP after): the Delivery's match is not among its predicted matches",10,189648,0
+fit_registered,wp_outer_calibrator,"the M3 Primary_Model's calibrator of the fold (Post_Outcome_State WP, LI, WP after): no fit recorded, or a fit that the FitRegistry does not hold",10,189648,0
+fit_excludes_match,wp_outer_calibrator,"the M3 Primary_Model's calibrator of the fold (Post_Outcome_State WP, LI, WP after): its Training_Rows hold the Delivery's match, or it does not exclude the Delivery's fold",10,189648,0
+fit_serves_match,wp_outer_calibrator,"the M3 Primary_Model's calibrator of the fold (Post_Outcome_State WP, LI, WP after): the Delivery's match is not among its predicted matches",10,189648,0
+fit_registered,m4_fit,"the M4 Primary_Model's fold model (the LI's outcome probabilities): no fit recorded, or a fit that the FitRegistry does not hold",5,189648,0
+fit_excludes_match,m4_fit,"the M4 Primary_Model's fold model (the LI's outcome probabilities): its Training_Rows hold the Delivery's match, or it does not exclude the Delivery's fold",5,189648,0
+fit_serves_match,m4_fit,the M4 Primary_Model's fold model (the LI's outcome probabilities): the Delivery's match is not among its predicted matches,5,189648,0
+fit_registered,m4_m1_fit,"the M1 fit behind that M4 fold model's Average_Skill: no fit recorded, or a fit that the FitRegistry does not hold",5,189648,0
+fit_excludes_match,m4_m1_fit,"the M1 fit behind that M4 fold model's Average_Skill: its Training_Rows hold the Delivery's match, or it does not exclude the Delivery's fold",5,189648,0
+fit_serves_match,m4_m1_fit,the M1 fit behind that M4 fold model's Average_Skill: the Delivery's match is not among its predicted matches,5,189648,0
+fit_registered,view_m1_fit,"the M1 fit of the own-fold view row (model features, Stress_Pillars): no fit recorded, or a fit that the FitRegistry does not hold",5,189648,0
+fit_excludes_match,view_m1_fit,"the M1 fit of the own-fold view row (model features, Stress_Pillars): its Training_Rows hold the Delivery's match, or it does not exclude the Delivery's fold",5,189648,0
+fit_serves_match,view_m1_fit,"the M1 fit of the own-fold view row (model features, Stress_Pillars): the Delivery's match is not among its predicted matches",5,189648,0
+fit_registered,view_m2_fit,"the M2 fit of the own-fold view row (Par_Score, Achievable_Rate, F19 and F23): no fit recorded, or a fit that the FitRegistry does not hold",5,189648,0
+fit_excludes_match,view_m2_fit,"the M2 fit of the own-fold view row (Par_Score, Achievable_Rate, F19 and F23): its Training_Rows hold the Delivery's match, or it does not exclude the Delivery's fold",5,189648,0
+fit_serves_match,view_m2_fit,"the M2 fit of the own-fold view row (Par_Score, Achievable_Rate, F19 and F23): the Delivery's match is not among its predicted matches",5,189648,0
+sandbox,innings_1,"a fit of the Delivery's fold sandbox (M1, first-innings M2, the innings' M3 Primary_Model and calibrator, M4 Primary_Model) trained on the Delivery's match",85,99751,0
+sandbox,innings_2,"a fit of the Delivery's fold sandbox (M1, first-innings M2, the innings' M3 Primary_Model and calibrator, M4 Primary_Model) trained on the Delivery's match",85,89897,0

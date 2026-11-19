@@ -1,0 +1,3 @@
+model,n_legal_balls,log_loss
+m4_lgbm,181591,1.483181
+phase_baseline,181591,1.511384

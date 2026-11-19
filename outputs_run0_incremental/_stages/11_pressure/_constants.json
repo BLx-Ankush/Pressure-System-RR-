@@ -1,0 +1,38 @@
+{
+  "derived": {
+    "pressure.lowest_pressure_ball_pi": {
+      "component": "Pressure_Engine",
+      "stage": "pressure",
+      "value": {
+        "batter": {
+          "1": 64.93924981515157,
+          "2": 62.752810637860684
+        },
+        "bowler": {
+          "1": 64.66260025935354,
+          "2": 66.35303265940902
+        }
+      }
+    },
+    "pressure.pooled_mean_unscaled_li": {
+      "component": "Pressure_Engine",
+      "stage": "pressure",
+      "value": 0.01257158743006311
+    },
+    "pressure.pressure_ball_pct_of_live_balls": {
+      "component": "Pressure_Engine",
+      "stage": "pressure",
+      "value": {
+        "batter": {
+          "1": 24.999500409664076,
+          "2": 25.0007338480054
+        },
+        "bowler": {
+          "1": 24.999759857835837,
+          "2": 24.999293086384842
+        }
+      }
+    }
+  },
+  "version": 1
+}

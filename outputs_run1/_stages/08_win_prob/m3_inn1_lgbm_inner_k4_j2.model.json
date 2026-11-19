@@ -1,0 +1,6 @@
+{
+  "best_iteration": 23,
+  "class": "Booster",
+  "format": "lightgbm",
+  "module": "lightgbm.basic"
+}

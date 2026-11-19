@@ -1,0 +1,115 @@
+{
+  "derived": {
+    "activity_comparison.min_pressure_balls.batter": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 90
+    },
+    "activity_comparison.min_pressure_balls.bowler": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 90
+    },
+    "activity_comparison.n_eligible.batter": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 139
+    },
+    "activity_comparison.n_eligible.bowler": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 148
+    },
+    "activity_comparison.replacement_level.batter": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": -0.4313032411775156
+    },
+    "activity_comparison.replacement_level.bowler": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": -1.0047828782948216
+    },
+    "activity_comparison.rho_L.batter": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 0.0
+    },
+    "activity_comparison.rho_L.bowler": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 0.2012923763052982
+    },
+    "activity_comparison.rho_U.batter": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 0.0
+    },
+    "activity_comparison.rho_U.bowler": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 0.0627388004612861
+    },
+    "activity_comparison.tau2_clutch.batter": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 0.0
+    },
+    "activity_comparison.tau2_clutch.bowler": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 0.07022109895572104
+    },
+    "activity_comparison.tau2_gap.batter": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 0.0
+    },
+    "activity_comparison.tau2_gap.bowler": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 0.07366840644861194
+    },
+    "activity_comparison.tau2_uplift.batter": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 0.0
+    },
+    "activity_comparison.tau2_uplift.bowler": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 0.0
+    },
+    "activity_comparison.tau2_usual.batter": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 0.3387390229778666
+    },
+    "activity_comparison.tau2_usual.bowler": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 0.27750056411875534
+    },
+    "activity_comparison.w_L.batter": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 1.0
+    },
+    "activity_comparison.w_L.bowler": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 0.7623810898788287
+    },
+    "activity_comparison.w_U.batter": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 0.0
+    },
+    "activity_comparison.w_U.bowler": {
+      "component": "Rating_Engine",
+      "stage": "activity_comparison",
+      "value": 0.2376189101211713
+    }
+  },
+  "version": 1
+}

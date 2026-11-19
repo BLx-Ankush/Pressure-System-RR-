@@ -1,0 +1,13 @@
+{
+  "derived": {
+    "validation.lowest_high_leverage_li": {
+      "component": "Pressure_Validator",
+      "stage": "validation",
+      "value": {
+        "1": 1.0439788461943889,
+        "2": 1.8965420241905695
+      }
+    }
+  },
+  "version": 1
+}

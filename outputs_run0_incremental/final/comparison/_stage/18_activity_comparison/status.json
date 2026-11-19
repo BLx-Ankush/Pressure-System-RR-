@@ -1,0 +1,23 @@
+{
+  "applies": true,
+  "bootstrap_seed": 22,
+  "message": "the Activity_Comparison_Ranking of each Role and its bootstrap, with the Recent_Activity_Rule off and every other input and setting equal to the Main_Ranking's (Requirement 25, criteria 11 and 12)",
+  "min_pressure_balls": {
+    "batter": 90,
+    "bowler": 90
+  },
+  "min_pressure_matches": 8,
+  "n_boot": 2000,
+  "n_eligible": {
+    "batter": 139,
+    "bowler": 148
+  },
+  "n_eligible_main": {
+    "batter": 130,
+    "bowler": 139
+  },
+  "n_resampled_matches": 867,
+  "recent_activity_rule": true,
+  "replacement_pct": 25.0,
+  "resample_draws_sha256": "5398f82f68fbf01d6e7f117d56dc8f4059940ac6c0cd44123bbfc347ceaa574a"
+}

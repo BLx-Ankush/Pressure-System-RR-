@@ -1,0 +1,113 @@
+{
+  "derived": {
+    "skill.all_folds.penalty_runs": {
+      "component": "Skill_Model",
+      "stage": "skill",
+      "value": 300.0
+    },
+    "skill.all_folds.penalty_wkt": {
+      "component": "Skill_Model",
+      "stage": "skill",
+      "value": 1000.0
+    },
+    "skill.all_folds.typical_top7_sum": {
+      "component": "Skill_Model",
+      "stage": "skill",
+      "value": 10.667744311207255
+    },
+    "skill.penalty_runs_by_fit": {
+      "component": "Skill_Model",
+      "stage": "skill",
+      "value": {
+        "m1_inner_k1_j2": 300.0,
+        "m1_inner_k1_j3": 300.0,
+        "m1_inner_k1_j4": 300.0,
+        "m1_inner_k1_j5": 300.0,
+        "m1_inner_k2_j1": 300.0,
+        "m1_inner_k2_j3": 300.0,
+        "m1_inner_k2_j4": 300.0,
+        "m1_inner_k2_j5": 300.0,
+        "m1_inner_k3_j1": 300.0,
+        "m1_inner_k3_j2": 300.0,
+        "m1_inner_k3_j4": 300.0,
+        "m1_inner_k3_j5": 300.0,
+        "m1_inner_k4_j1": 300.0,
+        "m1_inner_k4_j2": 300.0,
+        "m1_inner_k4_j3": 300.0,
+        "m1_inner_k4_j5": 300.0,
+        "m1_inner_k5_j1": 300.0,
+        "m1_inner_k5_j2": 300.0,
+        "m1_inner_k5_j3": 300.0,
+        "m1_inner_k5_j4": 300.0,
+        "m1_outer_k1": 300.0,
+        "m1_outer_k2": 300.0,
+        "m1_outer_k3": 300.0,
+        "m1_outer_k4": 300.0,
+        "m1_outer_k5": 300.0
+      }
+    },
+    "skill.penalty_wkt_by_fit": {
+      "component": "Skill_Model",
+      "stage": "skill",
+      "value": {
+        "m1_inner_k1_j2": 1000.0,
+        "m1_inner_k1_j3": 1000.0,
+        "m1_inner_k1_j4": 1000.0,
+        "m1_inner_k1_j5": 1000.0,
+        "m1_inner_k2_j1": 1000.0,
+        "m1_inner_k2_j3": 1000.0,
+        "m1_inner_k2_j4": 1000.0,
+        "m1_inner_k2_j5": 1000.0,
+        "m1_inner_k3_j1": 1000.0,
+        "m1_inner_k3_j2": 1000.0,
+        "m1_inner_k3_j4": 1000.0,
+        "m1_inner_k3_j5": 1000.0,
+        "m1_inner_k4_j1": 1000.0,
+        "m1_inner_k4_j2": 1000.0,
+        "m1_inner_k4_j3": 1000.0,
+        "m1_inner_k4_j5": 1000.0,
+        "m1_inner_k5_j1": 1000.0,
+        "m1_inner_k5_j2": 1000.0,
+        "m1_inner_k5_j3": 1000.0,
+        "m1_inner_k5_j4": 1000.0,
+        "m1_outer_k1": 1000.0,
+        "m1_outer_k2": 1000.0,
+        "m1_outer_k3": 1000.0,
+        "m1_outer_k4": 1000.0,
+        "m1_outer_k5": 1000.0
+      }
+    },
+    "skill.typical_top7_sum_by_fit": {
+      "component": "Skill_Model",
+      "stage": "skill",
+      "value": {
+        "m1_inner_k1_j2": 10.34893661620874,
+        "m1_inner_k1_j3": 10.301651004242155,
+        "m1_inner_k1_j4": 10.337542464091085,
+        "m1_inner_k1_j5": 10.335274266176523,
+        "m1_inner_k2_j1": 10.34893661620874,
+        "m1_inner_k2_j3": 10.358124294996754,
+        "m1_inner_k2_j4": 10.40091272227051,
+        "m1_inner_k2_j5": 10.414103215186993,
+        "m1_inner_k3_j1": 10.301651004242155,
+        "m1_inner_k3_j2": 10.358124294996754,
+        "m1_inner_k3_j4": 10.349376645529649,
+        "m1_inner_k3_j5": 10.33159577629745,
+        "m1_inner_k4_j1": 10.337542464091085,
+        "m1_inner_k4_j2": 10.40091272227051,
+        "m1_inner_k4_j3": 10.349376645529649,
+        "m1_inner_k4_j5": 10.399537139706904,
+        "m1_inner_k5_j1": 10.335274266176523,
+        "m1_inner_k5_j2": 10.414103215186993,
+        "m1_inner_k5_j3": 10.33159577629745,
+        "m1_inner_k5_j4": 10.399537139706904,
+        "m1_outer_k1": 10.475221726965312,
+        "m1_outer_k2": 10.560998129776724,
+        "m1_outer_k3": 10.497919265178599,
+        "m1_outer_k4": 10.526610934537475,
+        "m1_outer_k5": 10.51895852060623
+      }
+    }
+  },
+  "version": 1
+}

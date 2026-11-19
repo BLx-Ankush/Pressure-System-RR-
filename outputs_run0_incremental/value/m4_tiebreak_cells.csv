@@ -1,0 +1,13 @@
+role,innings,phase,cell,n_deliveries,selected_family,selected_mean_per_delivery,selected_within_tol,displaced_family,displaced_mean_per_delivery,displaced_within_tol,tolerance
+batter,1,powerplay,0,29208,lgbm,-0.003133,True,xgb,-0.013162,True,0.050000
+batter,1,middle,1,43303,lgbm,-0.003540,True,xgb,-0.005488,True,0.050000
+batter,1,death,2,23371,lgbm,0.046426,True,xgb,0.052223,False,0.050000
+batter,2,powerplay,3,28394,lgbm,0.017899,True,xgb,0.017671,True,0.050000
+batter,2,middle,4,41231,lgbm,-0.005351,True,xgb,-0.005457,True,0.050000
+batter,2,death,5,16870,lgbm,-0.020336,True,xgb,-0.017897,True,0.050000
+bowler,1,powerplay,0,30270,lgbm,0.000810,True,xgb,0.009444,True,0.050000
+bowler,1,middle,1,44718,lgbm,0.003348,True,xgb,0.005037,True,0.050000
+bowler,1,death,2,24763,lgbm,-0.048365,True,xgb,-0.052143,False,0.050000
+bowler,2,powerplay,3,29474,lgbm,-0.020123,True,xgb,-0.020257,True,0.050000
+bowler,2,middle,4,42594,lgbm,0.002301,True,xgb,0.001802,True,0.050000
+bowler,2,death,5,17829,lgbm,0.016841,True,xgb,0.015286,True,0.050000

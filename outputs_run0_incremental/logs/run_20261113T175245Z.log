@@ -1,0 +1,72 @@
+2026-11-13T17:52:45Z  INFO     run 20261113T175245Z started in D:\Rajasthan Royals\SupeRR Selector Season 2 _ Problem Statement _ Data Pack\SupeRR Selector Season 2 _ Data Pack; arguments: --from-stage folds
+2026-11-13T17:52:45Z  INFO     python 3.11.9 (CPython) at D:\Rajasthan Royals\SupeRR Selector Season 2 _ Problem Statement _ Data Pack\SupeRR Selector Season 2 _ Data Pack\.venv\Scripts\python.exe
+2026-11-13T17:52:45Z  INFO     package pandas 3.1.1 (pinned 3.1.1)
+2026-11-13T17:52:45Z  INFO     package numpy 2.4.6 (pinned 2.4.6)
+2026-11-13T17:52:45Z  INFO     package scipy 1.17.1 (pinned 1.17.1)
+2026-11-13T17:52:45Z  INFO     package scikit-learn 1.9.1 (pinned 1.9.1)
+2026-11-13T17:52:45Z  INFO     package lightgbm 4.7.0 (pinned 4.7.0)
+2026-11-13T17:52:45Z  INFO     package xgboost 3.2.0 (pinned 3.2.0)
+2026-11-13T17:52:45Z  INFO     package matplotlib 3.11.2 (pinned 3.11.2)
+2026-11-13T17:52:45Z  INFO     package python-docx 1.2.0 (pinned 1.2.0)
+2026-11-13T17:52:45Z  INFO     package pytest 9.2.0 (pinned 9.2.0)
+2026-11-13T17:52:45Z  INFO     package pyarrow 26.0.1 (pinned 26.0.1)
+2026-11-13T17:52:45Z  INFO     package hypothesis 6.170.15 (pinned 6.170.15)
+2026-11-13T17:52:45Z  INFO     package pypdf 7.0.1 (pinned 7.0.1)
+2026-11-13T17:52:45Z  INFO     config config.py sha256 4e557941bf8d6dd03e02274f3f8f71771398a5ecdb3682d538e2c55f00e9c8da
+2026-11-13T17:52:45Z  INFO     protected file (start): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/ball_by_ball.csv sha256 a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889
+2026-11-13T17:52:45Z  INFO     protected file (start): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competition_team_player_mapping.csv sha256 1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12
+2026-11-13T17:52:45Z  INFO     protected file (start): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competitions.csv sha256 507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b
+2026-11-13T17:52:45Z  INFO     protected file (start): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/matches.csv sha256 bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef
+2026-11-13T17:52:45Z  INFO     protected file (start): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/plan.md sha256 18f6049a1d413607bb6be742b9a915e449b63b1c569fc0e6c824903da44b020f
+2026-11-13T17:52:45Z  INFO     protected file (start): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/playing_eleven.csv sha256 7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27
+2026-11-13T17:52:45Z  INFO     protected file (start): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure1.md sha256 5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a
+2026-11-13T17:52:45Z  INFO     protected file (start): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure2.md sha256 b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04
+2026-11-13T17:52:45Z  INFO     protected file (start): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure3.md sha256 8a96dbcff9339bdbaa63782df9498156c392e2916895c41f048df4edccc51200
+2026-11-13T17:52:45Z  INFO     protected file (start): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/teams.csv sha256 a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d
+2026-11-13T17:52:45Z  INFO     protected file (start): ball_by_ball.csv sha256 a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889
+2026-11-13T17:52:45Z  INFO     protected file (start): competition_team_player_mapping.csv sha256 1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12
+2026-11-13T17:52:45Z  INFO     protected file (start): competitions.csv sha256 507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b
+2026-11-13T17:52:45Z  INFO     protected file (start): matches.csv sha256 bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef
+2026-11-13T17:52:45Z  INFO     protected file (start): plan.md sha256 1d446d251f400df53a39be2d79963117d1d88268ae14a692d99a9de0edfc4507
+2026-11-13T17:52:45Z  INFO     protected file (start): playing_eleven.csv sha256 7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27
+2026-11-13T17:52:45Z  INFO     protected file (start): pressure1.md sha256 5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a
+2026-11-13T17:52:45Z  INFO     protected file (start): pressure2.md sha256 b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04
+2026-11-13T17:52:45Z  INFO     protected file (start): teams.csv sha256 a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d
+2026-11-13T17:52:45Z  INFO     protected files hashed at start: 19
+2026-11-13T17:52:45Z  INFO     source_csv ball_by_ball: ball_by_ball.csv sha256 a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889
+2026-11-13T17:52:45Z  INFO     source_csv matches: matches.csv sha256 bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef
+2026-11-13T17:52:45Z  INFO     source_csv playing_eleven: playing_eleven.csv sha256 7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27
+2026-11-13T17:52:45Z  INFO     source_csv competitions: competitions.csv sha256 507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b
+2026-11-13T17:52:45Z  INFO     source_csv teams: teams.csv sha256 a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d
+2026-11-13T17:52:45Z  INFO     source_csv mapping: competition_team_player_mapping.csv sha256 1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12
+2026-11-13T17:52:45Z  INFO     copied plan.md to docs/plan.md; both have sha256 1d446d251f400df53a39be2d79963117d1d88268ae14a692d99a9de0edfc4507
+2026-11-13T17:52:45Z  INFO     --from-stage folds: reusing the saved outputs of load, audit, reconstruct, state
+2026-11-13T17:52:45Z  INFO     running 1 Pipeline_Stage(s) in run order: folds
+2026-11-13T17:52:45Z  INFO     stage folds started
+2026-11-13T17:52:45Z  INFO     [folds] assigned 883 matches to 5 Match_Grouped_Folds (D15) with fold seed 11 (seeds.folds), stratified by Competition_Type (Requirement 7, criteria 1, 3 and 4); matches in folds 1-5: IPL 371 (75/74/74/74/74); T20I 482 (96/97/97/96/96); A_Team 30 (6/6/6/6/6); all 883 (177/177/177/176/176)
+2026-11-13T17:52:45Z  INFO     [folds] 16 matches have no Delivery and get a fold like every other match (Requirement 7, criterion 1): 31281 (fold 3), 31284 (fold 5), 31288 (fold 3), 32610 (fold 4), 32612 (fold 3), 32622 (fold 3), 36210 (fold 1), 36564 (fold 4), 38797 (fold 5), 40761 (fold 3), 41502 (fold 1), 41503 (fold 3), 42030 (fold 3), 46008 (fold 3), 48513 (fold 4), 50189 (fold 2)
+2026-11-13T17:52:45Z  INFO     [folds] every one of the 200,999 Deliveries in balls gets the fold of its match from the Fold_Table (Requirement 7, criterion 2); Deliveries in folds 1-5: 40,464/40,863/39,581/39,852/40,239
+2026-11-13T17:52:45Z  INFO     [folds] fold-sandbox plan of each sandboxed model: 25 fits, 5 outer (sandbox k, excluding fold k) and 20 inner (sandbox k and inner fold j, excluding folds j and k)
+2026-11-13T17:52:45Z  INFO     [folds] wrote outputs/folds/fold_table.csv (883 matches; Requirement 7, criterion 10) and saved the fold_table table
+2026-11-13T17:52:45Z  INFO     stage folds completed in 0.157 s
+2026-11-13T17:52:45Z  INFO     protected file (end): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/ball_by_ball.csv sha256 a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889 unchanged
+2026-11-13T17:52:45Z  INFO     protected file (end): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competition_team_player_mapping.csv sha256 1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12 unchanged
+2026-11-13T17:52:45Z  INFO     protected file (end): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competitions.csv sha256 507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b unchanged
+2026-11-13T17:52:45Z  INFO     protected file (end): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/matches.csv sha256 bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef unchanged
+2026-11-13T17:52:45Z  INFO     protected file (end): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/plan.md sha256 18f6049a1d413607bb6be742b9a915e449b63b1c569fc0e6c824903da44b020f unchanged
+2026-11-13T17:52:45Z  INFO     protected file (end): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/playing_eleven.csv sha256 7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27 unchanged
+2026-11-13T17:52:45Z  INFO     protected file (end): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure1.md sha256 5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a unchanged
+2026-11-13T17:52:45Z  INFO     protected file (end): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure2.md sha256 b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04 unchanged
+2026-11-13T17:52:45Z  INFO     protected file (end): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure3.md sha256 8a96dbcff9339bdbaa63782df9498156c392e2916895c41f048df4edccc51200 unchanged
+2026-11-13T17:52:45Z  INFO     protected file (end): SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/teams.csv sha256 a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d unchanged
+2026-11-13T17:52:45Z  INFO     protected file (end): ball_by_ball.csv sha256 a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889 unchanged
+2026-11-13T17:52:45Z  INFO     protected file (end): competition_team_player_mapping.csv sha256 1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12 unchanged
+2026-11-13T17:52:45Z  INFO     protected file (end): competitions.csv sha256 507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b unchanged
+2026-11-13T17:52:45Z  INFO     protected file (end): matches.csv sha256 bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef unchanged
+2026-11-13T17:52:45Z  INFO     protected file (end): plan.md sha256 1d446d251f400df53a39be2d79963117d1d88268ae14a692d99a9de0edfc4507 unchanged
+2026-11-13T17:52:45Z  INFO     protected file (end): playing_eleven.csv sha256 7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27 unchanged
+2026-11-13T17:52:45Z  INFO     protected file (end): pressure1.md sha256 5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a unchanged
+2026-11-13T17:52:45Z  INFO     protected file (end): pressure2.md sha256 b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04 unchanged
+2026-11-13T17:52:45Z  INFO     protected file (end): teams.csv sha256 a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d unchanged
+2026-11-13T17:52:45Z  INFO     protected files checked at end: 19; changed or missing: 0
+2026-11-13T17:52:45Z  INFO     run 20261113T175245Z completed with exit code 0 after 0.5 s

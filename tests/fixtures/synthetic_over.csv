@@ -1,0 +1,11 @@
+match_id,innings,overid,innings_ball_num,runs,extras_type,extras_2_runs,exp_class,exp_free_hit,exp_runs_F30,exp_runs_byes_one,exp_runs_byes_one_nb_plain,exp_runs_byes_one_penalty5,note
+1,1,1,1,1,None,0,legal,false,1,1,1,1,Legal_Ball and no No_Ball yet: not a Free_Hit. b + e = 1 + 0 = 1 under every encoding
+1,1,1,2,0,wide,0,wide,false,1,1,1,1,Wide and no No_Ball yet: not a Free_Hit. 1 + e = 1 + 0 = 1 under every encoding
+1,1,1,3,2,other,1,no_ball,false,4,4,3,4,other No_Ball with no No_Ball before it: not a Free_Hit. 1 + b + e = 1 + 2 + 1 = 4; byes_one_nb_plain 1 + b = 1 + 2 = 3
+1,1,1,4,0,wide,4,wide,true,5,5,5,5,Wide straight after the other No_Ball: Free_Hit. 1 + e = 1 + 4 = 5 under every encoding
+1,1,1,5,1,Overstep,0,no_ball,true,2,2,2,2,Overstep No_Ball after a No_Ball with no Legal_Ball since: Free_Hit. 1 + b + e = 1 + 1 + 0 = 2; byes_one_nb_plain 1 + b = 2
+1,1,1,6,4,None,0,legal,true,4,4,4,4,First Legal_Ball after the No_Balls: Free_Hit and the end of the span. b + e = 4 + 0 = 4 under every encoding
+1,1,1,7,0,legbyes,0,legal,false,0,1,1,1,Leg-bye after the Free_Hit Legal_Ball: not a Free_Hit. F30 b + e = 0 + 0 = 0; the three byes_one encodings 1 + e = 1 + 0 = 1
+1,1,1,8,1,Penalty,1,legal,false,2,2,2,7,Penalty Delivery (a Legal_Ball): not a Free_Hit. b + e = 1 + 1 = 2; byes_one_penalty5 5 + b + e = 5 + 1 + 1 = 7
+1,1,1,9,0,byes,1,legal,false,1,2,2,2,Bye with e = 1: not a Free_Hit. F30 b + e = 0 + 1 = 1; the three byes_one encodings 1 + e = 1 + 1 = 2
+1,1,1,10,0,None,1,legal,false,1,1,1,1,Legal_Ball with e = 1: not a Free_Hit. b + e = 0 + 1 = 1 under every encoding

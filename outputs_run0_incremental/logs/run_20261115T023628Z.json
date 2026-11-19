@@ -1,0 +1,382 @@
+{
+  "format_version": 1,
+  "run_id": "20261115T023628Z",
+  "status": "completed",
+  "exit_code": 0,
+  "started_utc": "2026-11-15T02:36:28.585853Z",
+  "ended_utc": "2026-11-15T02:36:38.135321Z",
+  "seconds": 9.550837,
+  "root": "D:\\Rajasthan Royals\\SupeRR Selector Season 2 _ Problem Statement _ Data Pack\\SupeRR Selector Season 2 _ Data Pack",
+  "argv": [
+    "--from-stage",
+    "value"
+  ],
+  "files": {
+    "log": "run_20261115T023628Z.log",
+    "json": "run_20261115T023628Z.json",
+    "warnings": "warnings_20261115T023628Z.csv"
+  },
+  "python": {
+    "version": "3.11.9",
+    "implementation": "CPython",
+    "build": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "executable": "D:\\Rajasthan Royals\\SupeRR Selector Season 2 _ Problem Statement _ Data Pack\\SupeRR Selector Season 2 _ Data Pack\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "packages": [
+    {
+      "name": "pandas",
+      "pinned": "3.1.1",
+      "installed": "3.1.1"
+    },
+    {
+      "name": "numpy",
+      "pinned": "2.4.6",
+      "installed": "2.4.6"
+    },
+    {
+      "name": "scipy",
+      "pinned": "1.17.1",
+      "installed": "1.17.1"
+    },
+    {
+      "name": "scikit-learn",
+      "pinned": "1.9.1",
+      "installed": "1.9.1"
+    },
+    {
+      "name": "lightgbm",
+      "pinned": "4.7.0",
+      "installed": "4.7.0"
+    },
+    {
+      "name": "xgboost",
+      "pinned": "3.2.0",
+      "installed": "3.2.0"
+    },
+    {
+      "name": "matplotlib",
+      "pinned": "3.11.2",
+      "installed": "3.11.2"
+    },
+    {
+      "name": "python-docx",
+      "pinned": "1.2.0",
+      "installed": "1.2.0"
+    },
+    {
+      "name": "pytest",
+      "pinned": "9.2.0",
+      "installed": "9.2.0"
+    },
+    {
+      "name": "pyarrow",
+      "pinned": "26.0.1",
+      "installed": "26.0.1"
+    },
+    {
+      "name": "hypothesis",
+      "pinned": "6.170.15",
+      "installed": "6.170.15"
+    },
+    {
+      "name": "pypdf",
+      "pinned": "7.0.1",
+      "installed": "7.0.1"
+    }
+  ],
+  "config": {
+    "path": "config.py",
+    "sha256": "29e28ad3f1c09547d9f47230e48c56b4e94d26771da8886458a961fd77ebf0f3"
+  },
+  "source_csvs": [
+    {
+      "name": "ball_by_ball",
+      "path": "ball_by_ball.csv",
+      "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889"
+    },
+    {
+      "name": "matches",
+      "path": "matches.csv",
+      "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef"
+    },
+    {
+      "name": "playing_eleven",
+      "path": "playing_eleven.csv",
+      "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27"
+    },
+    {
+      "name": "competitions",
+      "path": "competitions.csv",
+      "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b"
+    },
+    {
+      "name": "teams",
+      "path": "teams.csv",
+      "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d"
+    },
+    {
+      "name": "mapping",
+      "path": "competition_team_player_mapping.csv",
+      "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12"
+    }
+  ],
+  "protected_files": {
+    "start": [
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/ball_by_ball.csv",
+        "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competition_team_player_mapping.csv",
+        "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competitions.csv",
+        "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/matches.csv",
+        "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/plan.md",
+        "sha256": "18f6049a1d413607bb6be742b9a915e449b63b1c569fc0e6c824903da44b020f"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/playing_eleven.csv",
+        "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure1.md",
+        "sha256": "5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure2.md",
+        "sha256": "b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure3.md",
+        "sha256": "8a96dbcff9339bdbaa63782df9498156c392e2916895c41f048df4edccc51200"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/teams.csv",
+        "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d"
+      },
+      {
+        "path": "ball_by_ball.csv",
+        "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889"
+      },
+      {
+        "path": "competition_team_player_mapping.csv",
+        "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12"
+      },
+      {
+        "path": "competitions.csv",
+        "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b"
+      },
+      {
+        "path": "matches.csv",
+        "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef"
+      },
+      {
+        "path": "plan.md",
+        "sha256": "1d446d251f400df53a39be2d79963117d1d88268ae14a692d99a9de0edfc4507"
+      },
+      {
+        "path": "playing_eleven.csv",
+        "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27"
+      },
+      {
+        "path": "pressure1.md",
+        "sha256": "5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a"
+      },
+      {
+        "path": "pressure2.md",
+        "sha256": "b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04"
+      },
+      {
+        "path": "teams.csv",
+        "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d"
+      }
+    ],
+    "end": [
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/ball_by_ball.csv",
+        "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competition_team_player_mapping.csv",
+        "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competitions.csv",
+        "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/matches.csv",
+        "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/plan.md",
+        "sha256": "18f6049a1d413607bb6be742b9a915e449b63b1c569fc0e6c824903da44b020f",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/playing_eleven.csv",
+        "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure1.md",
+        "sha256": "5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure2.md",
+        "sha256": "b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure3.md",
+        "sha256": "8a96dbcff9339bdbaa63782df9498156c392e2916895c41f048df4edccc51200",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/teams.csv",
+        "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d",
+        "changed": false
+      },
+      {
+        "path": "ball_by_ball.csv",
+        "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889",
+        "changed": false
+      },
+      {
+        "path": "competition_team_player_mapping.csv",
+        "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12",
+        "changed": false
+      },
+      {
+        "path": "competitions.csv",
+        "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b",
+        "changed": false
+      },
+      {
+        "path": "matches.csv",
+        "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef",
+        "changed": false
+      },
+      {
+        "path": "plan.md",
+        "sha256": "1d446d251f400df53a39be2d79963117d1d88268ae14a692d99a9de0edfc4507",
+        "changed": false
+      },
+      {
+        "path": "playing_eleven.csv",
+        "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27",
+        "changed": false
+      },
+      {
+        "path": "pressure1.md",
+        "sha256": "5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a",
+        "changed": false
+      },
+      {
+        "path": "pressure2.md",
+        "sha256": "b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04",
+        "changed": false
+      },
+      {
+        "path": "teams.csv",
+        "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d",
+        "changed": false
+      }
+    ],
+    "changed": []
+  },
+  "current_stage": null,
+  "failed_stage": null,
+  "stages": [
+    {
+      "name": "value",
+      "status": "completed",
+      "seconds": 3.780073,
+      "utc": "2026-11-15T02:36:37.999036Z"
+    }
+  ],
+  "warnings": [
+    {
+      "utc": "2026-11-15T02:36:37.685858Z",
+      "stage": "value",
+      "message": "the NBV per Delivery lies outside the Test_Suite band +/-0.05 runs in: batter innings 2 death -0.0654 (16,870)"
+    }
+  ],
+  "errors": [],
+  "notes": [
+    {
+      "utc": "2026-11-15T02:36:30.353293Z",
+      "stage": null,
+      "message": "copied plan.md to docs/plan.md; both have sha256 1d446d251f400df53a39be2d79963117d1d88268ae14a692d99a9de0edfc4507"
+    },
+    {
+      "utc": "2026-11-15T02:36:33.315466Z",
+      "stage": null,
+      "message": "--from-stage value: reloaded the fits saved by skill (31), remaining_runs (50), win_prob (120), outcome (10) into the FitRegistry"
+    },
+    {
+      "utc": "2026-11-15T02:36:33.318303Z",
+      "stage": null,
+      "message": "--from-stage value: reusing the saved outputs of load, audit, reconstruct, state, folds, skill, remaining_runs, win_prob, outcome, model_choice, pressure, validation"
+    },
+    {
+      "utc": "2026-11-15T02:36:34.211670Z",
+      "stage": null,
+      "message": "running 1 Pipeline_Stage(s) in run order: value"
+    },
+    {
+      "utc": "2026-11-15T02:36:37.643433Z",
+      "stage": "value",
+      "message": "Value_Engine inputs: the M4 Primary_Model lgbm (batter_view, batter_view_fh, bowler_view and bowler_view_nofh: the Role player's theta at the fold's Average_Skill, the opponent's actual theta, Requirement 2, criterion 4), the Extras_Model p_wide and p_noball, Omega of m2_preds and each fold's Class_Run_Values; Retire Out with no Omega and no Dismissal_Charge (D14); 189,648 Deliveries of the 819 matches used for player rating (182,377 Batter_Deliveries, 189,648 Bowler_Deliveries; 11,313 Deliveries of excluded matches left out)"
+    },
+    {
+      "utc": "2026-11-15T02:36:37.676367Z",
+      "stage": "value",
+      "message": "NBV in runs per Delivery, all finite (Requirement 15, criterion 16): batter n 182,377, mean +0.0003, sd 2.3473, min -48.247, max +7.353; bowler n 189,648, mean -0.0019, sd 2.3145, min -8.937, max +47.943; Dismissal_Charges 292 totalling -949.53 runs"
+    },
+    {
+      "utc": "2026-11-15T02:36:37.683857Z",
+      "stage": "value",
+      "message": "NBV per Delivery by innings x Phase cell, the batter Role with its Dismissal_Charges (Requirement 15, criterion 17; Test_Suite band +/-0.05): batter innings 1 powerplay -0.0033 (29,208); batter innings 1 middle -0.0025 (43,303); batter innings 1 death +0.0269 (23,371); batter innings 2 powerplay +0.0113 (28,394); batter innings 2 middle -0.0132 (41,231); batter innings 2 death -0.0654 (16,870); bowler innings 1 powerplay +0.0013 (30,270); bowler innings 1 middle +0.0062 (44,718); bowler innings 1 death -0.0390 (24,763); bowler innings 2 powerplay -0.0163 (29,474); bowler innings 2 middle +0.0070 (42,594); bowler innings 2 death +0.0263 (17,829)"
+    },
+    {
+      "utc": "2026-11-15T02:36:37.690366Z",
+      "stage": "value",
+      "message": "No Bowler_Delivery used a pooled Training_Folds value (Requirement 15, criterion 22): wide_team_runs 0, nb_penalty_runs 0, nb_bat_runs 0, free_hit_premium 0"
+    },
+    {
+      "utc": "2026-11-15T02:36:37.692375Z",
+      "stage": "value",
+      "message": "Dismissed batters (Requirement 15, criteria 9 and 10): 10,236 charged Counted_Wickets of 10,242; 0 with a blank or unmatched dismissed_player_id fell back to the striker"
+    },
+    {
+      "utc": "2026-11-15T02:36:37.796994Z",
+      "stage": "value",
+      "message": "Dismissal_Charges (-Omega, Requirement 15, criterion 11): 292, of which 260 non-striker dismissals (code 4 RunOut 259, code 10 Obstracting the field 1; 5 off a Wide) and 32 striker dismissals off a Wide (code 4 RunOut 10, code 5 Stump 22); 93 pressure, 199 ordinary. The 37 charges on Wides take the batter-Role flag of the latest earlier Batter_Delivery of the innings (14 pressure; 2 on Dead_Balls and 0 without an earlier Batter_Delivery set ordinary)"
+    },
+    {
+      "utc": "2026-11-15T02:36:37.801108Z",
+      "stage": "value",
+      "message": "Retire Out (code 9, Requirement 15, criterion 12): 6 Deliveries, charged neither Omega nor a Dismissal_Charge"
+    },
+    {
+      "utc": "2026-11-15T02:36:37.806454Z",
+      "stage": "value",
+      "message": "value stage wrote outputs/value/fallback_counts.csv, outputs/value/cell_means.csv, outputs/value/nbv_cells.csv, outputs/value/extremes_batter.csv, outputs/value/extremes_bowler.csv and its checkpoint in 3.2 s"
+    }
+  ]
+}

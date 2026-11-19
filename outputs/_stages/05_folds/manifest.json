@@ -1,0 +1,14 @@
+{
+  "completed_utc": "2026-11-16T13:28:22.773253Z",
+  "config_sha256": "70a6340732c9a938abfc32fbb1a443edf34eccae978a37f96186424b071eaa09",
+  "files": {
+    "_constants.json": "d2b0d4e7e4f05a1ac7db0a1980323c769c5b06c0782dd296ae186f0593ea5bfe",
+    "fold_table.parquet": "7051a58bd020522ada42854c0dab0feefb8fac2c8c968bc9fe40509e94ed2d08"
+  },
+  "inputs": {
+    "load": "7e29d7a894039d60e286415738b4c20b66267a1f5ada81f6d9776c66a0dc0fd7",
+    "reconstruct": "63e5ad5719e36394eeb9d3a268773cd7b6695de9f5fd9d94d9b7122d8fd4b1f0"
+  },
+  "stage": "folds",
+  "stage_version": 1
+}

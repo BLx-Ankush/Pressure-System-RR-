@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "superr"
+version = "0.1.0"
+description = "Pressure Rating System for SupeRR Selector Season 2, Round 1"
+requires-python = ">=3.11,<3.12"
+# Exact pins, identical to requirements.txt (resolved on 2026-11-12 with pip on CPython 3.11.9, Windows win_amd64).
+dependencies = [
+    "pandas==3.1.1",
+    "numpy==2.4.6",
+    "scipy==1.17.1",
+    "scikit-learn==1.9.1",
+    "lightgbm==4.7.0",
+    "xgboost==3.2.0",
+    "matplotlib==3.11.2",
+    "python-docx==1.2.0",
+    "pytest==9.2.0",
+    "pyarrow==26.0.1",
+    "hypothesis==6.170.15",
+    "pypdf==7.0.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["superr*"]
+
+[tool.pytest.ini_options]
+# -p no:cacheprovider: pytest writes no .pytest_cache into the workspace root.
+# pythonpath: src/ and the root are importable even without the editable install.
+# tests/ and each of its subfolders hold an empty __init__.py, so pytest imports test modules by
+# package path (tests.unit.test_x, tests.property.test_x) and same-named files cannot collide.
+addopts = "-p no:cacheprovider"
+pythonpath = ["src", "."]
+testpaths = ["tests"]

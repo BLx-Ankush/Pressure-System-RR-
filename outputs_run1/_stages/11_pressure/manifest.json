@@ -1,0 +1,23 @@
+{
+  "completed_utc": "2026-11-16T13:07:49.254076Z",
+  "config_sha256": "70a6340732c9a938abfc32fbb1a443edf34eccae978a37f96186424b071eaa09",
+  "files": {
+    "_constants.json": "f1920e375c8f9455aca0a2686122b6d4d20a18e6a499519fc7ad2f0d336ae9e3",
+    "li_by_over.parquet": "7b96d3dbfef2983460477ac73fda6af1fe731cb5a2c7d9d46300f4c3819d0872",
+    "missing_components.parquet": "c343ed6d572e63087e7f458864cd0366f99ca9a13cf99a90bc901de379aa3f28",
+    "pressure.parquet": "f45686b222c1b031b17ae17b783d05c73221446a3edd28251cef7877e355941c",
+    "pressure_summary.parquet": "7d9ab20acb81a1cd0ef95602a8415dbed8f63c934148e19c1ddee102d213ea36",
+    "share_batter.parquet": "7e9ff7573c76dee5f07cf51692ca97ccc853cfd2488d59368e53a8eed824d112",
+    "share_bowler.parquet": "7cce37ea1f5a43c8bdec71cd67684e8323385913aad8872a3c189426a061d8b2"
+  },
+  "inputs": {
+    "folds": "484a65fad31c251037f6db245f0e5a5a338992ea46c2cee35883217e33a48717",
+    "model_choice": "3484b9dbbd19727db037d6df41d9e036106fc95a5f159e2f8746a668b44c1ca0",
+    "outcome": "55adf5b268e06dfb956fc848a7250adee8754bee0e616190d5da68b619c93fde",
+    "reconstruct": "03310d772894939f706d0161dba907f2e813325a191283a2d1cb6a4b8b149214",
+    "remaining_runs": "39edaf1592da3045d829199e54b52f5ad035752f17c3be2b81b4cfc64c2092d9",
+    "state": "b5e92031ec18c3e036e3f5039479eed91d3249affecac7d000e324798c057e07"
+  },
+  "stage": "pressure",
+  "stage_version": 1
+}

@@ -1,0 +1,910 @@
+{
+  "format_version": 1,
+  "run_id": "20261116T085431Z",
+  "status": "completed",
+  "exit_code": 0,
+  "started_utc": "2026-11-16T08:54:31.273027Z",
+  "ended_utc": "2026-11-16T09:04:32.851985Z",
+  "seconds": 601.578523,
+  "root": "D:\\Rajasthan Royals\\SupeRR Selector Season 2 _ Problem Statement _ Data Pack\\SupeRR Selector Season 2 _ Data Pack",
+  "argv": [
+    "--from-stage",
+    "model_choice"
+  ],
+  "files": {
+    "log": "run_20261116T085431Z.log",
+    "json": "run_20261116T085431Z.json",
+    "warnings": "warnings_20261116T085431Z.csv"
+  },
+  "python": {
+    "version": "3.11.9",
+    "implementation": "CPython",
+    "build": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "executable": "D:\\Rajasthan Royals\\SupeRR Selector Season 2 _ Problem Statement _ Data Pack\\SupeRR Selector Season 2 _ Data Pack\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "packages": [
+    {
+      "name": "pandas",
+      "pinned": "3.1.1",
+      "installed": "3.1.1"
+    },
+    {
+      "name": "numpy",
+      "pinned": "2.4.6",
+      "installed": "2.4.6"
+    },
+    {
+      "name": "scipy",
+      "pinned": "1.17.1",
+      "installed": "1.17.1"
+    },
+    {
+      "name": "scikit-learn",
+      "pinned": "1.9.1",
+      "installed": "1.9.1"
+    },
+    {
+      "name": "lightgbm",
+      "pinned": "4.7.0",
+      "installed": "4.7.0"
+    },
+    {
+      "name": "xgboost",
+      "pinned": "3.2.0",
+      "installed": "3.2.0"
+    },
+    {
+      "name": "matplotlib",
+      "pinned": "3.11.2",
+      "installed": "3.11.2"
+    },
+    {
+      "name": "python-docx",
+      "pinned": "1.2.0",
+      "installed": "1.2.0"
+    },
+    {
+      "name": "pytest",
+      "pinned": "9.2.0",
+      "installed": "9.2.0"
+    },
+    {
+      "name": "pyarrow",
+      "pinned": "26.0.1",
+      "installed": "26.0.1"
+    },
+    {
+      "name": "hypothesis",
+      "pinned": "6.170.15",
+      "installed": "6.170.15"
+    },
+    {
+      "name": "pypdf",
+      "pinned": "7.0.1",
+      "installed": "7.0.1"
+    }
+  ],
+  "config": {
+    "path": "config.py",
+    "sha256": "70a6340732c9a938abfc32fbb1a443edf34eccae978a37f96186424b071eaa09"
+  },
+  "source_csvs": [
+    {
+      "name": "ball_by_ball",
+      "path": "ball_by_ball.csv",
+      "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889"
+    },
+    {
+      "name": "matches",
+      "path": "matches.csv",
+      "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef"
+    },
+    {
+      "name": "playing_eleven",
+      "path": "playing_eleven.csv",
+      "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27"
+    },
+    {
+      "name": "competitions",
+      "path": "competitions.csv",
+      "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b"
+    },
+    {
+      "name": "teams",
+      "path": "teams.csv",
+      "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d"
+    },
+    {
+      "name": "mapping",
+      "path": "competition_team_player_mapping.csv",
+      "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12"
+    }
+  ],
+  "protected_files": {
+    "start": [
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/ball_by_ball.csv",
+        "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competition_team_player_mapping.csv",
+        "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competitions.csv",
+        "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/matches.csv",
+        "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/plan.md",
+        "sha256": "18f6049a1d413607bb6be742b9a915e449b63b1c569fc0e6c824903da44b020f"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/playing_eleven.csv",
+        "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure1.md",
+        "sha256": "5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure2.md",
+        "sha256": "b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure3.md",
+        "sha256": "8a96dbcff9339bdbaa63782df9498156c392e2916895c41f048df4edccc51200"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/teams.csv",
+        "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d"
+      },
+      {
+        "path": "ball_by_ball.csv",
+        "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889"
+      },
+      {
+        "path": "competition_team_player_mapping.csv",
+        "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12"
+      },
+      {
+        "path": "competitions.csv",
+        "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b"
+      },
+      {
+        "path": "matches.csv",
+        "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef"
+      },
+      {
+        "path": "plan.md",
+        "sha256": "1d446d251f400df53a39be2d79963117d1d88268ae14a692d99a9de0edfc4507"
+      },
+      {
+        "path": "playing_eleven.csv",
+        "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27"
+      },
+      {
+        "path": "pressure1.md",
+        "sha256": "5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a"
+      },
+      {
+        "path": "pressure2.md",
+        "sha256": "b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04"
+      },
+      {
+        "path": "teams.csv",
+        "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d"
+      }
+    ],
+    "end": [
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/ball_by_ball.csv",
+        "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competition_team_player_mapping.csv",
+        "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competitions.csv",
+        "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/matches.csv",
+        "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/plan.md",
+        "sha256": "18f6049a1d413607bb6be742b9a915e449b63b1c569fc0e6c824903da44b020f",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/playing_eleven.csv",
+        "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure1.md",
+        "sha256": "5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure2.md",
+        "sha256": "b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure3.md",
+        "sha256": "8a96dbcff9339bdbaa63782df9498156c392e2916895c41f048df4edccc51200",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/teams.csv",
+        "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d",
+        "changed": false
+      },
+      {
+        "path": "ball_by_ball.csv",
+        "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889",
+        "changed": false
+      },
+      {
+        "path": "competition_team_player_mapping.csv",
+        "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12",
+        "changed": false
+      },
+      {
+        "path": "competitions.csv",
+        "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b",
+        "changed": false
+      },
+      {
+        "path": "matches.csv",
+        "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef",
+        "changed": false
+      },
+      {
+        "path": "plan.md",
+        "sha256": "1d446d251f400df53a39be2d79963117d1d88268ae14a692d99a9de0edfc4507",
+        "changed": false
+      },
+      {
+        "path": "playing_eleven.csv",
+        "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27",
+        "changed": false
+      },
+      {
+        "path": "pressure1.md",
+        "sha256": "5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a",
+        "changed": false
+      },
+      {
+        "path": "pressure2.md",
+        "sha256": "b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04",
+        "changed": false
+      },
+      {
+        "path": "teams.csv",
+        "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d",
+        "changed": false
+      }
+    ],
+    "changed": []
+  },
+  "current_stage": null,
+  "failed_stage": null,
+  "stages": [
+    {
+      "name": "model_choice",
+      "status": "completed",
+      "seconds": 562.93495,
+      "utc": "2026-11-16T09:03:56.082116Z"
+    },
+    {
+      "name": "pressure",
+      "status": "completed",
+      "seconds": 3.94248,
+      "utc": "2026-11-16T09:04:00.028459Z"
+    },
+    {
+      "name": "validation",
+      "status": "completed",
+      "seconds": 6.999489,
+      "utc": "2026-11-16T09:04:07.025074Z"
+    },
+    {
+      "name": "value",
+      "status": "completed",
+      "seconds": 3.987757,
+      "utc": "2026-11-16T09:04:11.025368Z"
+    },
+    {
+      "name": "rating",
+      "status": "completed",
+      "seconds": 1.227536,
+      "utc": "2026-11-16T09:04:12.256703Z"
+    },
+    {
+      "name": "bootstrap",
+      "status": "completed",
+      "seconds": 6.040524,
+      "utc": "2026-11-16T09:04:18.291324Z"
+    },
+    {
+      "name": "activity_comparison",
+      "status": "completed",
+      "seconds": 6.350101,
+      "utc": "2026-11-16T09:04:24.657710Z"
+    },
+    {
+      "name": "final_lists",
+      "status": "completed",
+      "seconds": 3.325035,
+      "utc": "2026-11-16T09:04:27.991114Z"
+    },
+    {
+      "name": "report",
+      "status": "completed",
+      "seconds": 4.720012,
+      "utc": "2026-11-16T09:04:32.717277Z"
+    }
+  ],
+  "warnings": [
+    {
+      "utc": "2026-11-16T08:54:31.930093Z",
+      "stage": null,
+      "message": "the Config hash 70a6340732c9 differs from the hash recorded with the saved outputs of load (29e28ad3f1c0), audit (29e28ad3f1c0), reconstruct (29e28ad3f1c0), state (29e28ad3f1c0), folds (29e28ad3f1c0), skill (29e28ad3f1c0), remaining_runs (29e28ad3f1c0), win_prob (29e28ad3f1c0), outcome (29e28ad3f1c0); those outputs are reused as they were saved"
+    },
+    {
+      "utc": "2026-11-16T09:03:59.835089Z",
+      "stage": "pressure",
+      "message": "Pillar_Components missing, ranked 0.5 and left out of the Pillar_Reference_Set (Requirement 12, criterion 16): F23 innings 1: 941 (941 Live_Balls); counts in pressure/missing_components.csv"
+    },
+    {
+      "utc": "2026-11-16T09:04:12.107460Z",
+      "stage": "rating",
+      "message": "tau^2 of the batter Role's Pressure_Gap is -0.334197, at most 0, so it is set to 0 and every shrunk Pressure_Gap equals its prior (0): full shrinkage (Requirement 18, criterion 5)"
+    },
+    {
+      "utc": "2026-11-16T09:04:12.111859Z",
+      "stage": "rating",
+      "message": "tau^2 of the batter Role's Uplift is -0.447304, at most 0, so it is set to 0 and every shrunk Uplift equals its prior (0): full shrinkage (Requirement 18, criterion 5)"
+    },
+    {
+      "utc": "2026-11-16T09:04:12.113871Z",
+      "stage": "rating",
+      "message": "the Split_Half_Reliability rho_L of the batter Role's Clutch_Level is set to 0: it is negative (-0.291999, r = -0.127399) (130 qualifying players; Requirement 18, criterion 9)"
+    },
+    {
+      "utc": "2026-11-16T09:04:12.113871Z",
+      "stage": "rating",
+      "message": "the Split_Half_Reliability rho_U of the batter Role's Uplift is set to 0: it is negative (-0.516286, r = -0.205178) (130 qualifying players; Requirement 18, criterion 9)"
+    },
+    {
+      "utc": "2026-11-16T09:04:12.124815Z",
+      "stage": "rating",
+      "message": "both Split_Half_Reliability values of the batter Role are 0, so w_L = 1 and w_U = 0 (Requirement 18, criterion 10)"
+    },
+    {
+      "utc": "2026-11-16T09:04:12.124815Z",
+      "stage": "rating",
+      "message": "tau^2 of the bowler Role's Uplift is -0.0932916, at most 0, so it is set to 0 and every shrunk Uplift equals its prior (0): full shrinkage (Requirement 18, criterion 5)"
+    },
+    {
+      "utc": "2026-11-16T09:04:24.464408Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off): tau^2 of the batter Role's Pressure_Gap is -0.400902, at most 0, so it is set to 0 and every shrunk Pressure_Gap equals its prior (0): full shrinkage (Requirement 18, criterion 5)"
+    },
+    {
+      "utc": "2026-11-16T09:04:24.469218Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off): tau^2 of the batter Role's Uplift is -0.508512, at most 0, so it is set to 0 and every shrunk Uplift equals its prior (0): full shrinkage (Requirement 18, criterion 5)"
+    },
+    {
+      "utc": "2026-11-16T09:04:24.475215Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off): the Split_Half_Reliability rho_L of the batter Role's Clutch_Level is set to 0: it is negative (-0.359591, r = -0.152396) (139 qualifying players; Requirement 18, criterion 9)"
+    },
+    {
+      "utc": "2026-11-16T09:04:24.479315Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off): the Split_Half_Reliability rho_U of the batter Role's Uplift is set to 0: it is negative (-0.582565, r = -0.225576) (139 qualifying players; Requirement 18, criterion 9)"
+    },
+    {
+      "utc": "2026-11-16T09:04:24.483337Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off): both Split_Half_Reliability values of the batter Role are 0, so w_L = 1 and w_U = 0 (Requirement 18, criterion 10)"
+    },
+    {
+      "utc": "2026-11-16T09:04:24.508580Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off): tau^2 of the bowler Role's Uplift is -0.048317, at most 0, so it is set to 0 and every shrunk Uplift equals its prior (0): full shrinkage (Requirement 18, criterion 5)"
+    },
+    {
+      "utc": "2026-11-16T09:04:27.840503Z",
+      "stage": "final_lists",
+      "message": "List_Builder: the bowler Main_List entry at rank 3, 'Rashid Khan' (player_id 4722), is an Unresolved_Entry (Requirement 25, criterion 3): 'Rashid Khan' is a Candidate_Name of 2 player_ids. Candidate_Names of player_id 4722: 'Rashid Khan' (21 mapping rows). player_ids with the Candidate_Name 'Rashid Khan': 4722, 20172. team_name values: player_id 4722: Afghanistan, Gujarat Titans; player_id 20172: Nepal. Confirm the entry against the Unstop dropdown with outputs/final/unstop_entry_checklist.md before submitting"
+    },
+    {
+      "utc": "2026-11-16T09:04:31.607283Z",
+      "stage": "report",
+      "message": "Report_Builder: no PDF file was produced, because the Config names no PDF converter (report.pdf_converter is None), so only the DOCX file was exported: outputs/report/SupeRR_S2_methodology_report.docx (Requirement 27, criterion 15)"
+    }
+  ],
+  "errors": [],
+  "notes": [
+    {
+      "utc": "2026-11-16T08:54:31.829684Z",
+      "stage": null,
+      "message": "copied plan.md to docs/plan.md; both have sha256 1d446d251f400df53a39be2d79963117d1d88268ae14a692d99a9de0edfc4507"
+    },
+    {
+      "utc": "2026-11-16T08:54:32.705877Z",
+      "stage": null,
+      "message": "--from-stage model_choice: reloaded the fits saved by skill (31), remaining_runs (50), win_prob (120), outcome (10) into the FitRegistry"
+    },
+    {
+      "utc": "2026-11-16T08:54:32.705877Z",
+      "stage": null,
+      "message": "--from-stage model_choice: reusing the saved outputs of load, audit, reconstruct, state, folds, skill, remaining_runs, win_prob, outcome"
+    },
+    {
+      "utc": "2026-11-16T08:54:33.141287Z",
+      "stage": null,
+      "message": "running 9 Pipeline_Stage(s) in run order: model_choice, pressure, validation, value, rating, bootstrap, activity_comparison, final_lists, report"
+    },
+    {
+      "utc": "2026-11-16T08:54:51.855272Z",
+      "stage": "model_choice",
+      "message": "M3 innings 1 xgb (Alternative_Model): 5 outer and 20 inner fits and 5 centred isotonic calibrators (16-28 knots) in 8.3 s; rounds kept 24-106 (outer), 1-101 (inner); held-out minus in-fold raw log loss per fold +0.0350 / +0.0561 / +0.3001 / +0.0555 / +0.1243 (Requirement 10, criterion 8); calibrated held-out log loss per fold 0.6413 / 0.6455 / 0.8590 / 0.6668 / 0.6662"
+    },
+    {
+      "utc": "2026-11-16T08:56:55.015515Z",
+      "stage": "model_choice",
+      "message": "M3 innings 1 rf (Alternative_Model): 5 outer and 20 inner fits and 5 centred isotonic calibrators (36-56 knots) in 123.0 s; trees kept 300 (outer), 300 (inner); held-out minus in-fold raw log loss per fold +0.0379 / +0.0679 / +0.0993 / +0.0601 / +0.0967 (Requirement 10, criterion 8); calibrated held-out log loss per fold 0.6317 / 0.6588 / 0.6802 / 0.6441 / 0.6694"
+    },
+    {
+      "utc": "2026-11-16T08:57:04.682259Z",
+      "stage": "model_choice",
+      "message": "M3 innings 2 xgb (Alternative_Model): 5 outer and 20 inner fits and 5 centred isotonic calibrators (50-61 knots) in 9.5 s; rounds kept 49-140 (outer), 42-126 (inner); held-out minus in-fold raw log loss per fold +0.0394 / +0.0367 / +0.1263 / +0.0423 / +0.0776 (Requirement 10, criterion 8); calibrated held-out log loss per fold 0.3713 / 0.4190 / 0.4801 / 0.4119 / 0.4332"
+    },
+    {
+      "utc": "2026-11-16T08:59:05.224971Z",
+      "stage": "model_choice",
+      "message": "M3 innings 2 rf (Alternative_Model): 5 outer and 20 inner fits and 5 centred isotonic calibrators (67-78 knots) in 120.5 s; trees kept 300 (outer), 300 (inner); held-out minus in-fold raw log loss per fold -0.0151 / +0.0210 / +0.0737 / +0.0023 / +0.0212 (Requirement 10, criterion 8); calibrated held-out log loss per fold 0.3915 / 0.4279 / 0.4840 / 0.4085 / 0.4330"
+    },
+    {
+      "utc": "2026-11-16T09:00:52.534796Z",
+      "stage": "model_choice",
+      "message": "M4 xgb (Alternative_Model): fits 86.9 s, variants of every innings 1-2 Delivery 19.7 s; 5 outer fits on 144,241-145,985 Training_Rows each (14,405-14,770 of them in the early-stopping matches); rounds kept 228/237/177/215/236 (folds 1/2/3/4/5); largest |row sum - 1| of the raw class probabilities before rescaling: actual 9.0e-08, avg_both 9.2e-08, batter_view 9.1e-08, batter_view_fh 8.3e-08, bowler_view 8.8e-08, bowler_view_nofh 8.8e-08"
+    },
+    {
+      "utc": "2026-11-16T09:03:14.777717Z",
+      "stage": "model_choice",
+      "message": "M4 rf (Alternative_Model): fits 108.8 s, variants of every innings 1-2 Delivery 33.4 s; 5 outer fits on 144,241-145,985 Training_Rows each (0 of them in the early-stopping matches); trees 300/300/300/300/300 (folds 1/2/3/4/5); largest |row sum - 1| of the raw class probabilities before rescaling: actual 1.3e-15, avg_both 1.3e-15, batter_view 1.1e-15, batter_view_fh 1.3e-15, bowler_view 1.3e-15, bowler_view_nofh 1.3e-15"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.509037Z",
+      "stage": "model_choice",
+      "message": "PostStates(200,961 Deliveries; states innings 1: 951,543, innings 2: 857,106; 189,884 M2 predictions): built once in 10.0 s with the views checked (Requirement 11, criterion 15) and shared by every M3 candidate; terminal rules of the Post_Outcome_States (Requirement 10, criteria 14-17), the same for every candidate: innings 1: none 942,324, innings_end 9,219; innings 2: none 845,340, chase_won 6,455, chase_lost 5,229, chase_tied 69, chase_fraction 13; the 9,219 innings-1 states that end the innings are end-of-innings states (Scheduled_Balls bowled, pre-ball wickets, Par_Score at Scheduled_Balls), scored by each innings-1 candidate itself (criterion 17)"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.517627Z",
+      "stage": "model_choice",
+      "message": "M3 innings 1 logistic: WP of 951,543 Post_Outcome_States in 0.6 s; checks passed"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.517627Z",
+      "stage": "model_choice",
+      "message": "M3 innings 1 lgbm: WP of 951,543 Post_Outcome_States in 1.2 s; checks passed"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.523874Z",
+      "stage": "model_choice",
+      "message": "M3 innings 1 xgb: WP of 951,543 Post_Outcome_States in 0.8 s; checks passed"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.526989Z",
+      "stage": "model_choice",
+      "message": "M3 innings 1 rf: WP of 951,543 Post_Outcome_States in 10.2 s; checks passed"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.528279Z",
+      "stage": "model_choice",
+      "message": "M3 innings 2 logistic: WP of 857,106 Post_Outcome_States in 0.5 s; checks passed"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.529774Z",
+      "stage": "model_choice",
+      "message": "M3 innings 2 lgbm: WP of 857,106 Post_Outcome_States in 1.2 s; checks passed"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.532778Z",
+      "stage": "model_choice",
+      "message": "M3 innings 2 xgb: WP of 857,106 Post_Outcome_States in 0.8 s; checks passed"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.534786Z",
+      "stage": "model_choice",
+      "message": "M3 innings 2 rf: WP of 857,106 Post_Outcome_States in 8.3 s; checks passed"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.536793Z",
+      "stage": "model_choice",
+      "message": "model comparison (Requirement 23, criteria 5-8; M3 on the eligible Deliveries of each innings, M4 on the trainable Legal_Balls; Phase-only baseline log loss of M4: lgbm 1.51138, xgb 1.51138, rf 1.51138): M3-1 logistic: log loss 0.62768, Brier 0.21902, AUC 0.7009, calibration error 0.0120 on 96,886 rows [Primary_Model]; M3-1 lgbm: log loss 0.67601, Brier 0.24017, AUC 0.6220, calibration error 0.0246 on 96,886 rows; M3-1 xgb: log loss 0.69440, Brier 0.23925, AUC 0.6257, calibration error 0.0285 on 96,886 rows; M3-1 rf: log loss 0.65674, Brier 0.23195, AUC 0.6520, calibration error 0.0231 on 96,886 rows; M3-2 logistic: log loss 0.40479, Brier 0.13164, AUC 0.8955, calibration error 0.0097 on 88,739 rows [Primary_Model]; M3-2 lgbm: log loss 0.41596, Brier 0.13446, AUC 0.8903, calibration error 0.0166 on 88,739 rows; M3-2 xgb: log loss 0.42295, Brier 0.13722, AUC 0.8861, calibration error 0.0163 on 88,739 rows; M3-2 rf: log loss 0.42876, Brier 0.13826, AUC 0.8825, calibration error 0.0122 on 88,739 rows; M4 lgbm: log loss 1.48318, calibration error 0.0248 runs per Legal_Ball on 181,591 rows [Primary_Model]; M4 xgb: log loss 1.48196, calibration error 0.0216 runs per Legal_Ball on 181,591 rows; M4 rf: log loss 1.48677, calibration error 0.0397 runs per Legal_Ball on 181,591 rows"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.541270Z",
+      "stage": "model_choice",
+      "message": "Primary_Models (Requirement 23, criteria 7-9): M3-1 logistic, M3-2 logistic, M4 lgbm; ties within math.isclose(rel_tol=1e-09, abs_tol=1e-09) go to the first of logistic, lgbm, xgb, rf (M3) and lgbm, xgb, rf (M4)"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.543661Z",
+      "stage": "model_choice",
+      "message": "M4 calibration-aware tie-break (Requirement 23, criterion 8; design DD-17): the preferred family lgbm (log loss 1.48318) is within the relative band delta 0.005 of the lowest log loss (xgb 1.48196; gap +0.001224, +0.0826% of the lowest), so lgbm is the M4 Primary_Model; it passes the own-theta NBV cell check (Requirement 15, criterion 17) that the Value_Engine re-verifies (criterion 14). Supporting evidence, the match-clustered paired SE of the per-Legal_Ball log-loss difference xgb - lgbm over 181,591 Legal_Balls in 819 matches: mean -0.001224, SE 0.000204 (z -5.99); the advantage of xgb is reliable but negligible in magnitude (under a thousandth of a nat per Legal_Ball), far inside the band, so the own-theta NBV calibration that feeds the ratings breaks the tie in favour of lgbm"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.545021Z",
+      "stage": "model_choice",
+      "message": "M3 innings 1: the logistic baseline has the lowest pooled log loss, so the simpler model is the Primary_Model (plan addendum: if LightGBM does not beat the logistic baseline, the simpler model is used)"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.545021Z",
+      "stage": "model_choice",
+      "message": "M3 innings 2: the logistic baseline has the lowest pooled log loss, so the simpler model is the Primary_Model (plan addendum: if LightGBM does not beat the logistic baseline, the simpler model is used)"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.545021Z",
+      "stage": "model_choice",
+      "message": "every saved wp_pre and wp_post value is finite and within [0, 1] (Requirement 10, criterion 13): innings 1 logistic [0.0010, 0.9990], innings 1 lgbm [0.0551, 0.9990], innings 1 xgb [0.0010, 0.9990], innings 1 rf [0.0010, 0.9990], innings 2 logistic [0.0000, 1.0000], innings 2 lgbm [0.0000, 1.0000], innings 2 xgb [0.0000, 1.0000], innings 2 rf [0.0000, 1.0000]"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.552807Z",
+      "stage": "model_choice",
+      "message": "WP curve of match 40767 (Requirement 10, criterion 18): 252 Deliveries, WP of the side batting first from 0.343 to 0.999, 0.426 before the first ball and 0.999 before the last"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.554816Z",
+      "stage": "model_choice",
+      "message": "M3 Alternative_Models (Requirement 23, criteria 1-4): 4 of 4 innings fits completed in 261.7 s (innings 1 xgb 8.4 s, innings 1 rf 123.1 s, innings 2 xgb 9.7 s, innings 2 rf 120.5 s); saved 40 outer models and calibrators of the candidates that passed; their inner fits are registered but not saved"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.558625Z",
+      "stage": "model_choice",
+      "message": "M4 Alternative_Models (Requirement 23, criteria 1, 2, 4 and 12): 2 of 2 passed (xgb fits 86.9 s and variants 19.7 s, rf fits 108.8 s and variants 33.4 s); saved the variant table, the fold-model table and the outer fold models of each one that passed (10 models)"
+    },
+    {
+      "utc": "2026-11-16T09:03:54.562351Z",
+      "stage": "model_choice",
+      "message": "wrote outputs/models/model_choice/model_comparison.csv, outputs/models/model_choice/m3_calibration_curve_inn1.csv, outputs/models/model_choice/m3_calibration_curve_inn1.png, outputs/models/model_choice/m3_calibration_curve_inn2.csv, outputs/models/model_choice/m3_calibration_curve_inn2.png, outputs/models/model_choice/m4_expected_runs_by_phase_wickets.csv, outputs/models/model_choice/m3_alternative_fold_metrics.csv, outputs/models/m3/wp_curve_40767.csv, outputs/models/m3/wp_curve_40767.png; saved rows, wp_inn1_logistic, wp_inn1_lgbm, wp_inn1_xgb, wp_inn1_rf, wp_inn2_logistic, wp_inn2_lgbm, wp_inn2_xgb, wp_inn2_rf, m4_xgb, m4_xgb_fold_models, m4_rf, m4_rf_fold_models, prediction_tables, model_comparison, m3_calibration_curves, m4_expected_runs, post_terminal_rules, m3_alternative_fits, m3_alternative_fold_metrics and the fit registry (130 fits) in 561.3 s"
+    },
+    {
+      "utc": "2026-11-16T09:03:59.829995Z",
+      "stage": "pressure",
+      "message": "Pressure_Engine inputs: the Primary_Models' predictions only (Requirement 23, criterion 9: M3-1 logistic, M3-2 logistic, M4 lgbm); D1 live band [0.05, 0.95], D2 alpha 0.5, D3 share 0.25, D4 innings_group, D5 equal, D6 18, D7 20; Live_Balls (unrounded Out_Of_Fold WP within the D1 band, Requirement 13, criterion 1): innings 1: 104,105 of 105,727; innings 2: 70,730 of 95,234; pooled mean unscaled LI 0.012572 (mean LI 1.000000, 1,393 Deliveries with LI 0, 0 of them Live_Balls)"
+    },
+    {
+      "utc": "2026-11-16T09:03:59.839748Z",
+      "stage": "pressure",
+      "message": "Pressure_Balls (rank of PI among the Role's Live_Balls of the rank group > 1 - D3; Requirement 13, criterion 4): pi_bat innings 1: 25,020 of 100,082 Live_Balls (25.000%; PI cut 64.9392, highest Ordinary Live_Ball PI 64.9383); pi_bat innings 2: 17,034 of 68,134 Live_Balls (25.001%; PI cut 62.7528, highest Ordinary Live_Ball PI 62.7517); pi_bowl innings 1: 26,026 of 104,105 Live_Balls (25.000%; PI cut 64.6626, highest Ordinary Live_Ball PI 64.6621); pi_bowl innings 2: 17,682 of 70,730 Live_Balls (24.999%; PI cut 66.3530, highest Ordinary Live_Ball PI 66.3509); pi_bowl_extras_free innings 1: 26,027 of 104,105 Live_Balls (25.001%; PI cut 64.6439, highest Ordinary Live_Ball PI 64.6429); pi_bowl_extras_free innings 2: 17,682 of 70,730 Live_Balls (24.999%; PI cut 66.3410, highest Ordinary Live_Ball PI 66.3403)"
+    },
+    {
+      "utc": "2026-11-16T09:03:59.842405Z",
+      "stage": "pressure",
+      "message": "PI checks (Requirement 13, criteria 2, 3, 5 and 11) passed: pi_bat: 25,035 Dead_Balls with PI 0, 168,216 Live_Balls with PI in [0.1244, 99.7587], 7,710 rows outside the Role without a PI or flag; pi_bowl: 26,126 Dead_Balls with PI 0, 174,835 Live_Balls with PI in [0.1322, 99.8482], 0 rows outside the Role without a PI or flag; pi_bowl_extras_free: 26,126 Dead_Balls with PI 0, 174,835 Live_Balls with PI in [0.1322, 99.8569], 0 rows outside the Role without a PI or flag"
+    },
+    {
+      "utc": "2026-11-16T09:03:59.844572Z",
+      "stage": "pressure",
+      "message": "Extras_Free_PI (validation only, Requirement 14, criterion 5): its bowler flags agree with the main bowler flags on 99.03% of the bowler Live_Balls; 42,860 of the 43,708 bowler Pressure_Balls (98.06%) are also Extras_Free Pressure_Balls"
+    },
+    {
+      "utc": "2026-11-16T09:03:59.848787Z",
+      "stage": "pressure",
+      "message": "innings-2 death-Phase Deliveries (Requirement 11, criterion 12): 10,642 Dead_Balls with mean LI 0.3271, 8,134 Live_Balls with mean LI 4.1750"
+    },
+    {
+      "utc": "2026-11-16T09:03:59.859067Z",
+      "stage": "pressure",
+      "message": "mean LI by over 1-20 (Requirement 11, criterion 13): innings 1: 0.787 0.874 0.912 0.903 0.919 0.834 0.634 0.639 0.669 0.638 0.629 0.629 0.653 0.659 0.676 0.723 0.750 0.775 0.876 0.965; innings 2: 1.041 1.147 1.208 1.194 1.196 1.158 0.946 0.931 0.962 0.977 1.031 1.075 1.108 1.179 1.307 1.395 1.582 1.753 2.343 3.800"
+    },
+    {
+      "utc": "2026-11-16T09:03:59.859067Z",
+      "stage": "pressure",
+      "message": "batter share table (innings/Phase/Competition_Type Pressure_Balls/Role Deliveries): 1/powerplay/IPL 3,253/13,235, 1/powerplay/T20I 4,675/16,628, 1/powerplay/A_Team 333/1,083, 1/middle/IPL 3,396/19,742, 1/middle/T20I 4,878/24,534, 1/middle/A_Team 440/1,623, 1/death/IPL 3,257/10,731, 1/death/T20I 4,462/13,209, 1/death/A_Team 326/854, 2/powerplay/IPL 1,790/13,044, 2/powerplay/T20I 2,704/16,011, 2/powerplay/A_Team 147/1,076, 2/middle/IPL 3,256/19,166, 2/middle/T20I 4,026/23,056, 2/middle/A_Team 290/1,497, 2/death/IPL 2,236/8,203, 2/death/T20I 2,383/8,957, 2/death/A_Team 202/602"
+    },
+    {
+      "utc": "2026-11-16T09:03:59.864863Z",
+      "stage": "pressure",
+      "message": "bowler share table (innings/Phase/Competition_Type Pressure_Balls/Role Deliveries): 1/powerplay/IPL 4,914/13,724, 1/powerplay/T20I 4,722/17,235, 1/powerplay/A_Team 270/1,117, 1/middle/IPL 5,185/20,432, 1/middle/T20I 4,927/25,297, 1/middle/A_Team 305/1,663, 1/death/IPL 2,683/11,432, 1/death/T20I 2,835/13,934, 1/death/A_Team 185/893, 2/powerplay/IPL 3,075/13,542, 2/powerplay/T20I 2,827/16,629, 2/powerplay/A_Team 144/1,119, 2/middle/IPL 4,369/19,825, 2/middle/T20I 3,619/23,796, 2/middle/A_Team 161/1,547, 2/death/IPL 1,698/8,718, 2/death/T20I 1,653/9,424, 2/death/A_Team 136/634"
+    },
+    {
+      "utc": "2026-11-16T09:03:59.864863Z",
+      "stage": "pressure",
+      "message": "wrote outputs/pressure/missing_components.csv, outputs/pressure/pressure_share_batter.csv, outputs/pressure/pressure_share_bowler.csv, outputs/pressure/pressure_summary.csv, outputs/pressure/mean_li_by_over.csv, outputs/pressure/mean_li_by_over.png, docs/pressure_definition.md; saved pressure, share_batter, share_bowler, pressure_summary, li_by_over, missing_components in 3.7 s"
+    },
+    {
+      "utc": "2026-11-16T09:04:06.752657Z",
+      "stage": "validation",
+      "message": "Out_Of_Fold guard passed (Requirement 14, criterion 11): 189,648 Validation_Deliveries in 819 matches, each with a WP, an LI and the PI of its Roles from the Primary_Models (M3-1 logistic, M3-2 logistic, M4 lgbm); 115 fits checked across 36 checks, none trained on a Delivery's match or served it without excluding its fold"
+    },
+    {
+      "utc": "2026-11-16T09:04:06.761049Z",
+      "stage": "validation",
+      "message": "Validation_Deliveries (no Super_Over_Innings, no excluded match): innings 1: 99,751 Deliveries in 819 matches; innings 2: 89,897 Deliveries in 797 matches"
+    },
+    {
+      "utc": "2026-11-16T09:04:06.763058Z",
+      "stage": "validation",
+      "message": "WP after a Delivery (module docstring): next_delivery innings 1: 98,932 (mean swing 0.0092, max 0.1294); next_delivery innings 2: 89,100 (mean swing 0.0180, max 0.9311); innings1_end_state innings 1: 794 (mean swing 0.0109, max 0.1467); innings1_stopped_state innings 1: 25 (mean swing 0.0199, max 0.0647); innings2_result innings 2: 786 (mean swing 0.0470, max 1.0000); innings2_tie innings 2: 9 (mean swing 0.4001, max 0.5000); innings2_post_outcome innings 2: 2 (mean swing 0.0533, max 0.1010)"
+    },
+    {
+      "utc": "2026-11-16T09:04:06.765067Z",
+      "stage": "validation",
+      "message": "V1 mean Actual_WP_Swing by PI decile (Requirement 14, criterion 2): batter innings 1: decile 1 0.0029, decile 5 0.0085, decile 10 0.0169, Dead_Balls 0.0031; batter innings 2: decile 1 0.0095, decile 5 0.0183, decile 10 0.0519, Dead_Balls 0.0040; bowler innings 1: decile 1 0.0030, decile 5 0.0080, decile 10 0.0186, Dead_Balls 0.0030; bowler innings 2: decile 1 0.0072, decile 5 0.0231, decile 10 0.0393, Dead_Balls 0.0039"
+    },
+    {
+      "utc": "2026-11-16T09:04:06.775523Z",
+      "stage": "validation",
+      "message": "V2 Big_Moments (Requirement 14, criterion 3; 818 matches with at least 10 Validation_Deliveries, Big_Moment share 0.0431): batter_pressure_balls: share 0.2090, precision 0.0831, recall 0.4026; bowler_pressure_balls: share 0.2187, precision 0.0837, recall 0.4246; overs_16_20: share 0.2215, precision 0.0512, recall 0.2631; chase_rrr_above_10: share 0.2100, precision 0.0598, recall 0.2910"
+    },
+    {
+      "utc": "2026-11-16T09:04:06.775523Z",
+      "stage": "validation",
+      "message": "V3 Wides + No_Balls per 100 Bowler_Deliveries, Pressure_Ball flags (Requirement 14, criteria 4 and 5): innings 1: Pressure 4.640 (24,483), Ordinary 4.188 (75,268), difference +0.452; innings 2: Pressure 4.776 (17,000), Ordinary 4.056 (72,897), difference +0.720; innings both: Pressure 4.696 (41,483), Ordinary 4.123 (148,165), difference +0.573"
+    },
+    {
+      "utc": "2026-11-16T09:04:06.780911Z",
+      "stage": "validation",
+      "message": "V3 Wides + No_Balls per 100 Bowler_Deliveries, Extras_Free_PI selection (Requirement 14, criteria 4 and 5): innings 1: Pressure 4.624 (24,482), Ordinary 4.193 (75,269), difference +0.431; innings 2: Pressure 4.758 (17,003), Ordinary 4.061 (72,894), difference +0.697; innings both: Pressure 4.679 (41,485), Ordinary 4.128 (148,163), difference +0.551"
+    },
+    {
+      "utc": "2026-11-16T09:04:06.780911Z",
+      "stage": "validation",
+      "message": "Extras_Free_PI re-selection (top D3 of each Innings_Group's Live_Balls by Extras_Free_PI): 0 of the 174,835 Live_Balls differ from the pressure table's flags"
+    },
+    {
+      "utc": "2026-11-16T09:04:06.787164Z",
+      "stage": "validation",
+      "message": "V3 within-player effects of Pressure_Balls (player fixed effects, match-clustered SE, t-based 95% CI; Requirement 14, criteria 6 and 12): strike_rate -8.7493 (SE 1.0932, 95% CI [-10.8951, -6.6035]; 882 players, 182,377 Deliveries, 819 matches); dismissal_rate -0.1192 (SE 0.1271, 95% CI [-0.3686, +0.1302]; 882 players, 182,377 Deliveries, 819 matches); economy +1.4031 (SE 0.0627, 95% CI [+1.2800, +1.5263]; 644 players, 189,648 Deliveries, 819 matches)"
+    },
+    {
+      "utc": "2026-11-16T09:04:06.791809Z",
+      "stage": "validation",
+      "message": "V4 Simple_Rules (Requirement 14, criteria 7 and 8): overs_16_20 innings 1: 951 of 24,462 Dead_Balls (0.0389); overs_16_20 innings 2: 9,833 of 17,547 Dead_Balls (0.5604); overs_16_20 innings both: 10,784 of 42,009 Dead_Balls (0.2567); chase_rrr_above_10 innings 1: 0 of 0 Dead_Balls (n/a); chase_rrr_above_10 innings 2: 12,561 of 39,824 Dead_Balls (0.3154); chase_rrr_above_10 innings both: 12,561 of 39,824 Dead_Balls (0.3154); High_Leverage_Balls up to the D8 split flagged by neither rule: innings 1: 17,291 of 17,291 (1.0000); innings 2: 6,287 of 11,180 (0.5623); innings both: 23,578 of 28,471 (0.8281); lowest LI of a High_Leverage_Ball innings 1 1.0440, innings 2 1.8965"
+    },
+    {
+      "utc": "2026-11-16T09:04:06.791809Z",
+      "stage": "validation",
+      "message": "wrote outputs/validation/v1_pi_deciles.csv, outputs/validation/v2_big_moments.csv, outputs/validation/v3_extras.csv, outputs/validation/v3_extras_free.csv, outputs/validation/v3_within_player.csv, outputs/validation/v4_simple_rule_dead_share.csv, outputs/validation/v4_high_leverage_unflagged.csv, outputs/validation/signal_model_matrix.csv, outputs/validation/wp_after_rules.csv, outputs/validation/oof_guard.csv, outputs/validation/v1_pi_deciles.png, outputs/validation/v2_big_moments.png, outputs/validation/v3_extras.png, outputs/validation/v3_within_player.png, outputs/validation/v4_simple_rules.png; saved validation_deliveries and v1_deciles, v2_big_moments, v3_extras, v3_extras_free, v3_within_player, v4_dead_share, v4_high_leverage_unflagged, signal_model_matrix, wp_after_rules, oof_guard in 6.7 s"
+    },
+    {
+      "utc": "2026-11-16T09:04:10.828133Z",
+      "stage": "value",
+      "message": "Value_Engine inputs: the M4 Primary_Model lgbm (batter_view, batter_view_fh, bowler_view and bowler_view_nofh: the Role player's theta at the fold's Average_Skill, the opponent's actual theta, Requirement 2, criterion 4; its actual variant for the own-theta check of criterion 17), the Extras_Model p_wide and p_noball, Omega of m2_preds and each fold's Class_Run_Values; Retire Out with no Omega and no Dismissal_Charge (D14); 189,648 Deliveries of the 819 matches used for player rating (182,377 Batter_Deliveries, 189,648 Bowler_Deliveries; 11,313 Deliveries of excluded matches left out)"
+    },
+    {
+      "utc": "2026-11-16T09:04:10.828133Z",
+      "stage": "value",
+      "message": "NBV in runs per Delivery, all finite (Requirement 15, criterion 16): batter n 182,377, mean +0.0003, sd 2.3473, min -48.247, max +7.353; bowler n 189,648, mean -0.0019, sd 2.3145, min -8.937, max +47.943; Dismissal_Charges 292 totalling -949.53 runs"
+    },
+    {
+      "utc": "2026-11-16T09:04:10.841014Z",
+      "stage": "value",
+      "message": "NBV per Delivery by innings x Phase cell against an Average_Skill player, the batter Role with its Dismissal_Charges (information; value/nbv_cells.csv): batter innings 1 powerplay -0.0033 (29,208); batter innings 1 middle -0.0025 (43,303); batter innings 1 death +0.0269 (23,371); batter innings 2 powerplay +0.0113 (28,394); batter innings 2 middle -0.0132 (41,231); batter innings 2 death -0.0654 (16,870); bowler innings 1 powerplay +0.0013 (30,270); bowler innings 1 middle +0.0062 (44,718); bowler innings 1 death -0.0390 (24,763); bowler innings 2 powerplay -0.0163 (29,474); bowler innings 2 middle +0.0070 (42,594); bowler innings 2 death +0.0263 (17,829)"
+    },
+    {
+      "utc": "2026-11-16T09:04:10.842014Z",
+      "stage": "value",
+      "message": "NBV per Delivery by innings x Phase cell with each player's own theta (the M4 actual variant in place of batter_view and bowler_view; the No_Ball terms keep the Free_Hit views), the batter Role with its Dismissal_Charges (Requirement 15, criterion 17; Test_Suite band +/-0.05; value/nbv_cells_own_theta.csv): batter innings 1 powerplay -0.0031 (29,208); batter innings 1 middle -0.0035 (43,303); batter innings 1 death +0.0464 (23,371); batter innings 2 powerplay +0.0179 (28,394); batter innings 2 middle -0.0054 (41,231); batter innings 2 death -0.0203 (16,870); bowler innings 1 powerplay +0.0008 (30,270); bowler innings 1 middle +0.0033 (44,718); bowler innings 1 death -0.0484 (24,763); bowler innings 2 powerplay -0.0201 (29,474); bowler innings 2 middle +0.0023 (42,594); bowler innings 2 death +0.0168 (17,829)"
+    },
+    {
+      "utc": "2026-11-16T09:04:10.847530Z",
+      "stage": "value",
+      "message": "M4 calibration-aware tie-break verified on the Value_Engine's own inputs (Requirement 23, criterion 14; value/m4_tiebreak_cells.csv): the selected M4 Primary_Model lgbm is within the log-loss band and passes every own-theta NBV innings x Phase cell (Test_Suite band +/-0.05), while the displaced lowest-log-loss family xgb breaches at least one cell; own-theta NBV per Delivery by cell (lgbm / xgb): batter innings 1 powerplay lgbm -0.0031 / xgb -0.0132; batter innings 1 middle lgbm -0.0035 / xgb -0.0055; batter innings 1 death lgbm +0.0464 / xgb +0.0522; batter innings 2 powerplay lgbm +0.0179 / xgb +0.0177; batter innings 2 middle lgbm -0.0054 / xgb -0.0055; batter innings 2 death lgbm -0.0203 / xgb -0.0179; bowler innings 1 powerplay lgbm +0.0008 / xgb +0.0094; bowler innings 1 middle lgbm +0.0033 / xgb +0.0050; bowler innings 1 death lgbm -0.0484 / xgb -0.0521; bowler innings 2 powerplay lgbm -0.0201 / xgb -0.0203; bowler innings 2 middle lgbm +0.0023 / xgb +0.0018; bowler innings 2 death lgbm +0.0168 / xgb +0.0153"
+    },
+    {
+      "utc": "2026-11-16T09:04:10.847530Z",
+      "stage": "value",
+      "message": "No Bowler_Delivery used a pooled Training_Folds value (Requirement 15, criterion 22): wide_team_runs 0, nb_penalty_runs 0, nb_bat_runs 0, free_hit_premium 0"
+    },
+    {
+      "utc": "2026-11-16T09:04:10.851962Z",
+      "stage": "value",
+      "message": "Dismissed batters (Requirement 15, criteria 9 and 10): 10,236 charged Counted_Wickets of 10,242; 0 with a blank or unmatched dismissed_player_id fell back to the striker"
+    },
+    {
+      "utc": "2026-11-16T09:04:10.875447Z",
+      "stage": "value",
+      "message": "Dismissal_Charges (-Omega, Requirement 15, criterion 11): 292, of which 260 non-striker dismissals (code 4 RunOut 259, code 10 Obstracting the field 1; 5 off a Wide) and 32 striker dismissals off a Wide (code 4 RunOut 10, code 5 Stump 22); 93 pressure, 199 ordinary. The 37 charges on Wides take the batter-Role flag of the latest earlier Batter_Delivery of the innings (14 pressure; 2 on Dead_Balls and 0 without an earlier Batter_Delivery set ordinary)"
+    },
+    {
+      "utc": "2026-11-16T09:04:10.875447Z",
+      "stage": "value",
+      "message": "Retire Out (code 9, Requirement 15, criterion 12): 6 Deliveries, charged neither Omega nor a Dismissal_Charge"
+    },
+    {
+      "utc": "2026-11-16T09:04:10.875447Z",
+      "stage": "value",
+      "message": "value stage wrote outputs/value/fallback_counts.csv, outputs/value/cell_means.csv, outputs/value/nbv_cells.csv, outputs/value/nbv_cells_own_theta.csv, outputs/value/extremes_batter.csv, outputs/value/extremes_bowler.csv, outputs/value/m4_tiebreak_cells.csv and its checkpoint in 3.8 s"
+    },
+    {
+      "utc": "2026-11-16T09:04:12.082983Z",
+      "stage": "rating",
+      "message": "Rating_Engine inputs: 54,650 contribution rows (batter 26,755, bowler 27,895) over a match universe of 883 matches, 819 of them rated and 867 with a Delivery outside Super_Over_Innings"
+    },
+    {
+      "utc": "2026-11-16T09:04:12.082983Z",
+      "stage": "rating",
+      "message": "Eligibility, batter (Requirement 17, criterion 11): minimum 90 Pressure_Balls and 8 Pressure_Matches, Recent_Activity_Rule on; 130 Eligible_Players of 882 players with a Delivery; failing: min_pressure_balls 743, min_pressure_matches 617, calendar_years 352, recent_activity 285, major_share 219"
+    },
+    {
+      "utc": "2026-11-16T09:04:12.091147Z",
+      "stage": "rating",
+      "message": "Eligibility, bowler (Requirement 17, criterion 11): minimum 90 Pressure_Balls and 8 Pressure_Matches, Recent_Activity_Rule on; 139 Eligible_Players of 644 players with a Delivery; failing: min_pressure_balls 496, min_pressure_matches 406, calendar_years 272, recent_activity 196, major_share 152"
+    },
+    {
+      "utc": "2026-11-16T09:04:12.092358Z",
+      "stage": "rating",
+      "message": "Rating, batter (Requirement 18): Replacement_Level -0.4717 runs per over (the 25th percentile of 130 Clutch_Levels); tau^2 Usual_Baseline 0.369257 (raw 0.369257, 130 players); Pressure_Gap 0.000000 (raw -0.334197, 130 players); Uplift 0.000000 (raw -0.447304, 130 players); fallback Clutch_Level 0.000000 (raw -0.151324, 130 players); 0 player(s) on the Clutch_Level fallback (no Usual_Baseline); rho_L 0.0000 (r -0.1274), rho_U 0.0000 (r -0.2052), from 130 players with Pressure_Balls and Ordinary_Balls in both halves; w_L 1.0000, w_U 0.0000; 130 ranked; median Shrinkage_Factor B Usual_Baseline 0.446, Pressure_Gap 0.000, Uplift 0.000; rank_role 4.8 ms"
+    },
+    {
+      "utc": "2026-11-16T09:04:12.097132Z",
+      "stage": "rating",
+      "message": "Provisional top 10, batter (Requirement 18, criterion 15; names provisional): 1 Abhishek Sharma (6281) S +1.341; 2 Tim David (6396) S +1.105; 3 Heinrich Klaasen (4260) S +0.812; 4 Shivam Dube (4755) S +0.722; 5 Jos Buttler (813) S +0.629; 6 Phil Salt (5553) S +0.524; 7 Daryl Mitchell (4106) S +0.400; 8 Rajat Patidar (5039) S +0.382; 9 Andre Russell (1318) S +0.378; 10 Suryakumar Yadav (1699) S +0.355"
+    },
+    {
+      "utc": "2026-11-16T09:04:12.097132Z",
+      "stage": "rating",
+      "message": "Rating, bowler (Requirement 18): Replacement_Level -0.8127 runs per over (the 25th percentile of 139 Clutch_Levels); tau^2 Usual_Baseline 0.272922 (raw 0.272922, 139 players); Pressure_Gap 0.116055 (raw 0.116055, 139 players); Uplift 0.000000 (raw -0.093292, 139 players); fallback Clutch_Level 0.044577 (raw 0.044577, 139 players); 0 player(s) on the Clutch_Level fallback (no Usual_Baseline); rho_L 0.3007 (r 0.1769), rho_U 0.1573 (r 0.0853), from 139 players with Pressure_Balls and Ordinary_Balls in both halves; w_L 0.6566, w_U 0.3434; 139 ranked; median Shrinkage_Factor B Usual_Baseline 0.374, Pressure_Gap 0.077, Uplift 0.000; rank_role 5.8 ms"
+    },
+    {
+      "utc": "2026-11-16T09:04:12.101129Z",
+      "stage": "rating",
+      "message": "Provisional top 10, bowler (Requirement 18, criterion 15; names provisional): 1 Varun Chakravarthy (6256) S +0.309; 2 Bhuvneshwar Kumar (360) S +0.240; 3 Rashid Khan (4722) S +0.212; 4 Mustafizur Rahman (4373) S +0.201; 5 Wanindu Hasaranga (4900) S +0.192; 6 Jasprit Bumrah (2933) S +0.161; 7 Sunil Narine (781) S +0.091; 8 Eshan Malinga (39657) S +0.066; 9 Jason Holder (2633) S +0.020; 10 Maheesh Theekshana (19316) S +0.008"
+    },
+    {
+      "utc": "2026-11-16T09:04:12.130317Z",
+      "stage": "rating",
+      "message": "wrote outputs/rating/player_estimates_batter.csv, outputs/rating/player_estimates_bowler.csv, outputs/rating/provisional_top10_batter.csv, outputs/rating/provisional_top10_bowler.csv, outputs/rating/role_summary.csv, outputs/rating/eligibility_grid.csv, outputs/rating/eligibility_report.csv, outputs/rating/warnings.csv; 6 warning(s); saved contributions, match_universe, eligibility_grid, eligibility_report, player_estimates, role_summary and warnings in 1.1 s"
+    },
+    {
+      "utc": "2026-11-16T09:04:18.160173Z",
+      "stage": "bootstrap",
+      "message": "Bootstrap inputs (Requirement 19): 2,000 Bootstrap_Resamples (D16) of the 867 of 883 matches with a Delivery outside Super_Over_Innings, drawn from seeds.bootstrap = 22; batter 130 Eligible_Players, bowler 139 Eligible_Players. Role-level values held at the Main_Ranking's in every resample (criterion 2): batter replacement_level -0.471737, tau2_usual 0.369257, tau2_gap 0, tau2_uplift 0, tau2_clutch 0, rho_L 0, rho_U 0, w_L 1, w_U 0; bowler replacement_level -0.812693, tau2_usual 0.272922, tau2_gap 0.116055, tau2_uplift 0, tau2_clutch 0.0445765, rho_L 0.300689, rho_U 0.157263, w_L 0.656595, w_U 0.343405. A player with fewer than 2 Pressure_Matches or fewer than 1 Ordinary_Ball in a resample is unranked there (criterion 4). Check passed: one copy of every resampled match reproduces both Main_Rankings bit for bit"
+    },
+    {
+      "utc": "2026-11-16T09:04:18.165003Z",
+      "stage": "bootstrap",
+      "message": "Bootstrap, batter: 130-130 of 130 Eligible_Players ranked per resample; 0 unranked in at least one resample (at most 0 times); the main top-10 set in 0 of 2,000 resamples (0 in the same order); P_Top10 sum 10.000000"
+    },
+    {
+      "utc": "2026-11-16T09:04:18.172083Z",
+      "stage": "bootstrap",
+      "message": "Bootstrap top 10, batter (names provisional): 1 Abhishek Sharma (6281) S +1.341 [+0.509, +2.130] median rank 1 P_Top10 0.969; 2 Tim David (6396) S +1.105 [+0.388, +1.749] median rank 3 P_Top10 0.932; 3 Heinrich Klaasen (4260) S +0.812 [-0.005, +1.413] median rank 6 P_Top10 0.714; 4 Shivam Dube (4755) S +0.722 [+0.084, +1.284] median rank 7 P_Top10 0.688; 5 Jos Buttler (813) S +0.629 [+0.058, +1.143] median rank 8 P_Top10 0.630; 6 Phil Salt (5553) S +0.524 [-0.213, +1.222] median rank 10 P_Top10 0.507; 7 Daryl Mitchell (4106) S +0.400 [-0.379, +0.948] median rank 18 P_Top10 0.264; 8 Rajat Patidar (5039) S +0.382 [-0.414, +1.095] median rank 20 P_Top10 0.277; 9 Andre Russell (1318) S +0.378 [-0.441, +1.145] median rank 20 P_Top10 0.288; 10 Suryakumar Yadav (1699) S +0.355 [-0.460, +1.366] median rank 18 P_Top10 0.369. Highest P_Top10 outside it: 11 Glenn Phillips (4853) P_Top10 0.306; 12 Mitchell Marsh (818) P_Top10 0.249; 14 Josh Inglis (4736) P_Top10 0.216; 15 Marcus Stoinis (2639) P_Top10 0.215; 13 Shimron Hetmyer (3297) P_Top10 0.213"
+    },
+    {
+      "utc": "2026-11-16T09:04:18.177215Z",
+      "stage": "bootstrap",
+      "message": "Bootstrap, bowler: 139-139 of 139 Eligible_Players ranked per resample; 0 unranked in at least one resample (at most 0 times); the main top-10 set in 0 of 2,000 resamples (0 in the same order); P_Top10 sum 10.000000"
+    },
+    {
+      "utc": "2026-11-16T09:04:18.177215Z",
+      "stage": "bootstrap",
+      "message": "Bootstrap top 10, bowler (names provisional): 1 Varun Chakravarthy (6256) S +0.309 [-0.064, +0.610] median rank 3 P_Top10 0.909; 2 Bhuvneshwar Kumar (360) S +0.240 [-0.075, +0.519] median rank 5 P_Top10 0.846; 3 Rashid Khan (4722) S +0.212 [-0.198, +0.556] median rank 6 P_Top10 0.736; 4 Mustafizur Rahman (4373) S +0.201 [-0.188, +0.517] median rank 7 P_Top10 0.686; 5 Wanindu Hasaranga (4900) S +0.192 [-0.149, +0.418] median rank 7 P_Top10 0.728; 6 Jasprit Bumrah (2933) S +0.161 [-0.202, +0.604] median rank 6 P_Top10 0.696; 7 Sunil Narine (781) S +0.091 [-0.345, +0.553] median rank 9 P_Top10 0.557; 8 Eshan Malinga (39657) S +0.066 [-0.345, +0.410] median rank 13 P_Top10 0.411; 9 Jason Holder (2633) S +0.020 [-0.267, +0.280] median rank 14 P_Top10 0.329; 10 Maheesh Theekshana (19316) S +0.008 [-0.291, +0.274] median rank 15 P_Top10 0.302. Highest P_Top10 outside it: 14 Mujeeb Ur Rahman (6450) P_Top10 0.236; 11 Arshdeep Singh (6464) P_Top10 0.214; 18 Sikandar Raza (2984) P_Top10 0.209; 17 Adil Rashid (479) P_Top10 0.209; 24 Saim Ayub (7690) P_Top10 0.182"
+    },
+    {
+      "utc": "2026-11-16T09:04:18.190928Z",
+      "stage": "bootstrap",
+      "message": "Bootstrap timing: draws 0.01 s; resamples 5.5 s (2.76 ms per resample, both Roles); stage 5.9 s. Files: outputs/robustness/bootstrap_batter.csv, outputs/robustness/bootstrap_bowler.csv, outputs/robustness/bootstrap_warnings.csv"
+    },
+    {
+      "utc": "2026-11-16T09:04:24.391850Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off) inputs (Requirement 25, criteria 11 and 12): the rating checkpoint's contributions over 883 matches, so every Out_Of_Fold_Prediction, PI, Pressure_Ball flag, NBV, Dismissal_Charge and Delivery_Weight is the Main_Ranking's; the Main_Ranking's minimum Pressure_Ball counts batter 90, bowler 90, the D18 default minimum of 8 Pressure_Matches, the 2-Calendar_Year and share rules and the D12 percentile 25; the Main_Ranking's 2,000 saved Bootstrap_Resamples of the 867 resampled matches (seeds.bootstrap = 22, checked); no model is fitted. Check passed: one copy of every resampled match reproduces both comparison rankings bit for bit with their own Role-level values"
+    },
+    {
+      "utc": "2026-11-16T09:04:24.391850Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off), batter: 139 Eligible_Players of 882 players with a Delivery, against 130 in the Main_Ranking (9 added, none removed; failing: min_pressure_balls 743, min_pressure_matches 617, calendar_years 352, recent_activity 0, major_share 219). Its own Role-level values, held in each of its resamples: replacement_level -0.431303, tau2_usual 0.338739, tau2_gap 0, tau2_uplift 0, tau2_clutch 0, rho_L 0, rho_U 0, w_L 1, w_U 0; the Main_Ranking's: replacement_level -0.471737, tau2_usual 0.369257, tau2_gap 0, tau2_uplift 0, tau2_clutch 0, rho_L 0, rho_U 0, w_L 1, w_U 0. 139 ranked; 0 on the Clutch_Level fallback"
+    },
+    {
+      "utc": "2026-11-16T09:04:24.408711Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off) top 10, batter (names provisional): 1 Abhishek Sharma (6281) S +1.287 [+0.485, +2.052] P_Top10 0.965, Main rank 1; 2 Tim David (6396) S +1.062 [+0.372, +1.690] P_Top10 0.923, Main rank 2; 3 Heinrich Klaasen (4260) S +0.790 [-0.004, +1.380] P_Top10 0.697, Main rank 3; 4 Shivam Dube (4755) S +0.700 [+0.082, +1.254] P_Top10 0.674, Main rank 4; 5 Jos Buttler (813) S +0.616 [+0.057, +1.121] P_Top10 0.616, Main rank 5; 6 Phil Salt (5553) S +0.504 [-0.200, +1.184] P_Top10 0.487, Main rank 6; 7 Daryl Mitchell (4106) S +0.390 [-0.362, +0.923] P_Top10 0.255, Main rank 7; 8 Rajat Patidar (5039) S +0.365 [-0.388, +1.054] P_Top10 0.262, Main rank 8; 9 Andre Russell (1318) S +0.359 [-0.410, +1.097] P_Top10 0.264, Main rank 9; 10 Suryakumar Yadav (1699) S +0.340 [-0.429, +1.338] P_Top10 0.358, Main rank 10"
+    },
+    {
+      "utc": "2026-11-16T09:04:24.412734Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off) against the Main top 10, batter: 10 of 10 in both. Entering: none. Leaving: none"
+    },
+    {
+      "utc": "2026-11-16T09:04:24.418766Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off), bowler: 148 Eligible_Players of 644 players with a Delivery, against 139 in the Main_Ranking (9 added, none removed; failing: min_pressure_balls 496, min_pressure_matches 406, calendar_years 272, recent_activity 0, major_share 152). Its own Role-level values, held in each of its resamples: replacement_level -1.00478, tau2_usual 0.277501, tau2_gap 0.0736684, tau2_uplift 0, tau2_clutch 0.0702211, rho_L 0.201292, rho_U 0.0627388, w_L 0.762381, w_U 0.237619; the Main_Ranking's: replacement_level -0.812693, tau2_usual 0.272922, tau2_gap 0.116055, tau2_uplift 0, tau2_clutch 0.0445765, rho_L 0.300689, rho_U 0.157263, w_L 0.656595, w_U 0.343405. 148 ranked; 0 on the Clutch_Level fallback"
+    },
+    {
+      "utc": "2026-11-16T09:04:24.452775Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off) top 10, bowler (names provisional): 1 Varun Chakravarthy (6256) S +0.369 [-0.088, +0.719] P_Top10 0.930, Main rank 1; 2 Rashid Khan (4722) S +0.275 [-0.218, +0.656] P_Top10 0.809, Main rank 3; 3 Bhuvneshwar Kumar (360) S +0.236 [-0.126, +0.564] P_Top10 0.850, Main rank 2; 4 Mustafizur Rahman (4373) S +0.233 [-0.242, +0.622] P_Top10 0.732, Main rank 4; 5 Wanindu Hasaranga (4900) S +0.187 [-0.233, +0.449] P_Top10 0.710, Main rank 5; 6 Jasprit Bumrah (2933) S +0.148 [-0.307, +0.697] P_Top10 0.682, Main rank 6; 7 Sunil Narine (781) S +0.035 [-0.520, +0.606] P_Top10 0.505, Main rank 7; 8 Maheesh Theekshana (19316) S +0.025 [-0.328, +0.343] P_Top10 0.422, Main rank 10; 9 Eshan Malinga (39657) S +0.018 [-0.490, +0.455] P_Top10 0.388, Main rank 8; 10 Jason Holder (2633) S +0.006 [-0.349, +0.319] P_Top10 0.382, Main rank 9"
+    },
+    {
+      "utc": "2026-11-16T09:04:24.460390Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off) against the Main top 10, bowler: 10 of 10 in both. Entering: none. Leaving: none"
+    },
+    {
+      "utc": "2026-11-16T09:04:24.522234Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off) timing: rankings 71 ms; 2,000 resamples 5.6 s (2.80 ms per resample, both Roles); stage 6.1 s. Saved player_estimates, role_summary, eligibility_report, eligible_players, bootstrap, warnings, bootstrap_warnings and status in outputs/final/comparison/_stage/18_activity_comparison/; no other file was written"
+    },
+    {
+      "utc": "2026-11-16T09:04:27.824456Z",
+      "stage": "final_lists",
+      "message": "List_Builder: batter Main_List (Requirement 25, criteria 1, 2, 5, 7 and 8) written to outputs/final/top10_batters.csv: 1 Abhishek Sharma (6281) S +1.341 [+0.509, +2.130] P_Top10 0.969; 2 Tim David (6396) S +1.105 [+0.388, +1.749] P_Top10 0.932; 3 Heinrich Klaasen (4260) S +0.812 [-0.005, +1.413] P_Top10 0.714; 4 Shivam Dube (4755) S +0.722 [+0.084, +1.284] P_Top10 0.688; 5 Jos Buttler (813) S +0.629 [+0.058, +1.143] P_Top10 0.630; 6 Phil Salt (5553) S +0.524 [-0.213, +1.222] P_Top10 0.507; 7 Daryl Mitchell (4106) S +0.400 [-0.379, +0.948] P_Top10 0.264; 8 Rajat Patidar (5039) S +0.382 [-0.414, +1.095] P_Top10 0.277; 9 Andre Russell (1318) S +0.378 [-0.441, +1.145] P_Top10 0.288; 10 Suryakumar Yadav (1699) S +0.355 [-0.460, +1.366] P_Top10 0.369"
+    },
+    {
+      "utc": "2026-11-16T09:04:27.824456Z",
+      "stage": "final_lists",
+      "message": "List_Builder: bowler Main_List (Requirement 25, criteria 1, 2, 5, 7 and 8) written to outputs/final/top10_bowlers.csv: 1 Varun Chakravarthy (6256) S +0.309 [-0.064, +0.610] P_Top10 0.909; 2 Bhuvneshwar Kumar (360) S +0.240 [-0.075, +0.519] P_Top10 0.846; 3 Rashid Khan (4722) S +0.212 [-0.198, +0.556] P_Top10 0.736; 4 Mustafizur Rahman (4373) S +0.201 [-0.188, +0.517] P_Top10 0.686; 5 Wanindu Hasaranga (4900) S +0.192 [-0.149, +0.418] P_Top10 0.728; 6 Jasprit Bumrah (2933) S +0.161 [-0.202, +0.604] P_Top10 0.696; 7 Sunil Narine (781) S +0.091 [-0.345, +0.553] P_Top10 0.557; 8 Eshan Malinga (39657) S +0.066 [-0.345, +0.410] P_Top10 0.411; 9 Jason Holder (2633) S +0.020 [-0.267, +0.280] P_Top10 0.329; 10 Maheesh Theekshana (19316) S +0.008 [-0.291, +0.274] P_Top10 0.302"
+    },
+    {
+      "utc": "2026-11-16T09:04:27.840503Z",
+      "stage": "final_lists",
+      "message": "List_Builder: Unstop entry checklist written to outputs/final/unstop_entry_checklist.md. Entries: 20 (10 batters, 10 bowlers); 19 resolved, 1 unresolved (Bowler rank 3, `Rashid Khan`)."
+    },
+    {
+      "utc": "2026-11-16T09:04:27.850722Z",
+      "stage": "final_lists",
+      "message": "List_Builder: activity comparison, batter (Requirement 25, criteria 13 and 14): 130 Eligible_Players in the Main_Ranking and 139 with the Recent_Activity_Rule off; top-10 overlap 10 of 10. Entering: none. Leaving: none. Spearman 0.9997 over 130 common Eligible_Players"
+    },
+    {
+      "utc": "2026-11-16T09:04:27.853875Z",
+      "stage": "final_lists",
+      "message": "List_Builder: activity comparison, bowler (Requirement 25, criteria 13 and 14): 139 Eligible_Players in the Main_Ranking and 148 with the Recent_Activity_Rule off; top-10 overlap 10 of 10. Entering: none. Leaving: none. Spearman 0.9901 over 139 common Eligible_Players"
+    },
+    {
+      "utc": "2026-11-16T09:04:27.859852Z",
+      "stage": "final_lists",
+      "message": "List_Builder: wrote outputs/final/comparison/top10_batters_activity_off.csv, outputs/final/comparison/top10_bowlers_activity_off.csv, outputs/final/comparison/activity_comparison_batters.csv, outputs/final/comparison/activity_comparison_bowlers.csv; the 28 files directly in outputs/final/, outputs/rating/, outputs/robustness/ kept their SHA-256 through the comparison step (Requirement 25, criterion 15)"
+    },
+    {
+      "utc": "2026-11-16T09:04:27.861859Z",
+      "stage": "final_lists",
+      "message": "List_Builder: evidence tables (Requirement 26, criteria 1-5) written to outputs/final/: traditional_stats_batters.csv, traditional_stats_bowlers.csv, rating_evidence_batters.csv, rating_evidence_bowlers.csv, pressure_mix_batters.csv, pressure_mix_bowlers.csv. Unweighted counts over the 189,648 rated Deliveries (innings 1 and 2 of the matches used for player rating); every listed player's Pressure_Ball and Ordinary_Ball counts equal the rating's n_pressure_balls and n_ordinary_balls. 0 empty cells for a zero denominator (criterion 3): none"
+    },
+    {
+      "utc": "2026-11-16T09:04:27.865874Z",
+      "stage": "final_lists",
+      "message": "List_Builder: charts (Requirement 26, criteria 6-9) written to outputs/final/ at 150 dpi: interval_forest_batters.png, interval_forest_bowlers.png, clutch_vs_usual_batters.png, clutch_vs_usual_bowlers.png, phase_mix_batters.png, phase_mix_bowlers.png, competition_type_mix_batters.png, competition_type_mix_bowlers.png"
+    },
+    {
+      "utc": "2026-11-16T09:04:27.865874Z",
+      "stage": "final_lists",
+      "message": "List_Builder: stage 3.2 s; wrote 17 files outside outputs/final/comparison/ and saved top10_batters, top10_bowlers, checklist_details, traditional_stats_batters, traditional_stats_bowlers, rating_evidence_batters, rating_evidence_bowlers, pressure_mix_batters, pressure_mix_bowlers, written_files in outputs/_stages/19_final_lists/ (no comparison output)"
+    },
+    {
+      "utc": "2026-11-16T09:04:31.600858Z",
+      "stage": "report",
+      "message": "Report_Builder: wrote outputs/report/SupeRR_S2_methodology_report.docx (Requirement 27, criterion 10): the 7 top-level sections, 49 tables built from CSV files, 33 pictures (charts and equations) and 129 Method_Constant labels"
+    },
+    {
+      "utc": "2026-11-16T09:04:32.590118Z",
+      "stage": "report",
+      "message": "Report_Check passed with 0 failures: 49 tables compared with their CSV files (440 rows, 3,041 cells); 20 Section 0 ranks compared with top10_batters.csv and top10_bowlers.csv; 3,741 paragraphs and cells scanned for banned phrases, LaTeX residue and citations (Verified_Source_List: 0 entries); top-level headings and placeholders checked. Allowed placeholder marker: Section 5 Reliability and limitations > 5.3 Repeatability, sensitivity and cross-checks (added by the robustness stage) (task 27.1 adds the robustness results to Section 5.3)"
+    },
+    {
+      "utc": "2026-11-16T09:04:32.595546Z",
+      "stage": "report",
+      "message": "Report_Builder: stage 4.6 s; outputs/report/ holds SupeRR_S2_methodology_report.docx, design_choices.csv; saved report_check in outputs/_stages/20_report/"
+    }
+  ]
+}

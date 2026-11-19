@@ -1,0 +1,10 @@
+{
+  "derived": {
+    "reconstruct.selected_encoding": {
+      "component": "Score_Reconstructor",
+      "stage": "reconstruct",
+      "value": "byes_one"
+    }
+  },
+  "version": 1
+}

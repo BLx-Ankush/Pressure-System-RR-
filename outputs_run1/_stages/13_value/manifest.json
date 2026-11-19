@@ -1,0 +1,26 @@
+{
+  "completed_utc": "2026-11-16T13:08:00.306063Z",
+  "config_sha256": "70a6340732c9a938abfc32fbb1a443edf34eccae978a37f96186424b071eaa09",
+  "files": {
+    "_constants.json": "5e5cdcede77b750ef29ead80c81240046bc0b17f6258cdd184e77ac0ec957e61",
+    "cell_means.parquet": "c019dbf3811f12cf4d6f08645827cfa0c9db0a76c475e68035522eed09cc18b9",
+    "dismissal_charges.parquet": "196ebc49c241d2ef0215f82adad4a572b7fa77009857cdfb7cfb8f12ecdd7524",
+    "fallback_counts.parquet": "75f00b0666c16a9dae5a9235017c4097189f089d4838b93f3c5a1e204f47afbb",
+    "nbv_cells.parquet": "55de594cda54657c1bf5e7f3406f37b989cadc38a157cc79ccaac0fd702ff2b1",
+    "nbv_cells_own_theta.parquet": "b5d6a539a8e8c67b58051534214a74430d21c375cb456f5619da1defc81c77ae",
+    "value.parquet": "866f740de692a28a90a98434bc77f4b7bed92b982d552f39a808e063c2bb0640"
+  },
+  "inputs": {
+    "folds": "484a65fad31c251037f6db245f0e5a5a338992ea46c2cee35883217e33a48717",
+    "load": "df00718327d335d7797c5e342d5cf897f1719f92da26b9901930e0cee4115ca7",
+    "model_choice": "3484b9dbbd19727db037d6df41d9e036106fc95a5f159e2f8746a668b44c1ca0",
+    "outcome": "55adf5b268e06dfb956fc848a7250adee8754bee0e616190d5da68b619c93fde",
+    "pressure": "59e7e983133036b0dcb6211567f1729726b8609db94889ca6c49301565df48d9",
+    "reconstruct": "03310d772894939f706d0161dba907f2e813325a191283a2d1cb6a4b8b149214",
+    "remaining_runs": "39edaf1592da3045d829199e54b52f5ad035752f17c3be2b81b4cfc64c2092d9",
+    "state": "b5e92031ec18c3e036e3f5039479eed91d3249affecac7d000e324798c057e07",
+    "win_prob": "0c865b9ac663fce21407b6646f637b73dc0f26ff7dbac9749870d17a34b262b0"
+  },
+  "stage": "value",
+  "stage_version": 1
+}

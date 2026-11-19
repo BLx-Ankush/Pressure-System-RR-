@@ -1,0 +1,3 @@
+utc,stage,message
+2026-11-16T12:40:52.278748Z,,"the Config hash 70a6340732c9 differs from the hash recorded with the saved outputs of load (29e28ad3f1c0), audit (29e28ad3f1c0), reconstruct (29e28ad3f1c0), state (29e28ad3f1c0), folds (29e28ad3f1c0), skill (29e28ad3f1c0), remaining_runs (29e28ad3f1c0), win_prob (29e28ad3f1c0), outcome (29e28ad3f1c0); those outputs are reused as they were saved"
+2026-11-16T12:40:57.236902Z,report,"Report_Builder: no PDF file was produced, because the Config names no PDF converter (report.pdf_converter is None), so only the DOCX file was exported: outputs/report/SupeRR_S2_methodology_report.docx (Requirement 27, criterion 15)"

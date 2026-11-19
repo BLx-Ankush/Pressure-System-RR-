@@ -1,0 +1,5 @@
+{
+  "class": "Booster",
+  "format": "xgboost",
+  "module": "xgboost.core"
+}

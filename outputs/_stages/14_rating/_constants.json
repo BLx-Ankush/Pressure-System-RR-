@@ -1,0 +1,115 @@
+{
+  "derived": {
+    "rating.min_pressure_balls.batter": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 90
+    },
+    "rating.min_pressure_balls.bowler": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 90
+    },
+    "rating.n_eligible.batter": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 130
+    },
+    "rating.n_eligible.bowler": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 139
+    },
+    "rating.replacement_level.batter": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": -0.4717367795001227
+    },
+    "rating.replacement_level.bowler": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": -0.8126930163312793
+    },
+    "rating.rho_L.batter": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 0.0
+    },
+    "rating.rho_L.bowler": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 0.3006886876058491
+    },
+    "rating.rho_U.batter": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 0.0
+    },
+    "rating.rho_U.bowler": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 0.1572628932585773
+    },
+    "rating.tau2_clutch.batter": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 0.0
+    },
+    "rating.tau2_clutch.bowler": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 0.0445765292416791
+    },
+    "rating.tau2_gap.batter": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 0.0
+    },
+    "rating.tau2_gap.bowler": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 0.11605543484753378
+    },
+    "rating.tau2_uplift.batter": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 0.0
+    },
+    "rating.tau2_uplift.bowler": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 0.0
+    },
+    "rating.tau2_usual.batter": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 0.3692571193457813
+    },
+    "rating.tau2_usual.bowler": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 0.2729216543580558
+    },
+    "rating.w_L.batter": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 1.0
+    },
+    "rating.w_L.bowler": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 0.656594933111206
+    },
+    "rating.w_U.batter": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 0.0
+    },
+    "rating.w_U.bowler": {
+      "component": "Rating_Engine",
+      "stage": "rating",
+      "value": 0.343405066888794
+    }
+  },
+  "version": 1
+}

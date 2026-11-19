@@ -1,0 +1,15 @@
+{
+  "completed_utc": "2026-11-16T13:28:22.639237Z",
+  "config_sha256": "70a6340732c9a938abfc32fbb1a443edf34eccae978a37f96186424b071eaa09",
+  "files": {
+    "_constants.json": "d2b0d4e7e4f05a1ac7db0a1980323c769c5b06c0782dd296ae186f0593ea5bfe",
+    "state.parquet": "f6f477c02eb7a923c2a150d69cd23a1ab759f87d901cd3bc6132325be49d43bd"
+  },
+  "inputs": {
+    "audit": "627c406963fc840886fc287db72dcef265c22e370f0c5be180838aa65fccf236",
+    "load": "7e29d7a894039d60e286415738b4c20b66267a1f5ada81f6d9776c66a0dc0fd7",
+    "reconstruct": "63e5ad5719e36394eeb9d3a268773cd7b6695de9f5fd9d94d9b7122d8fd4b1f0"
+  },
+  "stage": "state",
+  "stage_version": 1
+}

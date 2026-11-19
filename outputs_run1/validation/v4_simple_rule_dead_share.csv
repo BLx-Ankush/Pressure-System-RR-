@@ -1,0 +1,7 @@
+rule,innings,n_flagged,n_dead,dead_share
+overs_16_20,1,24462,951,0.038877
+overs_16_20,2,17547,9833,0.560381
+overs_16_20,both,42009,10784,0.256707
+chase_rrr_above_10,1,0,0,
+chase_rrr_above_10,2,39824,12561,0.315413
+chase_rrr_above_10,both,39824,12561,0.315413

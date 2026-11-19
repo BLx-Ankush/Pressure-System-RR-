@@ -1,0 +1,5 @@
+utc,stage,message
+2026-11-13T14:44:26.748533Z,reconstruct,"the Exact_Pass_Rate of the runs_margin check under the selected Extras_Encoding byes_one is 31.873%, below 95.0% (Requirement 5, criterion 22); see outputs/audit/audit.md"
+2026-11-13T14:44:26.751882Z,reconstruct,"the Exact_Pass_Rate of the chase check under the selected Extras_Encoding byes_one is 52.267%, below 95.0% (Requirement 5, criterion 22); see outputs/audit/audit.md"
+2026-11-13T14:44:26.760069Z,reconstruct,"the Exact_Pass_Rate of the tie check under the selected Extras_Encoding byes_one is 50.000%, below 95.0% (Requirement 5, criterion 22); see outputs/audit/audit.md"
+2026-11-13T14:44:26.770415Z,reconstruct,"48 of 867 matches with Deliveries are excluded from model training and player rating at the Score_Tolerance of 6 runs (D20; Requirement 5, criterion 24); excluded at each grid tolerance: 0 runs: 486, 3 runs: 165, 6 runs: 48, 10 runs: 10; see outputs/audit/excluded_matches.csv"

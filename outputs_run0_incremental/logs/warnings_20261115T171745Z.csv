@@ -1,0 +1,2 @@
+utc,stage,message
+2026-11-15T17:17:55.507419Z,report,"Report_Builder: no PDF file was produced, because the Config names no PDF converter (report.pdf_converter is None), so only the DOCX file was exported: outputs/report/SupeRR_S2_methodology_report.docx (Requirement 27, criterion 15)"

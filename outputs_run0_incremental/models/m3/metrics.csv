@@ -1,0 +1,191 @@
+metric,innings,family,phase,fold,rule,value,n_rows,description
+log_loss,1,logistic,all,,,0.627681,96886,"Pooled_Held_Out_Log_Loss of the calibrated Out_Of_Fold WP before the terminal rules, over the eligible Deliveries (kept result types, labelled, Training_Rows) of all folds, each probability clipped to [1e-15, 1 - 1e-15] (Requirement 10, criterion 12)"
+brier,1,logistic,all,,,0.219016,96886,held-out Brier score: mean squared difference between the same WP and the label (criterion 12)
+auc,1,logistic,all,,,0.700905,96886,held-out AUC of the same WP against the label (criterion 12)
+calibration_error,1,logistic,all,,,0.011969,96886,Calibration_Error of the same rows' Calibration_Curve (10 equal-width WP bins): the Delivery-weighted mean |mean WP - observed win share| over the non-empty bins (criteria 12 and 20)
+n_wins,1,logistic,all,,,47548,96886,eligible Deliveries whose batting side won the match (label 1)
+log_loss,1,logistic,powerplay,,,0.664701,29227,"Pooled_Held_Out_Log_Loss of the calibrated Out_Of_Fold WP before the terminal rules, over the eligible Deliveries (kept result types, labelled, Training_Rows) of all folds, each probability clipped to [1e-15, 1 - 1e-15] (Requirement 10, criterion 12)"
+brier,1,logistic,powerplay,,,0.236252,29227,held-out Brier score: mean squared difference between the same WP and the label (criterion 12)
+auc,1,logistic,powerplay,,,0.632900,29227,held-out AUC of the same WP against the label (criterion 12)
+calibration_error,1,logistic,powerplay,,,0.007012,29227,Calibration_Error of the same rows' Calibration_Curve (10 equal-width WP bins): the Delivery-weighted mean |mean WP - observed win share| over the non-empty bins (criteria 12 and 20)
+n_wins,1,logistic,powerplay,,,14219,29227,eligible Deliveries whose batting side won the match (label 1)
+log_loss,1,logistic,middle,,,0.619866,43509,"Pooled_Held_Out_Log_Loss of the calibrated Out_Of_Fold WP before the terminal rules, over the eligible Deliveries (kept result types, labelled, Training_Rows) of all folds, each probability clipped to [1e-15, 1 - 1e-15] (Requirement 10, criterion 12)"
+brier,1,logistic,middle,,,0.216107,43509,held-out Brier score: mean squared difference between the same WP and the label (criterion 12)
+auc,1,logistic,middle,,,0.710275,43509,held-out AUC of the same WP against the label (criterion 12)
+calibration_error,1,logistic,middle,,,0.022537,43509,Calibration_Error of the same rows' Calibration_Curve (10 equal-width WP bins): the Delivery-weighted mean |mean WP - observed win share| over the non-empty bins (criteria 12 and 20)
+n_wins,1,logistic,middle,,,21235,43509,eligible Deliveries whose batting side won the match (label 1)
+log_loss,1,logistic,death,,,0.596958,24150,"Pooled_Held_Out_Log_Loss of the calibrated Out_Of_Fold WP before the terminal rules, over the eligible Deliveries (kept result types, labelled, Training_Rows) of all folds, each probability clipped to [1e-15, 1 - 1e-15] (Requirement 10, criterion 12)"
+brier,1,logistic,death,,,0.203398,24150,held-out Brier score: mean squared difference between the same WP and the label (criterion 12)
+auc,1,logistic,death,,,0.748591,24150,held-out AUC of the same WP against the label (criterion 12)
+calibration_error,1,logistic,death,,,0.027818,24150,Calibration_Error of the same rows' Calibration_Curve (10 equal-width WP bins): the Delivery-weighted mean |mean WP - observed win share| over the non-empty bins (criteria 12 and 20)
+n_wins,1,logistic,death,,,12094,24150,eligible Deliveries whose batting side won the match (label 1)
+in_fold_log_loss,1,logistic,,1,,0.627569,77475,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,1,logistic,,1,,0.586158,19411,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,1,logistic,,1,,-0.041411,19411,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,1,logistic,,1,,0.591807,19411,log loss of the calibrated WP on the fold's eligible Deliveries
+in_fold_log_loss,1,logistic,,2,,0.618307,77793,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,1,logistic,,2,,0.602955,19093,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,1,logistic,,2,,-0.015353,19093,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,1,logistic,,2,,0.606282,19093,log loss of the calibrated WP on the fold's eligible Deliveries
+in_fold_log_loss,1,logistic,,3,,0.601615,78219,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,1,logistic,,3,,0.666602,18667,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,1,logistic,,3,,0.064987,18667,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,1,logistic,,3,,0.662389,18667,log loss of the calibrated WP on the fold's eligible Deliveries
+in_fold_log_loss,1,logistic,,4,,0.616511,77374,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,1,logistic,,4,,0.612898,19512,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,1,logistic,,4,,-0.003613,19512,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,1,logistic,,4,,0.621633,19512,log loss of the calibrated WP on the fold's eligible Deliveries
+in_fold_log_loss,1,logistic,,5,,0.608602,76683,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,1,logistic,,5,,0.660495,20203,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,1,logistic,,5,,0.051893,20203,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,1,logistic,,5,,0.656144,20203,log loss of the calibrated WP on the fold's eligible Deliveries
+terminal_rows,1,logistic,,,innings_end,0,105727,"pre-ball Deliveries of the innings that the terminal rule flags (criteria 14-17): a chase rule sets the WP, while an innings_end state keeps the innings-1 classifier's WP (criterion 17)"
+terminal_rows_eligible,1,logistic,,,innings_end,0,96886,eligible pre-ball Deliveries that the terminal rule flags
+terminal_label_disagrees,1,logistic,,,innings_end,0,0,eligible pre-ball Deliveries flagged by the rule whose label differs from the final WP by 0.5 or more; the metrics above use the classifier WP on these rows
+log_loss,1,lgbm,all,,,0.676009,96886,"Pooled_Held_Out_Log_Loss of the calibrated Out_Of_Fold WP before the terminal rules, over the eligible Deliveries (kept result types, labelled, Training_Rows) of all folds, each probability clipped to [1e-15, 1 - 1e-15] (Requirement 10, criterion 12)"
+brier,1,lgbm,all,,,0.240169,96886,held-out Brier score: mean squared difference between the same WP and the label (criterion 12)
+auc,1,lgbm,all,,,0.622045,96886,held-out AUC of the same WP against the label (criterion 12)
+calibration_error,1,lgbm,all,,,0.024643,96886,Calibration_Error of the same rows' Calibration_Curve (10 equal-width WP bins): the Delivery-weighted mean |mean WP - observed win share| over the non-empty bins (criteria 12 and 20)
+n_wins,1,lgbm,all,,,47548,96886,eligible Deliveries whose batting side won the match (label 1)
+log_loss,1,lgbm,powerplay,,,0.701204,29227,"Pooled_Held_Out_Log_Loss of the calibrated Out_Of_Fold WP before the terminal rules, over the eligible Deliveries (kept result types, labelled, Training_Rows) of all folds, each probability clipped to [1e-15, 1 - 1e-15] (Requirement 10, criterion 12)"
+brier,1,lgbm,powerplay,,,0.253519,29227,held-out Brier score: mean squared difference between the same WP and the label (criterion 12)
+auc,1,lgbm,powerplay,,,0.545990,29227,held-out AUC of the same WP against the label (criterion 12)
+calibration_error,1,lgbm,powerplay,,,0.059465,29227,Calibration_Error of the same rows' Calibration_Curve (10 equal-width WP bins): the Delivery-weighted mean |mean WP - observed win share| over the non-empty bins (criteria 12 and 20)
+n_wins,1,lgbm,powerplay,,,14219,29227,eligible Deliveries whose batting side won the match (label 1)
+log_loss,1,lgbm,middle,,,0.672047,43509,"Pooled_Held_Out_Log_Loss of the calibrated Out_Of_Fold WP before the terminal rules, over the eligible Deliveries (kept result types, labelled, Training_Rows) of all folds, each probability clipped to [1e-15, 1 - 1e-15] (Requirement 10, criterion 12)"
+brier,1,lgbm,middle,,,0.238619,43509,held-out Brier score: mean squared difference between the same WP and the label (criterion 12)
+auc,1,lgbm,middle,,,0.631064,43509,held-out AUC of the same WP against the label (criterion 12)
+calibration_error,1,lgbm,middle,,,0.025790,43509,Calibration_Error of the same rows' Calibration_Curve (10 equal-width WP bins): the Delivery-weighted mean |mean WP - observed win share| over the non-empty bins (criteria 12 and 20)
+n_wins,1,lgbm,middle,,,21235,43509,eligible Deliveries whose batting side won the match (label 1)
+log_loss,1,lgbm,death,,,0.652657,24150,"Pooled_Held_Out_Log_Loss of the calibrated Out_Of_Fold WP before the terminal rules, over the eligible Deliveries (kept result types, labelled, Training_Rows) of all folds, each probability clipped to [1e-15, 1 - 1e-15] (Requirement 10, criterion 12)"
+brier,1,lgbm,death,,,0.226803,24150,held-out Brier score: mean squared difference between the same WP and the label (criterion 12)
+auc,1,lgbm,death,,,0.678960,24150,held-out AUC of the same WP against the label (criterion 12)
+calibration_error,1,lgbm,death,,,0.043608,24150,Calibration_Error of the same rows' Calibration_Curve (10 equal-width WP bins): the Delivery-weighted mean |mean WP - observed win share| over the non-empty bins (criteria 12 and 20)
+n_wins,1,lgbm,death,,,12094,24150,eligible Deliveries whose batting side won the match (label 1)
+in_fold_log_loss,1,lgbm,,1,,0.634431,62089,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,1,lgbm,,1,,0.649465,19411,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,1,lgbm,,1,,0.015034,19411,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,1,lgbm,,1,,0.662723,19411,log loss of the calibrated WP on the fold's eligible Deliveries
+in_fold_log_loss,1,lgbm,,2,,0.562110,62348,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,1,lgbm,,2,,0.685397,19093,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,1,lgbm,,2,,0.123288,19093,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,1,lgbm,,2,,0.677346,19093,log loss of the calibrated WP on the fold's eligible Deliveries
+in_fold_log_loss,1,lgbm,,3,,0.567372,62573,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,1,lgbm,,3,,0.690836,18667,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,1,lgbm,,3,,0.123464,18667,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,1,lgbm,,3,,0.690118,18667,log loss of the calibrated WP on the fold's eligible Deliveries
+in_fold_log_loss,1,lgbm,,4,,0.597515,61895,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,1,lgbm,,4,,0.649141,19512,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,1,lgbm,,4,,0.051626,19512,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,1,lgbm,,4,,0.673295,19512,log loss of the calibrated WP on the fold's eligible Deliveries
+in_fold_log_loss,1,lgbm,,5,,0.540881,61332,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,1,lgbm,,5,,0.691680,20203,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,1,lgbm,,5,,0.150799,20203,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,1,lgbm,,5,,0.677095,20203,log loss of the calibrated WP on the fold's eligible Deliveries
+terminal_rows,1,lgbm,,,innings_end,0,105727,"pre-ball Deliveries of the innings that the terminal rule flags (criteria 14-17): a chase rule sets the WP, while an innings_end state keeps the innings-1 classifier's WP (criterion 17)"
+terminal_rows_eligible,1,lgbm,,,innings_end,0,96886,eligible pre-ball Deliveries that the terminal rule flags
+terminal_label_disagrees,1,lgbm,,,innings_end,0,0,eligible pre-ball Deliveries flagged by the rule whose label differs from the final WP by 0.5 or more; the metrics above use the classifier WP on these rows
+log_loss,2,logistic,all,,,0.404792,88739,"Pooled_Held_Out_Log_Loss of the calibrated Out_Of_Fold WP before the terminal rules, over the eligible Deliveries (kept result types, labelled, Training_Rows) of all folds, each probability clipped to [1e-15, 1 - 1e-15] (Requirement 10, criterion 12)"
+brier,2,logistic,all,,,0.131639,88739,held-out Brier score: mean squared difference between the same WP and the label (criterion 12)
+auc,2,logistic,all,,,0.895461,88739,held-out AUC of the same WP against the label (criterion 12)
+calibration_error,2,logistic,all,,,0.009714,88739,Calibration_Error of the same rows' Calibration_Curve (10 equal-width WP bins): the Delivery-weighted mean |mean WP - observed win share| over the non-empty bins (criteria 12 and 20)
+n_wins,2,logistic,all,,,43391,88739,eligible Deliveries whose batting side won the match (label 1)
+log_loss,2,logistic,powerplay,,,0.516263,29110,"Pooled_Held_Out_Log_Loss of the calibrated Out_Of_Fold WP before the terminal rules, over the eligible Deliveries (kept result types, labelled, Training_Rows) of all folds, each probability clipped to [1e-15, 1 - 1e-15] (Requirement 10, criterion 12)"
+brier,2,logistic,powerplay,,,0.172610,29110,held-out Brier score: mean squared difference between the same WP and the label (criterion 12)
+auc,2,logistic,powerplay,,,0.821923,29110,held-out AUC of the same WP against the label (criterion 12)
+calibration_error,2,logistic,powerplay,,,0.021289,29110,Calibration_Error of the same rows' Calibration_Curve (10 equal-width WP bins): the Delivery-weighted mean |mean WP - observed win share| over the non-empty bins (criteria 12 and 20)
+n_wins,2,logistic,powerplay,,,14913,29110,eligible Deliveries whose batting side won the match (label 1)
+log_loss,2,logistic,middle,,,0.387047,42091,"Pooled_Held_Out_Log_Loss of the calibrated Out_Of_Fold WP before the terminal rules, over the eligible Deliveries (kept result types, labelled, Training_Rows) of all folds, each probability clipped to [1e-15, 1 - 1e-15] (Requirement 10, criterion 12)"
+brier,2,logistic,middle,,,0.124672,42091,held-out Brier score: mean squared difference between the same WP and the label (criterion 12)
+auc,2,logistic,middle,,,0.905783,42091,held-out AUC of the same WP against the label (criterion 12)
+calibration_error,2,logistic,middle,,,0.014958,42091,Calibration_Error of the same rows' Calibration_Curve (10 equal-width WP bins): the Delivery-weighted mean |mean WP - observed win share| over the non-empty bins (criteria 12 and 20)
+n_wins,2,logistic,middle,,,21076,42091,eligible Deliveries whose batting side won the match (label 1)
+log_loss,2,logistic,death,,,0.262360,17538,"Pooled_Held_Out_Log_Loss of the calibrated Out_Of_Fold WP before the terminal rules, over the eligible Deliveries (kept result types, labelled, Training_Rows) of all folds, each probability clipped to [1e-15, 1 - 1e-15] (Requirement 10, criterion 12)"
+brier,2,logistic,death,,,0.080353,17538,held-out Brier score: mean squared difference between the same WP and the label (criterion 12)
+auc,2,logistic,death,,,0.957846,17538,held-out AUC of the same WP against the label (criterion 12)
+calibration_error,2,logistic,death,,,0.018703,17538,Calibration_Error of the same rows' Calibration_Curve (10 equal-width WP bins): the Delivery-weighted mean |mean WP - observed win share| over the non-empty bins (criteria 12 and 20)
+n_wins,2,logistic,death,,,7402,17538,eligible Deliveries whose batting side won the match (label 1)
+in_fold_log_loss,2,logistic,,1,,0.404909,71123,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,2,logistic,,1,,0.364494,17616,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,2,logistic,,1,,-0.040415,17616,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,2,logistic,,1,,0.365682,17616,log loss of the calibrated WP on the fold's eligible Deliveries
+in_fold_log_loss,2,logistic,,2,,0.396634,71202,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,2,logistic,,2,,0.402380,17537,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,2,logistic,,2,,0.005746,17537,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,2,logistic,,2,,0.404791,17537,log loss of the calibrated WP on the fold's eligible Deliveries
+in_fold_log_loss,2,logistic,,3,,0.380628,71439,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,2,logistic,,3,,0.463283,17300,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,2,logistic,,3,,0.082654,17300,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,2,logistic,,3,,0.461841,17300,log loss of the calibrated WP on the fold's eligible Deliveries
+in_fold_log_loss,2,logistic,,4,,0.401989,70881,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,2,logistic,,4,,0.374563,17858,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,2,logistic,,4,,-0.027426,17858,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,2,logistic,,4,,0.380064,17858,log loss of the calibrated WP on the fold's eligible Deliveries
+in_fold_log_loss,2,logistic,,5,,0.396025,70311,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,2,logistic,,5,,0.410357,18428,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,2,logistic,,5,,0.014332,18428,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,2,logistic,,5,,0.412587,18428,log loss of the calibrated WP on the fold's eligible Deliveries
+terminal_rows,2,logistic,,,chase_won,249,95234,"pre-ball Deliveries of the innings that the terminal rule flags (criteria 14-17): a chase rule sets the WP, while an innings_end state keeps the innings-1 classifier's WP (criterion 17)"
+terminal_rows_eligible,2,logistic,,,chase_won,209,88739,eligible pre-ball Deliveries that the terminal rule flags
+terminal_label_disagrees,2,logistic,,,chase_won,1,209,eligible pre-ball Deliveries flagged by the rule whose label differs from the final WP by 0.5 or more; the metrics above use the classifier WP on these rows
+terminal_rows,2,logistic,,,chase_lost,0,95234,"pre-ball Deliveries of the innings that the terminal rule flags (criteria 14-17): a chase rule sets the WP, while an innings_end state keeps the innings-1 classifier's WP (criterion 17)"
+terminal_rows_eligible,2,logistic,,,chase_lost,0,88739,eligible pre-ball Deliveries that the terminal rule flags
+terminal_label_disagrees,2,logistic,,,chase_lost,0,0,eligible pre-ball Deliveries flagged by the rule whose label differs from the final WP by 0.5 or more; the metrics above use the classifier WP on these rows
+terminal_rows,2,logistic,,,chase_tied,0,95234,"pre-ball Deliveries of the innings that the terminal rule flags (criteria 14-17): a chase rule sets the WP, while an innings_end state keeps the innings-1 classifier's WP (criterion 17)"
+terminal_rows_eligible,2,logistic,,,chase_tied,0,88739,eligible pre-ball Deliveries that the terminal rule flags
+terminal_label_disagrees,2,logistic,,,chase_tied,0,0,eligible pre-ball Deliveries flagged by the rule whose label differs from the final WP by 0.5 or more; the metrics above use the classifier WP on these rows
+terminal_rows,2,logistic,,,chase_fraction,0,95234,"pre-ball Deliveries of the innings that the terminal rule flags (criteria 14-17): a chase rule sets the WP, while an innings_end state keeps the innings-1 classifier's WP (criterion 17)"
+terminal_rows_eligible,2,logistic,,,chase_fraction,0,88739,eligible pre-ball Deliveries that the terminal rule flags
+terminal_label_disagrees,2,logistic,,,chase_fraction,0,0,eligible pre-ball Deliveries flagged by the rule whose label differs from the final WP by 0.5 or more; the metrics above use the classifier WP on these rows
+log_loss,2,lgbm,all,,,0.415956,88739,"Pooled_Held_Out_Log_Loss of the calibrated Out_Of_Fold WP before the terminal rules, over the eligible Deliveries (kept result types, labelled, Training_Rows) of all folds, each probability clipped to [1e-15, 1 - 1e-15] (Requirement 10, criterion 12)"
+brier,2,lgbm,all,,,0.134457,88739,held-out Brier score: mean squared difference between the same WP and the label (criterion 12)
+auc,2,lgbm,all,,,0.890350,88739,held-out AUC of the same WP against the label (criterion 12)
+calibration_error,2,lgbm,all,,,0.016638,88739,Calibration_Error of the same rows' Calibration_Curve (10 equal-width WP bins): the Delivery-weighted mean |mean WP - observed win share| over the non-empty bins (criteria 12 and 20)
+n_wins,2,lgbm,all,,,43391,88739,eligible Deliveries whose batting side won the match (label 1)
+log_loss,2,lgbm,powerplay,,,0.523940,29110,"Pooled_Held_Out_Log_Loss of the calibrated Out_Of_Fold WP before the terminal rules, over the eligible Deliveries (kept result types, labelled, Training_Rows) of all folds, each probability clipped to [1e-15, 1 - 1e-15] (Requirement 10, criterion 12)"
+brier,2,lgbm,powerplay,,,0.175477,29110,held-out Brier score: mean squared difference between the same WP and the label (criterion 12)
+auc,2,lgbm,powerplay,,,0.816096,29110,held-out AUC of the same WP against the label (criterion 12)
+calibration_error,2,lgbm,powerplay,,,0.021536,29110,Calibration_Error of the same rows' Calibration_Curve (10 equal-width WP bins): the Delivery-weighted mean |mean WP - observed win share| over the non-empty bins (criteria 12 and 20)
+n_wins,2,lgbm,powerplay,,,14913,29110,eligible Deliveries whose batting side won the match (label 1)
+log_loss,2,lgbm,middle,,,0.398215,42091,"Pooled_Held_Out_Log_Loss of the calibrated Out_Of_Fold WP before the terminal rules, over the eligible Deliveries (kept result types, labelled, Training_Rows) of all folds, each probability clipped to [1e-15, 1 - 1e-15] (Requirement 10, criterion 12)"
+brier,2,lgbm,middle,,,0.127404,42091,held-out Brier score: mean squared difference between the same WP and the label (criterion 12)
+auc,2,lgbm,middle,,,0.900702,42091,held-out AUC of the same WP against the label (criterion 12)
+calibration_error,2,lgbm,middle,,,0.022182,42091,Calibration_Error of the same rows' Calibration_Curve (10 equal-width WP bins): the Delivery-weighted mean |mean WP - observed win share| over the non-empty bins (criteria 12 and 20)
+n_wins,2,lgbm,middle,,,21076,42091,eligible Deliveries whose batting side won the match (label 1)
+log_loss,2,lgbm,death,,,0.279299,17538,"Pooled_Held_Out_Log_Loss of the calibrated Out_Of_Fold WP before the terminal rules, over the eligible Deliveries (kept result types, labelled, Training_Rows) of all folds, each probability clipped to [1e-15, 1 - 1e-15] (Requirement 10, criterion 12)"
+brier,2,lgbm,death,,,0.083297,17538,held-out Brier score: mean squared difference between the same WP and the label (criterion 12)
+auc,2,lgbm,death,,,0.949896,17538,held-out AUC of the same WP against the label (criterion 12)
+calibration_error,2,lgbm,death,,,0.022826,17538,Calibration_Error of the same rows' Calibration_Curve (10 equal-width WP bins): the Delivery-weighted mean |mean WP - observed win share| over the non-empty bins (criteria 12 and 20)
+n_wins,2,lgbm,death,,,7402,17538,eligible Deliveries whose batting side won the match (label 1)
+in_fold_log_loss,2,lgbm,,1,,0.395758,57107,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,2,lgbm,,1,,0.378884,17616,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,2,lgbm,,1,,-0.016874,17616,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,2,lgbm,,1,,0.372197,17616,log loss of the calibrated WP on the fold's eligible Deliveries
+in_fold_log_loss,2,lgbm,,2,,0.398710,57183,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,2,lgbm,,2,,0.409139,17537,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,2,lgbm,,2,,0.010429,17537,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,2,lgbm,,2,,0.405368,17537,log loss of the calibrated WP on the fold's eligible Deliveries
+in_fold_log_loss,2,lgbm,,3,,0.372084,57150,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,2,lgbm,,3,,0.458100,17300,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,2,lgbm,,3,,0.086016,17300,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,2,lgbm,,3,,0.464833,17300,log loss of the calibrated WP on the fold's eligible Deliveries
+in_fold_log_loss,2,lgbm,,4,,0.395200,56913,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,2,lgbm,,4,,0.403916,17858,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,2,lgbm,,4,,0.008716,17858,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,2,lgbm,,4,,0.406672,17858,log loss of the calibrated WP on the fold's eligible Deliveries
+in_fold_log_loss,2,lgbm,,5,,0.389669,56367,log loss of the outer fit's raw output on the Deliveries it was fitted on: its Training_Rows other than the early-stopping matches (criterion 8)
+held_out_log_loss,2,lgbm,,5,,0.428896,18428,log loss of the outer fit's raw output on the fold's eligible Deliveries (criterion 8)
+held_out_minus_in_fold,2,lgbm,,5,,0.039227,18428,held-out minus in-fold log loss of the outer fit (criterion 8)
+held_out_log_loss_calibrated,2,lgbm,,5,,0.430974,18428,log loss of the calibrated WP on the fold's eligible Deliveries
+terminal_rows,2,lgbm,,,chase_won,249,95234,"pre-ball Deliveries of the innings that the terminal rule flags (criteria 14-17): a chase rule sets the WP, while an innings_end state keeps the innings-1 classifier's WP (criterion 17)"
+terminal_rows_eligible,2,lgbm,,,chase_won,209,88739,eligible pre-ball Deliveries that the terminal rule flags
+terminal_label_disagrees,2,lgbm,,,chase_won,1,209,eligible pre-ball Deliveries flagged by the rule whose label differs from the final WP by 0.5 or more; the metrics above use the classifier WP on these rows
+terminal_rows,2,lgbm,,,chase_lost,0,95234,"pre-ball Deliveries of the innings that the terminal rule flags (criteria 14-17): a chase rule sets the WP, while an innings_end state keeps the innings-1 classifier's WP (criterion 17)"
+terminal_rows_eligible,2,lgbm,,,chase_lost,0,88739,eligible pre-ball Deliveries that the terminal rule flags
+terminal_label_disagrees,2,lgbm,,,chase_lost,0,0,eligible pre-ball Deliveries flagged by the rule whose label differs from the final WP by 0.5 or more; the metrics above use the classifier WP on these rows
+terminal_rows,2,lgbm,,,chase_tied,0,95234,"pre-ball Deliveries of the innings that the terminal rule flags (criteria 14-17): a chase rule sets the WP, while an innings_end state keeps the innings-1 classifier's WP (criterion 17)"
+terminal_rows_eligible,2,lgbm,,,chase_tied,0,88739,eligible pre-ball Deliveries that the terminal rule flags
+terminal_label_disagrees,2,lgbm,,,chase_tied,0,0,eligible pre-ball Deliveries flagged by the rule whose label differs from the final WP by 0.5 or more; the metrics above use the classifier WP on these rows
+terminal_rows,2,lgbm,,,chase_fraction,0,95234,"pre-ball Deliveries of the innings that the terminal rule flags (criteria 14-17): a chase rule sets the WP, while an innings_end state keeps the innings-1 classifier's WP (criterion 17)"
+terminal_rows_eligible,2,lgbm,,,chase_fraction,0,88739,eligible pre-ball Deliveries that the terminal rule flags
+terminal_label_disagrees,2,lgbm,,,chase_fraction,0,0,eligible pre-ball Deliveries flagged by the rule whose label differs from the final WP by 0.5 or more; the metrics above use the classifier WP on these rows

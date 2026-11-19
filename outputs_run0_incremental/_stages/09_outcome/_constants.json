@@ -1,0 +1,47 @@
+{
+  "derived": {
+    "outcome.average_skill_by_fold": {
+      "component": "Outcome_Model",
+      "stage": "outcome",
+      "value": {
+        "1": {
+          "m1_fit": "m1_outer_k1",
+          "theta_bat": 1.5088242848811113,
+          "theta_bowl": 0.037124616616342344
+        },
+        "2": {
+          "m1_fit": "m1_outer_k2",
+          "theta_bat": 1.5160382768517706,
+          "theta_bowl": 0.040844189890985136
+        },
+        "3": {
+          "m1_fit": "m1_outer_k3",
+          "theta_bat": 1.5087662588137,
+          "theta_bowl": 0.0379162042239809
+        },
+        "4": {
+          "m1_fit": "m1_outer_k4",
+          "theta_bat": 1.5153074356933627,
+          "theta_bowl": 0.04488359225860912
+        },
+        "5": {
+          "m1_fit": "m1_outer_k5",
+          "theta_bat": 1.5148833588472297,
+          "theta_bowl": 0.04202523646183954
+        }
+      }
+    },
+    "outcome.outer_lgbm_best_iteration_by_fit": {
+      "component": "Outcome_Model",
+      "stage": "outcome",
+      "value": {
+        "m4_lgbm_outer_k1": 75,
+        "m4_lgbm_outer_k2": 75,
+        "m4_lgbm_outer_k3": 52,
+        "m4_lgbm_outer_k4": 65,
+        "m4_lgbm_outer_k5": 82
+      }
+    }
+  },
+  "version": 1
+}

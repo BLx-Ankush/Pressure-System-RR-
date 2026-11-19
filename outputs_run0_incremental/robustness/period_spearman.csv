@@ -1,0 +1,5 @@
+role,estimate,spearman,n_players,computed
+batter,clutch_level,-0.0016172507,105,True
+batter,uplift,-0.0275243624,105,True
+bowler,clutch_level,-0.0336051252,101,True
+bowler,uplift,-0.1509260338,101,True

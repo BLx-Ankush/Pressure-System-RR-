@@ -1,0 +1,479 @@
+{
+  "format_version": 1,
+  "run_id": "20261114T104235Z",
+  "status": "completed",
+  "exit_code": 0,
+  "started_utc": "2026-11-14T10:42:35.581194Z",
+  "ended_utc": "2026-11-14T10:45:33.706947Z",
+  "seconds": 178.123618,
+  "root": "D:\\Rajasthan Royals\\SupeRR Selector Season 2 _ Problem Statement _ Data Pack\\SupeRR Selector Season 2 _ Data Pack",
+  "argv": [
+    "--from-stage",
+    "win_prob"
+  ],
+  "files": {
+    "log": "run_20261114T104235Z.log",
+    "json": "run_20261114T104235Z.json",
+    "warnings": "warnings_20261114T104235Z.csv"
+  },
+  "python": {
+    "version": "3.11.9",
+    "implementation": "CPython",
+    "build": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "executable": "D:\\Rajasthan Royals\\SupeRR Selector Season 2 _ Problem Statement _ Data Pack\\SupeRR Selector Season 2 _ Data Pack\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "packages": [
+    {
+      "name": "pandas",
+      "pinned": "3.1.1",
+      "installed": "3.1.1"
+    },
+    {
+      "name": "numpy",
+      "pinned": "2.4.6",
+      "installed": "2.4.6"
+    },
+    {
+      "name": "scipy",
+      "pinned": "1.17.1",
+      "installed": "1.17.1"
+    },
+    {
+      "name": "scikit-learn",
+      "pinned": "1.9.1",
+      "installed": "1.9.1"
+    },
+    {
+      "name": "lightgbm",
+      "pinned": "4.7.0",
+      "installed": "4.7.0"
+    },
+    {
+      "name": "xgboost",
+      "pinned": "3.2.0",
+      "installed": "3.2.0"
+    },
+    {
+      "name": "matplotlib",
+      "pinned": "3.11.2",
+      "installed": "3.11.2"
+    },
+    {
+      "name": "python-docx",
+      "pinned": "1.2.0",
+      "installed": "1.2.0"
+    },
+    {
+      "name": "pytest",
+      "pinned": "9.2.0",
+      "installed": "9.2.0"
+    },
+    {
+      "name": "pyarrow",
+      "pinned": "26.0.1",
+      "installed": "26.0.1"
+    },
+    {
+      "name": "hypothesis",
+      "pinned": "6.170.15",
+      "installed": "6.170.15"
+    },
+    {
+      "name": "pypdf",
+      "pinned": "7.0.1",
+      "installed": "7.0.1"
+    }
+  ],
+  "config": {
+    "path": "config.py",
+    "sha256": "fdce6145a6742a41292fba554c5ca6a719b1fafb96749c3e6c083a749b0343e9"
+  },
+  "source_csvs": [
+    {
+      "name": "ball_by_ball",
+      "path": "ball_by_ball.csv",
+      "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889"
+    },
+    {
+      "name": "matches",
+      "path": "matches.csv",
+      "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef"
+    },
+    {
+      "name": "playing_eleven",
+      "path": "playing_eleven.csv",
+      "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27"
+    },
+    {
+      "name": "competitions",
+      "path": "competitions.csv",
+      "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b"
+    },
+    {
+      "name": "teams",
+      "path": "teams.csv",
+      "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d"
+    },
+    {
+      "name": "mapping",
+      "path": "competition_team_player_mapping.csv",
+      "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12"
+    }
+  ],
+  "protected_files": {
+    "start": [
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/ball_by_ball.csv",
+        "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competition_team_player_mapping.csv",
+        "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competitions.csv",
+        "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/matches.csv",
+        "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/plan.md",
+        "sha256": "18f6049a1d413607bb6be742b9a915e449b63b1c569fc0e6c824903da44b020f"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/playing_eleven.csv",
+        "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure1.md",
+        "sha256": "5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure2.md",
+        "sha256": "b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure3.md",
+        "sha256": "8a96dbcff9339bdbaa63782df9498156c392e2916895c41f048df4edccc51200"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/teams.csv",
+        "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d"
+      },
+      {
+        "path": "ball_by_ball.csv",
+        "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889"
+      },
+      {
+        "path": "competition_team_player_mapping.csv",
+        "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12"
+      },
+      {
+        "path": "competitions.csv",
+        "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b"
+      },
+      {
+        "path": "matches.csv",
+        "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef"
+      },
+      {
+        "path": "plan.md",
+        "sha256": "1d446d251f400df53a39be2d79963117d1d88268ae14a692d99a9de0edfc4507"
+      },
+      {
+        "path": "playing_eleven.csv",
+        "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27"
+      },
+      {
+        "path": "pressure1.md",
+        "sha256": "5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a"
+      },
+      {
+        "path": "pressure2.md",
+        "sha256": "b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04"
+      },
+      {
+        "path": "teams.csv",
+        "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d"
+      }
+    ],
+    "end": [
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/ball_by_ball.csv",
+        "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competition_team_player_mapping.csv",
+        "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competitions.csv",
+        "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/matches.csv",
+        "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/plan.md",
+        "sha256": "18f6049a1d413607bb6be742b9a915e449b63b1c569fc0e6c824903da44b020f",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/playing_eleven.csv",
+        "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure1.md",
+        "sha256": "5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure2.md",
+        "sha256": "b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure3.md",
+        "sha256": "8a96dbcff9339bdbaa63782df9498156c392e2916895c41f048df4edccc51200",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/teams.csv",
+        "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d",
+        "changed": false
+      },
+      {
+        "path": "ball_by_ball.csv",
+        "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889",
+        "changed": false
+      },
+      {
+        "path": "competition_team_player_mapping.csv",
+        "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12",
+        "changed": false
+      },
+      {
+        "path": "competitions.csv",
+        "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b",
+        "changed": false
+      },
+      {
+        "path": "matches.csv",
+        "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef",
+        "changed": false
+      },
+      {
+        "path": "plan.md",
+        "sha256": "1d446d251f400df53a39be2d79963117d1d88268ae14a692d99a9de0edfc4507",
+        "changed": false
+      },
+      {
+        "path": "playing_eleven.csv",
+        "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27",
+        "changed": false
+      },
+      {
+        "path": "pressure1.md",
+        "sha256": "5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a",
+        "changed": false
+      },
+      {
+        "path": "pressure2.md",
+        "sha256": "b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04",
+        "changed": false
+      },
+      {
+        "path": "teams.csv",
+        "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d",
+        "changed": false
+      }
+    ],
+    "changed": []
+  },
+  "current_stage": null,
+  "failed_stage": null,
+  "stages": [
+    {
+      "name": "win_prob",
+      "status": "completed",
+      "seconds": 59.012176,
+      "utc": "2026-11-14T10:43:36.506301Z"
+    },
+    {
+      "name": "outcome",
+      "status": "completed",
+      "seconds": 103.825961,
+      "utc": "2026-11-14T10:45:20.348808Z"
+    },
+    {
+      "name": "model_choice",
+      "status": "completed",
+      "seconds": 13.224641,
+      "utc": "2026-11-14T10:45:33.578832Z"
+    }
+  ],
+  "warnings": [
+    {
+      "utc": "2026-11-14T10:42:36.385952Z",
+      "stage": null,
+      "message": "the Config hash fdce6145a674 differs from the hash recorded with the saved outputs of load (4e557941bf8d), audit (4e557941bf8d), reconstruct (4e557941bf8d), state (4e557941bf8d), folds (4e557941bf8d), skill (4e557941bf8d), remaining_runs (994ab4009c40); those outputs are reused as they were saved"
+    }
+  ],
+  "errors": [],
+  "notes": [
+    {
+      "utc": "2026-11-14T10:42:36.280329Z",
+      "stage": null,
+      "message": "copied plan.md to docs/plan.md; both have sha256 1d446d251f400df53a39be2d79963117d1d88268ae14a692d99a9de0edfc4507"
+    },
+    {
+      "utc": "2026-11-14T10:42:37.075442Z",
+      "stage": null,
+      "message": "--from-stage win_prob: reloaded the fits saved by skill (31), remaining_runs (50) into the FitRegistry"
+    },
+    {
+      "utc": "2026-11-14T10:42:37.077913Z",
+      "stage": null,
+      "message": "--from-stage win_prob: reusing the saved outputs of load, audit, reconstruct, state, folds, skill, remaining_runs"
+    },
+    {
+      "utc": "2026-11-14T10:42:37.490729Z",
+      "stage": null,
+      "message": "running 3 Pipeline_Stage(s) in run order: win_prob, outcome, model_choice"
+    },
+    {
+      "utc": "2026-11-14T10:42:48.425056Z",
+      "stage": "win_prob",
+      "message": "M3 innings 1 logistic: 5 outer and 20 inner fits and 5 centred isotonic calibrators (62-80 knots) in 6.1 s; iterations kept 17-21 (outer), 12-20 (inner); held-out minus in-fold raw log loss per fold -0.0414 / -0.0154 / +0.0648 / -0.0041 / +0.0518 (criterion 8); calibrated held-out log loss per fold 0.5919 / 0.6063 / 0.6630 / 0.6217 / 0.6563"
+    },
+    {
+      "utc": "2026-11-14T10:43:09.231485Z",
+      "stage": "win_prob",
+      "message": "M3 innings 1 lgbm: 5 outer and 20 inner fits and 5 centred isotonic calibrators (22-36 knots) in 20.4 s; iterations kept 27-110 (outer), 1-230 (inner); held-out minus in-fold raw log loss per fold +0.0150 / +0.1233 / +0.1161 / +0.0541 / +0.1409 (criterion 8); calibrated held-out log loss per fold 0.6628 / 0.6884 / 0.6886 / 0.6677 / 0.6770"
+    },
+    {
+      "utc": "2026-11-14T10:43:15.389933Z",
+      "stage": "win_prob",
+      "message": "M3 innings 2 logistic: 5 outer and 20 inner fits and 5 centred isotonic calibrators (85-97 knots) in 6.0 s; iterations kept 22-26 (outer), 15-27 (inner); held-out minus in-fold raw log loss per fold -0.0392 / +0.0083 / +0.0783 / -0.0292 / +0.0159 (criterion 8); calibrated held-out log loss per fold 0.3671 / 0.4110 / 0.4633 / 0.3783 / 0.4133"
+    },
+    {
+      "utc": "2026-11-14T10:43:29.160835Z",
+      "stage": "win_prob",
+      "message": "M3 innings 2 lgbm: 5 outer and 20 inner fits and 5 centred isotonic calibrators (47-58 knots) in 13.2 s; iterations kept 58-106 (outer), 42-205 (inner); held-out minus in-fold raw log loss per fold -0.0135 / +0.0200 / +0.0845 / +0.0050 / +0.0427 (criterion 8); calibrated held-out log loss per fold 0.3752 / 0.4165 / 0.4640 / 0.4058 / 0.4342"
+    },
+    {
+      "utc": "2026-11-14T10:43:34.125644Z",
+      "stage": "win_prob",
+      "message": "chase-start states of 867 matches (criterion 17): 845 from the chasing side's first innings-2 Delivery and 22 built from the chasing XI (no innings-2 Delivery: matches 15410, 15546, 20226, 21406, 28333, 31707, 35424, 37353, 39983, 39985, 40748, 40751, 41975, 41979, 45390, 45908, 46311, 46747, 46749, 47968, 50136, 50408); RBQ missing in 0, Achievable_Rate missing in 0, TSG missing in 0"
+    },
+    {
+      "utc": "2026-11-14T10:43:34.127655Z",
+      "stage": "win_prob",
+      "message": "M3 Candidate_Models on their pooled Out_Of_Fold WP before the terminal rules (criterion 12; tests.calibration_error_max 0.05 applies to the Primary_Model, criterion 20): innings 1 logistic: log loss 0.6279, Brier 0.2191, AUC 0.7009, Calibration_Error 0.0101 (powerplay/middle/death 0.0073/0.0203/0.0233) on 96,886 eligible Deliveries; innings 1 lgbm: log loss 0.6768, Brier 0.2404, AUC 0.6221, Calibration_Error 0.0200 (powerplay/middle/death 0.0459/0.0242/0.0402) on 96,886 eligible Deliveries; innings 2 logistic: log loss 0.4064, Brier 0.1322, AUC 0.8945, Calibration_Error 0.0104 (powerplay/middle/death 0.0183/0.0182/0.0162) on 88,739 eligible Deliveries; innings 2 lgbm: log loss 0.4191, Brier 0.1354, AUC 0.8887, Calibration_Error 0.0166 (powerplay/middle/death 0.0178/0.0253/0.0226) on 88,739 eligible Deliveries"
+    },
+    {
+      "utc": "2026-11-14T10:43:34.137596Z",
+      "stage": "win_prob",
+      "message": "terminal pre-ball states (criteria 14-17): innings 1 logistic: innings_end 0 (0 eligible, 0 with a disagreeing label); innings 1 lgbm: innings_end 0 (0 eligible, 0 with a disagreeing label); innings 2 logistic: chase_won 249 (209 eligible, 1 with a disagreeing label), chase_lost 0 (0 eligible, 0 with a disagreeing label), chase_tied 0 (0 eligible, 0 with a disagreeing label), chase_fraction 0 (0 eligible, 0 with a disagreeing label); innings 2 lgbm: chase_won 249 (209 eligible, 1 with a disagreeing label), chase_lost 0 (0 eligible, 0 with a disagreeing label), chase_tied 0 (0 eligible, 0 with a disagreeing label), chase_fraction 0 (0 eligible, 0 with a disagreeing label)"
+    },
+    {
+      "utc": "2026-11-14T10:43:34.143210Z",
+      "stage": "win_prob",
+      "message": "wrote outputs/models/m3/metrics.csv, outputs/models/m3/fold_metrics.csv, outputs/models/m3/calibration_curve_inn1.csv, outputs/models/m3/calibration_curve_inn1.png, outputs/models/m3/calibration_curve_inn2.csv, outputs/models/m3/calibration_curve_inn2.png; saved wp_inn1_logistic, wp_inn1_lgbm, wp_inn2_logistic, wp_inn2_lgbm, chase_start, m3_labels, m3_fits, m3_fold_metrics, 120 models and calibrators under their fit ids and the fit registry (120 fits) in 56.6 s"
+    },
+    {
+      "utc": "2026-11-14T10:45:19.631898Z",
+      "stage": "outcome",
+      "message": "M4 lgbm: 5 outer multiclass fits (9 classes; Requirement 11, criteria 1-3) in 51.1 s on 144,241-145,985 Training_Rows each (trainable Legal_Balls of the other folds, 13,927-14,646 of them in the early-stopping matches); boosting rounds kept 73/70/55/61/70 (folds 1/2/3/4/5); Average_Skill theta_bat 1.5088/1.5160/1.5088/1.5153/1.5149 and theta_bowl 0.0371/0.0408/0.0379/0.0449/0.0420 (typical player of M1(-k)); Class_Run_Values per fold: other_runs 5.000/5.000/5.000/5.000/5.000; bowler_wicket 0.000/0.000/0.000/0.000/0.000; run_out 0.444/0.427/0.424/0.423/0.441"
+    },
+    {
+      "utc": "2026-11-14T10:45:19.638144Z",
+      "stage": "outcome",
+      "message": "M4 held-out metrics on 181,591 trainable Legal_Balls (criterion 6): pooled multiclass log loss 1.48334 against 1.51138 for the Phase-only baseline (-0.02804); mean expected minus actual bat runs per Phase x Wickets_Bucket cell from -0.0541 to +0.7799 (largest: powerplay x 6-9 wickets, +0.7799 on 13 Legal_Balls)"
+    },
+    {
+      "utc": "2026-11-14T10:45:19.642161Z",
+      "stage": "outcome",
+      "message": "M4 variants actual, avg_both, batter_view, batter_view_fh, bowler_view, bowler_view_nofh predicted for 200,961 innings 1-2 Deliveries (8,549 of them Wides and No_Balls) in 40.4 s; every saved float32 row sums to 1 within 5.3e-08 (Requirement 11, criterion 5)"
+    },
+    {
+      "utc": "2026-11-14T10:45:19.649015Z",
+      "stage": "outcome",
+      "message": "Extras_Model: 5 outer multinomial logistic fits (legal/wide/no_ball; no bowler feature; Requirement 11, criteria 4 and 16) in 5.7 s on 150,628-152,427 Training_Rows each (every trainable Delivery of the other folds); lbfgs iterations 20/20/21/20/20; pooled held-out log loss 0.18745 against 0.18803 for the innings x Phase cell baseline on 189,648 trainable Deliveries; Wide rate 0.0383 actual and 0.0384 predicted, No_Ball rate 0.0041 actual and 0.0042 predicted; over all 200,961 Deliveries p_wide 0.0202-0.1650, p_noball 0.0012-0.0583, largest p_wide + p_noball 0.2100"
+    },
+    {
+      "utc": "2026-11-14T10:45:19.656646Z",
+      "stage": "outcome",
+      "message": "wrote outputs/models/m4/log_loss.csv, outputs/models/m4/expected_runs_by_phase_wickets.csv, outputs/models/m4/fold_models.csv, outputs/models/extras/log_loss.csv, outputs/models/extras/rates_by_cell.csv, outputs/models/extras/fold_models.csv; saved m4_lgbm, m4_lgbm_fold_models, m4_class_run_values, extras_preds, extras_fold_models, 10 models under their fit ids and the fit registry (10 fits) in 103.1 s"
+    },
+    {
+      "utc": "2026-11-14T10:45:33.228826Z",
+      "stage": "model_choice",
+      "message": "PostStates(200,961 Deliveries; states innings 1: 951,543, innings 2: 857,106; 189,884 M2 predictions): built once in 3.1 s with the views checked (Requirement 11, criterion 15) and shared by every M3 candidate; terminal rules of the Post_Outcome_States (Requirement 10, criteria 14-17), the same for every candidate: innings 1: none 942,324, innings_end 9,219; innings 2: none 845,340, chase_won 6,455, chase_lost 5,229, chase_tied 69, chase_fraction 13; 9,219 innings-1 states end the innings (0 pre-ball), each taking 1 - WP2 of its chase start from the M3-2 Primary_Model"
+    },
+    {
+      "utc": "2026-11-14T10:45:33.234147Z",
+      "stage": "model_choice",
+      "message": "M3 innings 2 logistic: WP of 857,106 Post_Outcome_States in 0.7 s; checks passed"
+    },
+    {
+      "utc": "2026-11-14T10:45:33.236158Z",
+      "stage": "model_choice",
+      "message": "M3 innings 2 lgbm: WP of 857,106 Post_Outcome_States in 1.5 s; checks passed"
+    },
+    {
+      "utc": "2026-11-14T10:45:33.240713Z",
+      "stage": "model_choice",
+      "message": "M3 innings 1 logistic: WP of 951,543 Post_Outcome_States in 0.9 s; checks passed"
+    },
+    {
+      "utc": "2026-11-14T10:45:33.242865Z",
+      "stage": "model_choice",
+      "message": "M3 innings 1 lgbm: WP of 951,543 Post_Outcome_States in 1.7 s; checks passed"
+    },
+    {
+      "utc": "2026-11-14T10:45:33.250236Z",
+      "stage": "model_choice",
+      "message": "model comparison (Requirement 23, criteria 5-8; M3 on the eligible Deliveries of each innings, M4 on the trainable Legal_Balls; Phase-only baseline log loss of M4: lgbm 1.51138): M3-1 logistic: log loss 0.62786, Brier 0.21907, AUC 0.7009, calibration error 0.0101 on 96,886 rows [Primary_Model]; M3-1 lgbm: log loss 0.67676, Brier 0.24037, AUC 0.6221, calibration error 0.0200 on 96,886 rows; M3-2 logistic: log loss 0.40639, Brier 0.13220, AUC 0.8945, calibration error 0.0104 on 88,739 rows [Primary_Model]; M3-2 lgbm: log loss 0.41907, Brier 0.13543, AUC 0.8887, calibration error 0.0166 on 88,739 rows; M4 lgbm: log loss 1.48334, calibration error 0.0264 runs per Legal_Ball on 181,591 rows [Primary_Model]"
+    },
+    {
+      "utc": "2026-11-14T10:45:33.253742Z",
+      "stage": "model_choice",
+      "message": "Primary_Models (Requirement 23, criteria 7-9): M3-1 logistic, M3-2 logistic, M4 lgbm; ties within math.isclose(rel_tol=1e-09, abs_tol=1e-09) go to the first of logistic, lgbm, xgb, rf (M3) and lgbm, xgb, rf (M4)"
+    },
+    {
+      "utc": "2026-11-14T10:45:33.257805Z",
+      "stage": "model_choice",
+      "message": "M3 innings 1: the logistic baseline has the lowest pooled log loss, so the simpler model is the Primary_Model (plan addendum: if LightGBM does not beat the logistic baseline, the simpler model is used)"
+    },
+    {
+      "utc": "2026-11-14T10:45:33.262567Z",
+      "stage": "model_choice",
+      "message": "M3 innings 2: the logistic baseline has the lowest pooled log loss, so the simpler model is the Primary_Model (plan addendum: if LightGBM does not beat the logistic baseline, the simpler model is used)"
+    },
+    {
+      "utc": "2026-11-14T10:45:33.266780Z",
+      "stage": "model_choice",
+      "message": "every saved wp_pre and wp_post value is finite and within [0, 1] (Requirement 10, criterion 13): innings 1 logistic [0.0010, 0.9990], innings 1 lgbm [0.0052, 0.9990], innings 2 logistic [0.0000, 1.0000], innings 2 lgbm [0.0000, 1.0000]"
+    },
+    {
+      "utc": "2026-11-14T10:45:33.269473Z",
+      "stage": "model_choice",
+      "message": "WP curve of match 40767 (Requirement 10, criterion 18): 252 Deliveries, WP of the side batting first from 0.341 to 0.999, 0.428 before the first ball and 0.999 before the last"
+    },
+    {
+      "utc": "2026-11-14T10:45:33.281345Z",
+      "stage": "model_choice",
+      "message": "wrote outputs/models/model_choice/model_comparison.csv, outputs/models/model_choice/m3_calibration_curve_inn1.csv, outputs/models/model_choice/m3_calibration_curve_inn1.png, outputs/models/model_choice/m3_calibration_curve_inn2.csv, outputs/models/model_choice/m3_calibration_curve_inn2.png, outputs/models/model_choice/m4_expected_runs_by_phase_wickets.csv, outputs/models/m3/wp_curve_40767.csv, outputs/models/m3/wp_curve_40767.png; saved rows, wp_inn1_logistic, wp_inn1_lgbm, wp_inn2_logistic, wp_inn2_lgbm, chase_wp, prediction_tables, model_comparison, m3_calibration_curves, m4_expected_runs, post_terminal_rules and the fit registry (0 fits) in 12.9 s"
+    }
+  ]
+}

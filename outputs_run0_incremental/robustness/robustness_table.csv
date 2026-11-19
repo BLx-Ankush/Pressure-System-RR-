@@ -1,0 +1,107 @@
+case,kind,target_id,setting,layer,role,n_eligible_case,n_eligible_main,n_common,spearman,overlap,comparable,is_default,entering_ids,entering_names,leaving_ids,leaving_names
+leverage removed (alpha = 0),ablation,F17,PI from the Stress rank only (alpha 0),pressure,batter,117,130,103,0.7296160436,5,True,False,49003; 4736; 6280; 37052; 838,Hasan Nawaz; Josh Inglis; Harry Brook; Naman Dhir; Glenn Maxwell,6281; 5553; 5039; 1318; 1699,Abhishek Sharma; Phil Salt; Rajat Patidar; Andre Russell; Suryakumar Yadav
+leverage removed (alpha = 0),ablation,F17,PI from the Stress rank only (alpha 0),pressure,bowler,137,139,130,0.9225061110,9,True,False,6464,Arshdeep Singh,19316,Maheesh Theekshana
+Stress removed (alpha = 1),ablation,F19-F26,PI from the LI rank only (alpha 1),pressure,batter,127,130,118,0.7289450330,6,True,False,50284; 3125; 3647; 4736,Vaibhav Sooryavanshi; Nicholas Pooran; Shreyas Iyer; Josh Inglis,4755; 813; 4106; 1318,Shivam Dube; Jos Buttler; Daryl Mitchell; Andre Russell
+Stress removed (alpha = 1),ablation,F19-F26,PI from the LI rank only (alpha 1),pressure,bowler,134,139,129,0.8415529964,8,True,False,152; 6464,Ravindra Jadeja; Arshdeep Singh,39657; 2633,Eshan Malinga; Jason Holder
+F19 removed,ablation,D5,F19 (batter scoreboard deficit) removed,pressure,batter,134,130,129,0.9460252683,8,True,False,838; 4736,Glenn Maxwell; Josh Inglis,4106; 1318,Daryl Mitchell; Andre Russell
+F19 removed,ablation,D5,F19 (batter scoreboard deficit) removed,pressure,bowler,139,139,139,1.0000000000,10,True,False,,,,
+F20 removed,ablation,D5,F20 (batter wickets and depth) removed,pressure,batter,133,130,124,0.9523902439,6,True,False,4847; 50284; 838; 4736,Finn Allen; Vaibhav Sooryavanshi; Glenn Maxwell; Josh Inglis,4106; 5039; 1318; 1699,Daryl Mitchell; Rajat Patidar; Andre Russell; Suryakumar Yadav
+F20 removed,ablation,D5,F20 (batter wickets and depth) removed,pressure,bowler,139,139,139,1.0000000000,10,True,False,,,,
+F21 removed,ablation,D5,F21 (batter new at the crease) removed,pressure,batter,124,130,122,0.7805175450,7,True,False,818; 7897; 3647,Mitchell Marsh; Namboori Tilak Varma; Shreyas Iyer,4755; 4106; 1318,Shivam Dube; Daryl Mitchell; Andre Russell
+F21 removed,ablation,D5,F21 (batter new at the crease) removed,pressure,bowler,139,139,139,1.0000000000,10,True,False,,,,
+F22 removed,ablation,D5,F22 (batter squeeze) removed,pressure,batter,130,130,126,0.9227296588,8,True,False,4736; 818,Josh Inglis; Mitchell Marsh,4106; 1318,Daryl Mitchell; Andre Russell
+F22 removed,ablation,D5,F22 (batter squeeze) removed,pressure,bowler,139,139,139,1.0000000000,10,True,False,,,,
+F23 removed,ablation,D5,F23 (bowler scoreboard threat) removed,pressure,batter,130,130,130,1.0000000000,10,True,False,,,,
+F23 removed,ablation,D5,F23 (bowler scoreboard threat) removed,pressure,bowler,135,139,135,0.8990732611,8,True,False,6450; 3644,Mujeeb Ur Rahman; Kuldeep Yadav,2633; 19316,Jason Holder; Maheesh Theekshana
+F24 removed,ablation,D5,F24 (bowler batter threat) removed,pressure,batter,130,130,130,1.0000000000,10,True,False,,,,
+F24 removed,ablation,D5,F24 (bowler batter threat) removed,pressure,bowler,141,139,138,0.9606702451,9,True,False,6464,Arshdeep Singh,19316,Maheesh Theekshana
+F25 removed,ablation,D5,F25 (bowler over going badly) removed,pressure,batter,130,130,130,1.0000000000,10,True,False,,,,
+F25 removed,ablation,D5,F25 (bowler over going badly) removed,pressure,bowler,140,139,138,0.9269251054,9,True,False,152,Ravindra Jadeja,781,Sunil Narine
+F26 removed,ablation,D5,F26 (bowler wicket drought) removed,pressure,batter,130,130,130,1.0000000000,10,True,False,,,,
+F26 removed,ablation,D5,F26 (bowler wicket drought) removed,pressure,bowler,139,139,135,0.9803677690,9,True,False,6464,Arshdeep Singh,2633,Jason Holder
+opposition adjustment removed,ablation,F28,"Expected_Values for an average batter and an average bowler (avg_both), Extras_Model term unchanged",value,batter,130,130,130,0.9987054309,9,True,False,818,Mitchell Marsh,5039,Rajat Patidar
+opposition adjustment removed,ablation,F28,"Expected_Values for an average batter and an average bowler (avg_both), Extras_Model term unchanged",value,bowler,139,139,139,0.9899012467,10,True,False,,,,
+Venue_Effect and Match_Day_Conditions removed,ablation,F11+F12,"both 0 on every Delivery; M2, M3, M4 and Extras_Model re-predicted",value,batter,131,130,126,0.8258717660,6,True,False,47; 23450; 2367; 7897,Virat Kohli; Sai Sudharsan; Travis Head; Namboori Tilak Varma,5553; 4106; 5039; 1699,Phil Salt; Daryl Mitchell; Rajat Patidar; Suryakumar Yadav
+Venue_Effect and Match_Day_Conditions removed,ablation,F11+F12,"both 0 on every Delivery; M2, M3, M4 and Extras_Model re-predicted",value,bowler,140,139,136,0.8775201565,8,True,False,6523; 2984,Blessing Muzarabani; Sikandar Raza,39657; 19316,Eshan Malinga; Maheesh Theekshana
+Recency_Weight = 1,ablation,F33,Recency_Weight 1 for every Delivery,rating,batter,130,130,130,0.9629272556,8,True,False,3297; 2258,Shimron Hetmyer; Sanju Samson,4106; 1318,Daryl Mitchell; Andre Russell
+Recency_Weight = 1,ablation,F33,Recency_Weight 1 for every Delivery,rating,bowler,139,139,139,0.9351668975,9,True,False,3644,Kuldeep Yadav,2633,Jason Holder
+Stakes_Weight = 1,ablation,F34,Stakes_Weight 1 for every match,rating,batter,130,130,130,0.9987054309,10,True,False,,,,
+Stakes_Weight = 1,ablation,F34,Stakes_Weight 1 for every match,rating,bowler,139,139,139,0.9989543769,10,True,False,,,,
+live band removed,ablation,F18,every Delivery a Live_Ball,pressure,batter,138,130,130,0.9014215680,6,True,False,49003; 818; 4736; 6819,Hasan Nawaz; Mitchell Marsh; Josh Inglis; Yashasvi Jaiswal,4755; 813; 4106; 1318,Shivam Dube; Jos Buttler; Daryl Mitchell; Andre Russell
+live band removed,ablation,F18,every Delivery a Live_Ball,pressure,bowler,149,139,139,0.5974529693,4,True,False,5189; 6450; 7967; 305; 2636; 4641,Faheem Ashraf; Mujeeb Ur Rahman; Noor Ahmad; Ravichandran Ashwin; Adam Zampa; Lungi Ngidi,6256; 4722; 4373; 2933; 2633; 19316,Varun Chakravarthy; Rashid Khan; Mustafizur Rahman; Jasprit Bumrah; Jason Holder; Maheesh Theekshana
+D2 alpha = 0,sensitivity,D2,alpha 0,pressure,batter,117,130,103,0.7296160436,5,True,False,49003; 4736; 6280; 37052; 838,Hasan Nawaz; Josh Inglis; Harry Brook; Naman Dhir; Glenn Maxwell,6281; 5553; 5039; 1318; 1699,Abhishek Sharma; Phil Salt; Rajat Patidar; Andre Russell; Suryakumar Yadav
+D2 alpha = 0,sensitivity,D2,alpha 0,pressure,bowler,137,139,130,0.9225061110,9,True,False,6464,Arshdeep Singh,19316,Maheesh Theekshana
+D2 alpha = 0.33,sensitivity,D2,alpha 0.33,pressure,batter,125,130,117,0.7825682986,5,True,False,7216; 7897; 4736; 2921; 167,Prabhsimran Singh; Namboori Tilak Varma; Josh Inglis; Fakhar Zaman; Ajinkya Rahane,4755; 4106; 5039; 1318; 1699,Shivam Dube; Daryl Mitchell; Rajat Patidar; Andre Russell; Suryakumar Yadav
+D2 alpha = 0.33,sensitivity,D2,alpha 0.33,pressure,bowler,139,139,135,0.9612671934,9,True,False,6450,Mujeeb Ur Rahman,19316,Maheesh Theekshana
+D2 alpha = 0.5,sensitivity,D2,alpha 0.5,pressure,batter,130,130,130,1.0000000000,10,True,True,,,,
+D2 alpha = 0.5,sensitivity,D2,alpha 0.5,pressure,bowler,139,139,139,1.0000000000,10,True,True,,,,
+D2 alpha = 0.67,sensitivity,D2,alpha 0.67,pressure,batter,130,130,126,0.8997945257,9,True,False,4847,Finn Allen,1318,Andre Russell
+D2 alpha = 0.67,sensitivity,D2,alpha 0.67,pressure,bowler,135,139,133,0.9317187133,9,True,False,3644,Kuldeep Yadav,2633,Jason Holder
+D2 alpha = 1,sensitivity,D2,alpha 1,pressure,batter,127,130,118,0.7289450330,6,True,False,50284; 3125; 3647; 4736,Vaibhav Sooryavanshi; Nicholas Pooran; Shreyas Iyer; Josh Inglis,4755; 813; 4106; 1318,Shivam Dube; Jos Buttler; Daryl Mitchell; Andre Russell
+D2 alpha = 1,sensitivity,D2,alpha 1,pressure,bowler,134,139,129,0.8415529964,8,True,False,152; 6464,Ravindra Jadeja; Arshdeep Singh,39657; 2633,Eshan Malinga; Jason Holder
+D3 share = 20%,sensitivity,D3,20% of Live_Balls,pressure,batter,106,130,106,0.9529939290,8,True,False,818; 23450,Mitchell Marsh; Sai Sudharsan,5039; 1318,Rajat Patidar; Andre Russell
+D3 share = 20%,sensitivity,D3,20% of Live_Balls,pressure,bowler,115,139,115,0.6256056182,3,True,False,5944; 4641; 479; 7967; 6450; 4219; 2320,Mohammed Siraj; Lungi Ngidi; Adil Rashid; Noor Ahmad; Mujeeb Ur Rahman; Krunal Pandya; Trent Boult,6256; 4722; 4373; 4900; 39657; 2633; 19316,Varun Chakravarthy; Rashid Khan; Mustafizur Rahman; Wanindu Hasaranga; Eshan Malinga; Jason Holder; Maheesh Theekshana
+D3 share = 25%,sensitivity,D3,25% of Live_Balls,pressure,batter,130,130,130,1.0000000000,10,True,True,,,,
+D3 share = 25%,sensitivity,D3,25% of Live_Balls,pressure,bowler,139,139,139,1.0000000000,10,True,True,,,,
+D3 share = 30%,sensitivity,D3,30% of Live_Balls,pressure,batter,142,130,130,0.9548921875,8,True,False,4847; 3297,Finn Allen; Shimron Hetmyer,4106; 1318,Daryl Mitchell; Andre Russell
+D3 share = 30%,sensitivity,D3,30% of Live_Balls,pressure,bowler,149,139,139,0.5932391975,3,True,False,7696; 5189; 2636; 6450; 7967; 4219; 479,Mohammad Wasim; Faheem Ashraf; Adam Zampa; Mujeeb Ur Rahman; Noor Ahmad; Krunal Pandya; Adil Rashid,6256; 4722; 4373; 2933; 39657; 2633; 19316,Varun Chakravarthy; Rashid Khan; Mustafizur Rahman; Jasprit Bumrah; Eshan Malinga; Jason Holder; Maheesh Theekshana
+D1 b = 0.03,sensitivity,D1,WP 0.03 to 0.97,pressure,batter,133,130,130,0.9932321894,9,True,False,3297,Shimron Hetmyer,1318,Andre Russell
+D1 b = 0.03,sensitivity,D1,WP 0.03 to 0.97,pressure,bowler,141,139,139,0.9920595201,10,True,False,,,,
+D1 b = 0.05,sensitivity,D1,WP 0.05 to 0.95,pressure,batter,130,130,130,1.0000000000,10,True,True,,,,
+D1 b = 0.05,sensitivity,D1,WP 0.05 to 0.95,pressure,bowler,139,139,139,1.0000000000,10,True,True,,,,
+D1 b = 0.1,sensitivity,D1,WP 0.1 to 0.9,pressure,batter,127,130,127,0.9728100394,9,True,False,818,Mitchell Marsh,1699,Suryakumar Yadav
+D1 b = 0.1,sensitivity,D1,WP 0.1 to 0.9,pressure,bowler,131,139,131,0.9855815940,10,True,False,,,,
+D9 half-life = no decay,sensitivity,D9,no decay,rating,batter,130,130,130,0.9629272556,8,True,False,3297; 2258,Shimron Hetmyer; Sanju Samson,4106; 1318,Daryl Mitchell; Andre Russell
+D9 half-life = no decay,sensitivity,D9,no decay,rating,bowler,139,139,139,0.9351668975,9,True,False,3644,Kuldeep Yadav,2633,Jason Holder
+D9 half-life = 3 years,sensitivity,D9,3 years,rating,batter,130,130,130,1.0000000000,10,True,True,,,,
+D9 half-life = 3 years,sensitivity,D9,3 years,rating,bowler,139,139,139,1.0000000000,10,True,True,,,,
+D9 half-life = 1.5 years,sensitivity,D9,1.5 years,rating,batter,130,130,130,0.9772931489,8,True,False,4853; 4736,Glenn Phillips; Josh Inglis,5039; 1699,Rajat Patidar; Suryakumar Yadav
+D9 half-life = 1.5 years,sensitivity,D9,1.5 years,rating,bowler,139,139,139,0.9071450914,8,True,False,6450; 4219,Mujeeb Ur Rahman; Krunal Pandya,4722; 19316,Rashid Khan; Maheesh Theekshana
+D10 knockout = 1,sensitivity,D10,knockout Stakes_Weight 1,rating,batter,130,130,130,0.9987054309,10,True,False,,,,
+D10 knockout = 1,sensitivity,D10,knockout Stakes_Weight 1,rating,bowler,139,139,139,0.9989543769,10,True,False,,,,
+D10 knockout = 1.25,sensitivity,D10,knockout Stakes_Weight 1.25,rating,batter,130,130,130,1.0000000000,10,True,True,,,,
+D10 knockout = 1.25,sensitivity,D10,knockout Stakes_Weight 1.25,rating,bowler,139,139,139,1.0000000000,10,True,True,,,,
+D10 knockout = 1.5,sensitivity,D10,knockout Stakes_Weight 1.5,rating,batter,130,130,130,0.9988856874,10,True,False,,,,
+D10 knockout = 1.5,sensitivity,D10,knockout Stakes_Weight 1.5,rating,bowler,139,139,139,0.9993878189,10,True,False,,,,
+blend w_L = 1,sensitivity,F40,"fixed w_L 1, w_U 0",rating,batter,130,130,130,1.0000000000,10,True,False,,,,
+blend w_L = 1,sensitivity,F40,"fixed w_L 1, w_U 0",rating,bowler,139,139,139,1.0000000000,10,True,False,,,,
+blend w_L = 0.7,sensitivity,F40,"fixed w_L 0.7, w_U 0.3",rating,batter,130,130,130,1.0000000000,10,True,False,,,,
+blend w_L = 0.7,sensitivity,F40,"fixed w_L 0.7, w_U 0.3",rating,bowler,139,139,139,1.0000000000,10,True,False,,,,
+blend w_L = 0.5,sensitivity,F40,"fixed w_L 0.5, w_U 0.5",rating,batter,130,130,130,1.0000000000,10,True,False,,,,
+blend w_L = 0.5,sensitivity,F40,"fixed w_L 0.5, w_U 0.5",rating,bowler,139,139,139,1.0000000000,10,True,False,,,,
+Z-score blend,zscore,F42,"Role_Z of shrunk Clutch_Level and of shrunk Uplift, with the Main_Ranking's Blend_Weights (batter w_L 1.000, bowler w_L 0.657)",rating,batter,130,130,130,1.0000000000,10,True,False,,,,
+Z-score blend,zscore,F42,"Role_Z of shrunk Clutch_Level and of shrunk Uplift, with the Main_Ranking's Blend_Weights (batter w_L 1.000, bowler w_L 0.657)",rating,bowler,139,139,139,1.0000000000,10,True,False,,,,
+D4 scope = pooled,alternative,D4,pooled over both Innings_Groups,pressure,batter,131,130,129,0.9698009839,9,True,False,3297,Shimron Hetmyer,1699,Suryakumar Yadav
+D4 scope = pooled,alternative,D4,pooled over both Innings_Groups,pressure,bowler,141,139,137,0.9783402095,9,True,False,6523,Blessing Muzarabani,19316,Maheesh Theekshana
+D6 window = 12,alternative,D6,12 Legal_Balls,state,batter,133,130,130,0.9860547051,9,True,False,818,Mitchell Marsh,5039,Rajat Patidar
+D6 window = 12,alternative,D6,12 Legal_Balls,state,bowler,139,139,139,0.9361231512,8,True,False,7967; 479,Noor Ahmad; Adil Rashid,2633; 19316,Jason Holder; Maheesh Theekshana
+D6 window = 24,alternative,D6,24 Legal_Balls,state,batter,130,130,130,0.9920195551,9,True,False,818,Mitchell Marsh,1699,Suryakumar Yadav
+D6 window = 24,alternative,D6,24 Legal_Balls,state,bowler,139,139,138,0.9208975568,7,True,False,6450; 7967; 479,Mujeeb Ur Rahman; Noor Ahmad; Adil Rashid,4373; 2633; 19316,Mustafizur Rahman; Jason Holder; Maheesh Theekshana
+D7 cap = 10,alternative,D7,10 Legal_Balls,pressure,batter,128,130,128,0.9883949826,9,True,False,4736,Josh Inglis,1318,Andre Russell
+D7 cap = 10,alternative,D7,10 Legal_Balls,pressure,bowler,139,139,139,1.0000000000,10,True,False,,,,
+D7 cap = 30,alternative,D7,30 Legal_Balls,pressure,batter,131,130,130,0.9972251430,9,True,False,3297,Shimron Hetmyer,1699,Suryakumar Yadav
+D7 cap = 30,alternative,D7,30 Legal_Balls,pressure,bowler,139,139,139,1.0000000000,10,True,False,,,,
+D8 splits = 0.25 / 0.8,alternative,D8,0.25 / 0.8 of Scheduled_Balls,value,batter,130,130,130,0.9673845061,9,True,False,3297,Shimron Hetmyer,1318,Andre Russell
+D8 splits = 0.25 / 0.8,alternative,D8,0.25 / 0.8 of Scheduled_Balls,value,bowler,139,139,139,0.9402520220,10,True,False,,,,
+D11 minimum = 45,alternative,D11,45 Pressure_Balls in both Roles,rating,batter,187,130,130,0.7226890986,5,True,False,50284; 4847; 818; 7897; 6819,Vaibhav Sooryavanshi; Finn Allen; Mitchell Marsh; Namboori Tilak Varma; Yashasvi Jaiswal,4755; 813; 4106; 5039; 1318,Shivam Dube; Jos Buttler; Daryl Mitchell; Rajat Patidar; Andre Russell
+D11 minimum = 45,alternative,D11,45 Pressure_Balls in both Roles,rating,bowler,178,139,139,0.8443585504,6,True,False,6450; 7967; 2636; 479,Mujeeb Ur Rahman; Noor Ahmad; Adam Zampa; Adil Rashid,4722; 4373; 2633; 19316,Rashid Khan; Mustafizur Rahman; Jason Holder; Maheesh Theekshana
+D11 minimum = 60,alternative,D11,60 Pressure_Balls in both Roles,rating,batter,162,130,130,0.5781835065,4,True,False,4847; 818; 7897; 2921; 6819; 7216,Finn Allen; Mitchell Marsh; Namboori Tilak Varma; Fakhar Zaman; Yashasvi Jaiswal; Prabhsimran Singh,4755; 813; 4106; 5039; 1318; 1699,Shivam Dube; Jos Buttler; Daryl Mitchell; Rajat Patidar; Andre Russell; Suryakumar Yadav
+D11 minimum = 60,alternative,D11,60 Pressure_Balls in both Roles,rating,bowler,162,139,139,0.6786809062,3,True,False,6450; 2636; 7967; 5189; 5944; 479; 4219,Mujeeb Ur Rahman; Adam Zampa; Noor Ahmad; Faheem Ashraf; Mohammed Siraj; Adil Rashid; Krunal Pandya,6256; 4722; 4373; 2933; 39657; 2633; 19316,Varun Chakravarthy; Rashid Khan; Mustafizur Rahman; Jasprit Bumrah; Eshan Malinga; Jason Holder; Maheesh Theekshana
+D11 minimum = 75,alternative,D11,75 Pressure_Balls in both Roles,rating,batter,140,130,130,0.9995302408,9,True,False,4847,Finn Allen,1699,Suryakumar Yadav
+D11 minimum = 75,alternative,D11,75 Pressure_Balls in both Roles,rating,bowler,147,139,139,0.8760087582,8,True,False,6450; 7967,Mujeeb Ur Rahman; Noor Ahmad,2633; 19316,Jason Holder; Maheesh Theekshana
+D11 minimum = 90,alternative,D11,90 Pressure_Balls in both Roles,rating,batter,130,130,130,1.0000000000,10,True,True,,,,
+D11 minimum = 90,alternative,D11,90 Pressure_Balls in both Roles,rating,bowler,139,139,139,1.0000000000,10,True,True,,,,
+D12 percentile = 20,alternative,D12,20th percentile,rating,batter,130,130,130,0.9971322837,10,True,False,,,,
+D12 percentile = 20,alternative,D12,20th percentile,rating,bowler,139,139,139,0.9912194468,10,True,False,,,,
+D12 percentile = 30,alternative,D12,30th percentile,rating,batter,130,130,130,0.9975364951,10,True,False,,,,
+D12 percentile = 30,alternative,D12,30th percentile,rating,bowler,139,139,139,0.9975468073,10,True,False,,,,
+D13 cells = innings x Phase x Competition_Type,alternative,D13,innings x Phase x Competition_Type,rating,batter,130,130,130,0.9667618020,8,True,False,4736; 4853,Josh Inglis; Glenn Phillips,1318; 1699,Andre Russell; Suryakumar Yadav
+D13 cells = innings x Phase x Competition_Type,alternative,D13,innings x Phase x Competition_Type,rating,bowler,139,139,139,0.9704946602,9,True,False,7967,Noor Ahmad,19316,Maheesh Theekshana
+D14 Retire Out charged to the batter,alternative,D14,Retire Out charged to the batter,value,batter,130,130,130,1.0000000000,10,True,False,,,,
+D14 Retire Out charged to the batter,alternative,D14,Retire Out charged to the batter,value,bowler,139,139,139,1.0000000000,10,True,False,,,,
+WPA,cross_check,22.1,descending unweighted WPA over the player's Pressure_Balls (Out_Of_Fold WP),,batter,130,130,130,0.2149722105,3,True,False,7897; 4708; 3125; 8101; 4722; 3647; 1077,Namboori Tilak Varma; Rinku Singh; Nicholas Pooran; Ashutosh Sharma; Rashid Khan; Shreyas Iyer; David Miller,6281; 4755; 813; 4106; 5039; 1318; 1699,Abhishek Sharma; Shivam Dube; Jos Buttler; Daryl Mitchell; Rajat Patidar; Andre Russell; Suryakumar Yadav
+strike rate,cross_check,22.3,descending 100 x bat runs / Batter_Deliveries on Simple_Rule_Balls,,batter,130,130,130,,3,True,False,443; 37052; 4007; 4391; 7216; 2756; 8647,Paul Stirling; Naman Dhir; Ryan Rickelton; Liam Livingstone; Prabhsimran Singh; Shashank Singh; Sediqullah Atal,6281; 4260; 4755; 813; 4106; 5039; 1318,Abhishek Sharma; Heinrich Klaasen; Shivam Dube; Jos Buttler; Daryl Mitchell; Rajat Patidar; Andre Russell
+batting average,cross_check,22.3,"descending bat runs / max(1, Batter_Dismissals) on Simple_Rule_Balls",,batter,130,130,130,,1,True,False,768; 2485; 2756; 5939; 2101; 4369; 6448; 20702; 1077,Reeza Hendricks; Babar Azam; Shashank Singh; Cameron Green; Quinton de Kock; Shai Hope; Ibrahim Zadran; Tristan Stubbs; David Miller,6281; 6396; 4260; 4755; 813; 5553; 4106; 5039; 1318,Abhishek Sharma; Tim David; Heinrich Klaasen; Shivam Dube; Jos Buttler; Phil Salt; Daryl Mitchell; Rajat Patidar; Andre Russell
+WPA,cross_check,22.1,descending unweighted WPA over the player's Pressure_Balls (Out_Of_Fold WP),,bowler,139,139,139,0.2301085839,2,True,False,2639; 7967; 2490; 2876; 479; 2261; 6450; 5379,Marcus Stoinis; Noor Ahmad; Mohammad Nawaz; Axar Patel; Adil Rashid; Harshal Patel; Mujeeb Ur Rahman; Mark Adair,360; 4722; 4373; 2933; 781; 39657; 2633; 19316,Bhuvneshwar Kumar; Rashid Khan; Mustafizur Rahman; Jasprit Bumrah; Sunil Narine; Eshan Malinga; Jason Holder; Maheesh Theekshana
+economy,cross_check,22.4,ascending 6 x Bowler_Runs_Conceded / Legal_Balls on Simple_Rule_Balls,,bowler,139,139,139,,2,True,False,2490; 5979; 7741; 4926; 4101; 7690; 2984; 6450,Mohammad Nawaz; Abrar Ahmed; Gareth Delany; Shadab Khan; Mitchell Santner; Saim Ayub; Sikandar Raza; Mujeeb Ur Rahman,6256; 360; 4722; 4373; 4900; 39657; 2633; 19316,Varun Chakravarthy; Bhuvneshwar Kumar; Rashid Khan; Mustafizur Rahman; Wanindu Hasaranga; Eshan Malinga; Jason Holder; Maheesh Theekshana
+bowling strike rate,cross_check,22.4,ascending Legal_Balls / Bowler_Wickets on Simple_Rule_Balls,,bowler,139,139,139,,0,True,False,7699; 2382; 2490; 3629; 2681; 8380; 3720; 21784; 7327; 3323,Abbas Afridi; Jamie Overton; Mohammad Nawaz; Corbin Bosch; Taskin Ahmed; Mohammad Rishad Hossain; Craig Young; Brad Evans; Rasikh Salam; Jimmy Neesham,6256; 360; 4722; 4373; 4900; 2933; 781; 39657; 2633; 19316,Varun Chakravarthy; Bhuvneshwar Kumar; Rashid Khan; Mustafizur Rahman; Wanindu Hasaranga; Jasprit Bumrah; Sunil Narine; Eshan Malinga; Jason Holder; Maheesh Theekshana

@@ -1,0 +1,14 @@
+{
+  "derived": {
+    "model_choice.primary_models": {
+      "component": "Model_Choice_Checker",
+      "stage": "model_choice",
+      "value": {
+        "M3-1": "logistic",
+        "M3-2": "logistic",
+        "M4": "lgbm"
+      }
+    }
+  },
+  "version": 1
+}

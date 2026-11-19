@@ -1,0 +1,5 @@
+{
+  "class": "Pipeline",
+  "format": "joblib",
+  "module": "sklearn.pipeline"
+}

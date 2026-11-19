@@ -1,0 +1,4 @@
+selection,innings,n_pressure,n_extras_pressure,rate_pressure,n_ordinary,n_extras_ordinary,rate_ordinary,difference
+extras_free,1,24482,1132,4.623805,75269,3156,4.192961,0.430844
+extras_free,2,17003,809,4.757984,72894,2960,4.060691,0.697293
+extras_free,both,41485,1941,4.678800,148163,6116,4.127886,0.550913

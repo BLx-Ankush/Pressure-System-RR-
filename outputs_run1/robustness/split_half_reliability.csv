@@ -1,0 +1,5 @@
+role,estimate,reliability,n_players
+batter,clutch_level,-0.2919992431,130
+batter,uplift,-0.5162859314,130
+bowler,clutch_level,0.3006886876,139
+bowler,uplift,0.1572628933,139

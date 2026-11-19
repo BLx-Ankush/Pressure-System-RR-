@@ -1,0 +1,9 @@
+pyproject.toml
+src/superr/__init__.py
+src/superr.egg-info/PKG-INFO
+src/superr.egg-info/SOURCES.txt
+src/superr.egg-info/dependency_links.txt
+src/superr.egg-info/requires.txt
+src/superr.egg-info/top_level.txt
+src/superr/models/__init__.py
+src/superr/report/__init__.py

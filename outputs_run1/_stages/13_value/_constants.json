@@ -1,0 +1,58 @@
+{
+  "derived": {
+    "value.dismissal_charge_counts": {
+      "component": "Value_Engine",
+      "stage": "value",
+      "value": {
+        "non_striker": 260,
+        "on_wides": 37,
+        "pressure": 93,
+        "striker_off_wide": 32,
+        "total": 292
+      }
+    },
+    "value.nbv_cell_means": {
+      "component": "Value_Engine",
+      "stage": "value",
+      "value": {
+        "batter": {
+          "innings1_death": 0.02689246961323488,
+          "innings1_middle": -0.002452742944182905,
+          "innings1_powerplay": -0.0032992118907099613,
+          "innings2_death": -0.06540274184908602,
+          "innings2_middle": -0.013191245001199952,
+          "innings2_powerplay": 0.011346137682982484
+        },
+        "bowler": {
+          "innings1_death": -0.03897085503017427,
+          "innings1_middle": 0.006225433726278664,
+          "innings1_powerplay": 0.0012552545783248107,
+          "innings2_death": 0.026290696884176318,
+          "innings2_middle": 0.006966132717780332,
+          "innings2_powerplay": -0.01629927813885567
+        }
+      }
+    },
+    "value.pooled_fallback_counts": {
+      "component": "Value_Engine",
+      "stage": "value",
+      "value": {
+        "free_hit_premium": 0,
+        "nb_bat_runs": 0,
+        "nb_penalty_runs": 0,
+        "wide_team_runs": 0
+      }
+    },
+    "value.retire_out_uncharged": {
+      "component": "Value_Engine",
+      "stage": "value",
+      "value": 6
+    },
+    "value.striker_fallback_count": {
+      "component": "Value_Engine",
+      "stage": "value",
+      "value": 0
+    }
+  },
+  "version": 1
+}

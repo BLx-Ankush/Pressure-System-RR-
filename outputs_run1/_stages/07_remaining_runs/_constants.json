@@ -1,0 +1,21 @@
+{
+  "derived": {
+    "remaining_runs.outer_best_iteration_by_fit": {
+      "component": "Remaining_Runs_Model",
+      "stage": "remaining_runs",
+      "value": {
+        "m2_capped_lgbm_outer_k1": 123,
+        "m2_capped_lgbm_outer_k2": 156,
+        "m2_capped_lgbm_outer_k3": 134,
+        "m2_capped_lgbm_outer_k4": 170,
+        "m2_capped_lgbm_outer_k5": 144,
+        "m2_first_lgbm_outer_k1": 113,
+        "m2_first_lgbm_outer_k2": 186,
+        "m2_first_lgbm_outer_k3": 154,
+        "m2_first_lgbm_outer_k4": 183,
+        "m2_first_lgbm_outer_k5": 156
+      }
+    }
+  },
+  "version": 1
+}

@@ -1,0 +1,25 @@
+{
+  "completed_utc": "2026-11-16T13:42:39.639941Z",
+  "config_sha256": "70a6340732c9a938abfc32fbb1a443edf34eccae978a37f96186424b071eaa09",
+  "files": {
+    "_constants.json": "d2b0d4e7e4f05a1ac7db0a1980323c769c5b06c0782dd296ae186f0593ea5bfe",
+    "model_comparison.parquet": "c0d03a5e66459ef3d7d10d2b8c36fe086fbedaf7920b5ff6273e3aa15ac168c4",
+    "rerun_top10.parquet": "0831a0f2ba6ce72900c44892242de16a870bdf040452d2dfef19f8997a2450f0"
+  },
+  "inputs": {
+    "folds": "ed895103f0e50ac5b4cf005fa4e4ccca59da9352c62561b168e536c03dcc9331",
+    "load": "7e29d7a894039d60e286415738b4c20b66267a1f5ada81f6d9776c66a0dc0fd7",
+    "model_choice": "f649d38709f19f594f16e811fe37c930c47383dbdeebf75ea2cf537eba162440",
+    "outcome": "752b9b0da5c9eac4b38844d22142d91c5586fd8d411b3cc7d945c3dd1549f806",
+    "pressure": "5ac29728cf52290c0495dc77e83155c06e2012d819e5c03ca106fb60d9ed0480",
+    "rating": "0c2458a968531a0d56853a652b508b687109038690d8fa6daabc0895bcf9c86c",
+    "reconstruct": "63e5ad5719e36394eeb9d3a268773cd7b6695de9f5fd9d94d9b7122d8fd4b1f0",
+    "remaining_runs": "2de39b059d05c636808bdfffe988faa4c01c84dd0250d92365ce683def5c339f",
+    "state": "1db4635452f1c96ff1bdf8d5fb3b9556c4af3b44be3ede662de333e0d991ca32",
+    "validation": "8908b153f13be7d50a785c31fa03f9ba1f0f857c539f0446e6fbe7effc1d3281",
+    "value": "d62c5747357a1c37855409e7fb1fa29524e29c5e80cdb972e8bb11bbf114bb34",
+    "win_prob": "45512daaa3e08da94f79ea462ba9630304171ba21bb654c930f20d95a9a8e78f"
+  },
+  "stage": "model_choice_rerun",
+  "stage_version": 1
+}

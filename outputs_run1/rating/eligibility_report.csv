@@ -1,0 +1,3 @@
+role,min_pressure_balls,min_pressure_matches,recent_rule_on,n_players,n_eligible,fail_min_pressure_balls,fail_min_pressure_matches,fail_calendar_years,fail_recent_activity,fail_major_share
+batter,90,8,True,882,130,743,617,352,285,219
+bowler,90,8,True,644,139,496,406,272,196,152

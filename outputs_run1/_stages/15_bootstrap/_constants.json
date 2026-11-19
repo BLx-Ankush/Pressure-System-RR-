@@ -1,0 +1,60 @@
+{
+  "derived": {
+    "bootstrap.max_p_top10_outside_top10.batter": {
+      "component": "Robustness_Suite",
+      "stage": "bootstrap",
+      "value": 0.306
+    },
+    "bootstrap.max_p_top10_outside_top10.bowler": {
+      "component": "Robustness_Suite",
+      "stage": "bootstrap",
+      "value": 0.2365
+    },
+    "bootstrap.min_p_top10_main_top10.batter": {
+      "component": "Robustness_Suite",
+      "stage": "bootstrap",
+      "value": 0.2635
+    },
+    "bootstrap.min_p_top10_main_top10.bowler": {
+      "component": "Robustness_Suite",
+      "stage": "bootstrap",
+      "value": 0.3025
+    },
+    "bootstrap.min_ranked.batter": {
+      "component": "Robustness_Suite",
+      "stage": "bootstrap",
+      "value": 130
+    },
+    "bootstrap.min_ranked.bowler": {
+      "component": "Robustness_Suite",
+      "stage": "bootstrap",
+      "value": 139
+    },
+    "bootstrap.n_ever_unranked.batter": {
+      "component": "Robustness_Suite",
+      "stage": "bootstrap",
+      "value": 0
+    },
+    "bootstrap.n_ever_unranked.bowler": {
+      "component": "Robustness_Suite",
+      "stage": "bootstrap",
+      "value": 0
+    },
+    "bootstrap.n_resampled_matches": {
+      "component": "Robustness_Suite",
+      "stage": "bootstrap",
+      "value": 867
+    },
+    "bootstrap.top10_set_reproduced.batter": {
+      "component": "Robustness_Suite",
+      "stage": "bootstrap",
+      "value": 0
+    },
+    "bootstrap.top10_set_reproduced.bowler": {
+      "component": "Robustness_Suite",
+      "stage": "bootstrap",
+      "value": 0
+    }
+  },
+  "version": 1
+}

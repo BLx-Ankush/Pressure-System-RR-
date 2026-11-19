@@ -1,0 +1,5 @@
+{
+  "class": "CentredIsotonic",
+  "format": "joblib",
+  "module": "superr.models.win_prob"
+}

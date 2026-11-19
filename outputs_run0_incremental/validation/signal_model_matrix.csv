@@ -1,0 +1,9 @@
+signal,validation,target,models_feeding_signal,M1,M2,M3,M4,Extras_Model
+actual_wp_swing,V1,|WP after - WP before| of each Validation_Delivery,"M1, M2, M3",True,True,True,False,False
+big_moments,V2,the 10 largest Actual_WP_Swing of each match,"M1, M2, M3",True,True,True,False,False
+extras_rate,V3,Wides plus No_Balls per 100 Bowler_Deliveries (recorded extras types),,False,False,False,False,False
+within_player_strike_rate,V3,100 x bat runs per Batter_Delivery (recorded runs),,False,False,False,False,False
+within_player_dismissal_rate,V3,striker Counted_Wickets other than Retire Out per 100 Batter_Deliveries (recorded dismissals),,False,False,False,False,False
+within_player_economy,V3,6 x Bowler_Runs_Conceded per Bowler_Delivery (recorded runs),,False,False,False,False,False
+dead_ball_share,V4,share of a Simple_Rule's Deliveries whose WP lies outside the D1 band,"M1, M2, M3",True,True,True,False,False
+high_leverage_unflagged_share,V4,share of the High_Leverage_Balls (top 25% LI) up to the D8 split that neither Simple_Rule flags,"M1, M2, M3, M4",True,True,True,True,False

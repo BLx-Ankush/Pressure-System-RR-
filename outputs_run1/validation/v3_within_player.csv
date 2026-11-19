@@ -1,0 +1,4 @@
+measure,role,unit,beta,se,ci_low,ci_high,t_crit,df,n_players,n_players_both,n_deliveries,n_pressure,n_clusters,mean_pressure,mean_ordinary
+strike_rate,batter,bat runs per 100 Batter_Deliveries,-8.749312,1.093179,-10.895078,-6.603546,1.962868,818,882,750,182377,39627,819,130.123401,142.350263
+dismissal_rate,batter,striker Counted_Wickets (not Retire Out) per 100 Batter_Deliveries,-0.119201,0.127068,-0.368619,0.130217,1.962868,818,882,750,182377,39627,819,5.781412,5.361121
+economy,bowler,Bowler_Runs_Conceded per 6 Bowler_Deliveries,1.403114,0.062735,1.279973,1.526255,1.962868,818,644,578,189648,41483,819,9.496179,7.987635

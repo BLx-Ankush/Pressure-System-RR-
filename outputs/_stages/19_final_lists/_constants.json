@@ -1,0 +1,15 @@
+{
+  "derived": {
+    "final_lists.n_unresolved.batter": {
+      "component": "List_Builder",
+      "stage": "final_lists",
+      "value": 0
+    },
+    "final_lists.n_unresolved.bowler": {
+      "component": "List_Builder",
+      "stage": "final_lists",
+      "value": 1
+    }
+  },
+  "version": 1
+}

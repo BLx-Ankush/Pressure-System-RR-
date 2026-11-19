@@ -1,0 +1,23 @@
+{
+  "completed_utc": "2026-11-16T09:04:00.025489Z",
+  "config_sha256": "70a6340732c9a938abfc32fbb1a443edf34eccae978a37f96186424b071eaa09",
+  "files": {
+    "_constants.json": "f1920e375c8f9455aca0a2686122b6d4d20a18e6a499519fc7ad2f0d336ae9e3",
+    "li_by_over.parquet": "7b96d3dbfef2983460477ac73fda6af1fe731cb5a2c7d9d46300f4c3819d0872",
+    "missing_components.parquet": "c343ed6d572e63087e7f458864cd0366f99ca9a13cf99a90bc901de379aa3f28",
+    "pressure.parquet": "f45686b222c1b031b17ae17b783d05c73221446a3edd28251cef7877e355941c",
+    "pressure_summary.parquet": "7d9ab20acb81a1cd0ef95602a8415dbed8f63c934148e19c1ddee102d213ea36",
+    "share_batter.parquet": "7e9ff7573c76dee5f07cf51692ca97ccc853cfd2488d59368e53a8eed824d112",
+    "share_bowler.parquet": "7cce37ea1f5a43c8bdec71cd67684e8323385913aad8872a3c189426a061d8b2"
+  },
+  "inputs": {
+    "folds": "74d9bd4f74ed2609d5f956240b96e6a34e14413b09441b0e0ae1e913b3f0f16e",
+    "model_choice": "9d5215a4400c1286ef45a8f8abeefdebccb5e80dd5d145b52512c7e7497b89ad",
+    "outcome": "b1ecb8a9381cf806ecd861a4b608ece6a2268cbab658a5cd91169af88d4dd999",
+    "reconstruct": "ee3f52e85a79ac92077b2d8ed5070b4cbd305038f96679b2364ccb9a34d287bf",
+    "remaining_runs": "3d96f1e9ef6ea23edbf920752652637ae3d56c920b2f41e218c983013cfe42a4",
+    "state": "aef24fcd5e6a88ff8a495fad63b89e5ff96cfc09387a13efb9565338b0342a2d"
+  },
+  "stage": "pressure",
+  "stage_version": 1
+}

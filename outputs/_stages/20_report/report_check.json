@@ -1,0 +1,45 @@
+{
+  "check": {
+    "allowed_placeholders": [],
+    "cells_compared": 4835,
+    "checks_run": [
+      "headings",
+      "placeholder",
+      "banned_phrase",
+      "citation",
+      "latex_residue",
+      "table",
+      "section0"
+    ],
+    "failures": [],
+    "failures_by_check": {
+      "banned_phrase": 0,
+      "citation": 0,
+      "headings": 0,
+      "latex_residue": 0,
+      "placeholder": 0,
+      "section0": 0,
+      "table": 0
+    },
+    "n_failures": 0,
+    "passed": true,
+    "ranks_compared": 20,
+    "rows_compared": 658,
+    "tables_compared": 57,
+    "text_units": 5617,
+    "verified_sources": 0
+  },
+  "docx": "report/SupeRR_S2_methodology_report.docx",
+  "files": {
+    "report/SupeRR_S2_methodology_report.docx": "a0a9173427fbdee35eab79610720cd9f1afdadb2b49b88e88b67be27fc930200",
+    "report/design_choices.csv": "7096947f60998574f3865b2c6b89b77f8a3f24c1b92013112f66c8ad6f14919a"
+  },
+  "heading_pages": null,
+  "labels": 130,
+  "page_budget": 15,
+  "page_count": null,
+  "pdf": null,
+  "pdf_converter": null,
+  "pictures": 33,
+  "tables": 57
+}

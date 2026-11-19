@@ -1,0 +1,41 @@
+list,rank,row,match_id,match_date,batting_team,bowling_team,innings,over,ball,player_id,player_name,score,wickets,runs_needed,bat_runs,extras_type,dismissal_type,omega,expected_value,nbv
+highest,1,151945,45498,2025-09-12,Oman,Pakistan,2,17,2,3613,Shakeel Ahmed,61,9,99,6,None,,19.426424,-1.353462,7.353462
+highest,2,157266,45857,2025-09-07,Afghanistan,Pakistan,2,14,5,32862,Allah Ghazanfar,57,9,84,6,None,,25.302586,-1.309124,7.309124
+highest,3,74692,28066,2023-12-20,West Indies,England,2,15,1,1318,Andre Russell,159,9,105,6,None,,30.375716,-0.968362,6.968362
+highest,4,16981,14151,2022-05-10,Lucknow Super Giants,Gujarat Titans,2,14,2,3653,Avesh Khan,70,9,75,6,None,,32.625466,-0.942210,6.942210
+highest,5,63603,20880,2023-03-27,Afghanistan,Pakistan,2,15,5,4722,Rashid Khan,84,8,93,6,None,,27.571391,-0.904008,6.904008
+highest,6,16982,14151,2022-05-10,Lucknow Super Giants,Gujarat Titans,2,14,3,3653,Avesh Khan,76,9,69,6,None,,31.870120,-0.855067,6.855067
+highest,7,74695,28066,2023-12-20,West Indies,England,2,15,4,1318,Andre Russell,165,9,99,6,None,,28.388226,-0.791163,6.791163
+highest,8,63612,20880,2023-03-27,Afghanistan,Pakistan,2,17,2,6676,Azmatullah Omarzai,99,9,78,6,None,,21.644448,-0.664338,6.664338
+highest,9,49236,20194,2023-04-09,Punjab Kings,Sunrisers Hyderabad,1,16,4,142,Shikhar Dhawan,88,9,,6,None,,21.467619,-0.407670,6.407670
+highest,10,112204,37092,2024-10-21,United Arab Emirates,India A,1,16,1,26646,Rahul Chopra,98,9,,6,None,,23.502190,-0.385476,6.385476
+highest,11,122373,39811,2025-03-23,Pakistan,New Zealand,2,15,1,6922,Abdul Samad,78,9,137,6,None,,22.534475,-0.371391,6.371391
+highest,12,86245,30728,2024-03-15,Afghanistan,Ireland,2,18,2,5809,Naveen ul Haq,100,9,44,6,None,,17.407024,-0.305683,6.305683
+highest,13,156536,45854,2025-09-02,Pakistan,Afghanistan,2,18,1,7364,Haris Rauf,107,9,63,6,None,,13.125150,-0.303928,6.303928
+highest,14,74698,28066,2023-12-20,West Indies,England,2,16,1,1318,Andre Russell,172,9,92,6,None,,26.200205,-0.301714,6.301714
+highest,15,122384,39811,2025-03-23,Pakistan,New Zealand,2,16,5,6922,Abdul Samad,96,9,119,6,None,,17.925893,-0.296152,6.296152
+highest,16,49237,20194,2023-04-09,Punjab Kings,Sunrisers Hyderabad,1,16,5,142,Shikhar Dhawan,94,9,,6,None,,20.883002,-0.294974,6.294974
+highest,17,12617,14132,2022-04-26,Royal Challengers Bengaluru,Rajasthan Royals,2,19,2,2261,Harshal Patel,107,9,38,6,None,,12.544218,-0.209934,6.209934
+highest,18,174705,49737,2026-03-17,South Africa,New Zealand,2,15,1,4229,George Linde,91,9,84,6,None,,28.785666,-0.209498,6.209498
+highest,19,17325,14153,2022-05-12,Chennai Super Kings,Mumbai Indians,1,16,4,8,Mahendra Singh Dhoni,86,9,,6,None,,24.089356,-0.176923,6.176923
+highest,20,179402,50142,2026-04-11,Delhi Capitals,Chennai Super Kings,2,13,5,8101,Ashutosh Sharma,118,5,95,6,None,,21.031473,-0.130332,6.130332
+lowest,1,30450,16658,2022-09-02,Hong Kong,Pakistan,2,11,4,7935,Mohammad Ghazanfar,33,9,152,0,None,LBW,49.497528,-1.250994,-48.246534
+lowest,2,124119,40040,2025-02-02,England,India,2,11,3,2985,Mark Wood,97,9,150,0,None,Caught,48.170443,-1.664879,-46.505564
+lowest,3,150019,45392,2026-07-07,India,England,2,12,4,6256,Varun Chakravarthy,76,9,126,0,None,Bowled,40.451662,-0.754052,-39.697610
+lowest,4,60421,20240,2023-05-14,Rajasthan Royals,Royal Challengers Bengaluru,2,11,3,6591,KM Asif,59,9,112,0,None,Caught,38.526512,-0.612295,-37.914217
+lowest,5,117587,37927,2024-12-03,Zimbabwe,Pakistan,1,13,4,21781,Clive Madande,57,9,,0,None,Caught,36.902868,-0.809654,-36.093214
+lowest,6,72598,28046,2023-12-12,India,South Africa,1,2,6,6288,Shubman Gill,6,1,,0,None,LBW,34.294030,-0.042742,-34.251289
+lowest,7,151454,45496,2025-09-10,United Arab Emirates,India,1,14,1,28756,Haider Ali,57,9,,0,None,Caught,34.377268,-1.427050,-32.950218
+lowest,8,44621,19717,2023-02-01,New Zealand,India,2,13,1,4106,Daryl Mitchell,66,9,169,0,None,Caught,32.416214,-0.422706,-31.993508
+lowest,9,140351,40764,2025-05-29,Punjab Kings,Royal Challengers Bengaluru,1,15,1,6676,Azmatullah Omarzai,94,9,,0,None,Caught,30.229279,-0.389161,-29.840117
+lowest,10,199567,54410,2026-09-17,Afghanistan,India,2,15,1,56685,Abdullah Ahmadzai,94,9,128,0,None,Caught,30.277370,-0.854326,-29.423044
+lowest,11,16984,14151,2022-05-10,Lucknow Super Giants,Gujarat Titans,2,14,5,3653,Avesh Khan,82,9,63,0,None,Caught,30.175014,-0.946592,-29.228422
+lowest,12,78769,29924,2024-02-17,Sri Lanka,Afghanistan,1,1,5,6931,Pathum Nissanka,7,0,,0,None,Caught,28.722597,-0.186747,-28.535850
+lowest,13,72955,28047,2023-12-14,South Africa,India,2,7,1,3605,Aiden Markram,42,3,157,0,None,Caught,28.199459,0.077005,-28.276464
+lowest,14,69794,25155,2023-08-30,Australia,South Africa,1,7,6,2639,Marcus Stoinis,77,3,,0,None,Caught,27.612264,0.226968,-27.839232
+lowest,15,186101,50364,2026-05-01,Rajasthan Royals,Delhi Capitals,1,1,3,6819,Yashasvi Jaiswal,6,0,,0,None,Caught,27.476198,0.337531,-27.813729
+lowest,16,188422,50373,2026-05-09,Rajasthan Royals,Gujarat Titans,2,8,3,7260,Dhruv Jurel,87,3,139,0,None,Bowled,27.157745,0.190631,-27.348376
+lowest,17,189449,50377,2026-05-12,Sunrisers Hyderabad,Gujarat Titans,2,15,5,25132,Praful Hinge,86,9,83,0,None,Stump,27.482124,-0.265968,-27.216156
+lowest,18,73002,28047,2023-12-14,South Africa,India,2,14,5,1077,David Miller,95,9,104,0,None,Bowled,28.269474,-1.545031,-26.724443
+lowest,19,89987,31253,2024-04-20,Delhi Capitals,Sunrisers Hyderabad,2,1,5,5928,Prithvi Shaw,16,0,251,0,None,Caught,26.370643,0.353720,-26.724363
+lowest,20,172077,48595,2026-01-31,New Zealand,India,2,1,7,3700,Tim Seifert,15,0,253,0,None,Caught,25.612531,0.009801,-25.622332

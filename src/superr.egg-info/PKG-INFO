@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: superr
+Version: 0.1.0
+Summary: Pressure Rating System for SupeRR Selector Season 2, Round 1
+Requires-Python: <3.12,>=3.11
+Requires-Dist: pandas==3.1.1
+Requires-Dist: numpy==2.4.6
+Requires-Dist: scipy==1.17.1
+Requires-Dist: scikit-learn==1.9.1
+Requires-Dist: lightgbm==4.7.0
+Requires-Dist: xgboost==3.2.0
+Requires-Dist: matplotlib==3.11.2
+Requires-Dist: python-docx==1.2.0
+Requires-Dist: pytest==9.2.0
+Requires-Dist: pyarrow==26.0.1
+Requires-Dist: hypothesis==6.170.15
+Requires-Dist: pypdf==7.0.1

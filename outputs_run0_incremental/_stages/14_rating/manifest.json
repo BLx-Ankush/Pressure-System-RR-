@@ -1,0 +1,22 @@
+{
+  "completed_utc": "2026-11-16T09:04:12.255552Z",
+  "config_sha256": "70a6340732c9a938abfc32fbb1a443edf34eccae978a37f96186424b071eaa09",
+  "files": {
+    "_constants.json": "d1f451d181496da93ffb9e0b8f03ec46606df69c799b3721f77ca0709ae0b12d",
+    "contributions.parquet": "2c1ea9888b018ec51c124b3703948dd332c15b0e3d908488882dfb4cb0afba97",
+    "eligibility_grid.parquet": "230cf33a494eb028941188ea7980ddc21ff10bf30eb3125a031df19973d8134f",
+    "eligibility_report.parquet": "6eaec9221aa667bfdf58a3b2051749b5d8b00bb2fcead669e108bc3a6d48aba3",
+    "match_universe.parquet": "b4e3983eb7f7a92c125318c575807a3dcbf78e2347f76af73f192afd120b121e",
+    "player_estimates.parquet": "60bbeb8ff80ceabfcf0e9d08c768d51011029ddecb0e1bfa22655b449458b0d5",
+    "role_summary.parquet": "3e865efc12b9d2253e80677d032393d7ad2f3a1a1725e4e9967e1d8f9b11043c",
+    "warnings.parquet": "6dfe82c89f1c421aa649a47b51b3b79ec32c2a05c637aebe807c276172828bb3"
+  },
+  "inputs": {
+    "load": "f52385a61575d6c18d59e81855ce49634e59724be8e78d6012c8ae3e05c6cc9e",
+    "pressure": "c5d832b39ddfa01e532b5a364f670cba3df61920949de54a161c4b2cb0c289b8",
+    "reconstruct": "ee3f52e85a79ac92077b2d8ed5070b4cbd305038f96679b2364ccb9a34d287bf",
+    "value": "24c3f621212b79d9df62b9a43f3909b165dc3df4b08828a00734236bb0dc47f6"
+  },
+  "stage": "rating",
+  "stage_version": 1
+}

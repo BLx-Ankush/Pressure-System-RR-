@@ -1,0 +1,21 @@
+{
+  "derived": {
+    "win_prob.outer_lgbm_best_iteration_by_fit": {
+      "component": "Win_Probability_Model",
+      "stage": "win_prob",
+      "value": {
+        "m3_inn1_lgbm_outer_k1": 27,
+        "m3_inn1_lgbm_outer_k2": 110,
+        "m3_inn1_lgbm_outer_k3": 85,
+        "m3_inn1_lgbm_outer_k4": 53,
+        "m3_inn1_lgbm_outer_k5": 117,
+        "m3_inn2_lgbm_outer_k1": 57,
+        "m3_inn2_lgbm_outer_k2": 70,
+        "m3_inn2_lgbm_outer_k3": 72,
+        "m3_inn2_lgbm_outer_k4": 70,
+        "m3_inn2_lgbm_outer_k5": 102
+      }
+    }
+  },
+  "version": 1
+}

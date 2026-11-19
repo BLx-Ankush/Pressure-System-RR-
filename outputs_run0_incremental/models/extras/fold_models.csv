@@ -1,0 +1,6 @@
+fold,fit_id,n_train_rows,n_legal,n_wide,n_no_ball,n_iterations,converged
+1,extras_outer_k1,152042,145576,5839,627,20,True
+2,extras_outer_k2,151801,145312,5858,631,20,True
+3,extras_outer_k3,152427,145985,5812,630,21,True
+4,extras_outer_k4,151694,145250,5824,620,20,True
+5,extras_outer_k5,150628,144241,5751,636,20,True

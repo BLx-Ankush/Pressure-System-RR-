@@ -1,0 +1,407 @@
+{
+  "format_version": 1,
+  "run_id": "20261115T121300Z",
+  "status": "completed",
+  "exit_code": 0,
+  "started_utc": "2026-11-15T12:13:00.267188Z",
+  "ended_utc": "2026-11-15T12:13:07.910454Z",
+  "seconds": 7.643377,
+  "root": "D:\\Rajasthan Royals\\SupeRR Selector Season 2 _ Problem Statement _ Data Pack\\SupeRR Selector Season 2 _ Data Pack",
+  "argv": [
+    "--from-stage",
+    "activity_comparison"
+  ],
+  "files": {
+    "log": "run_20261115T121300Z.log",
+    "json": "run_20261115T121300Z.json",
+    "warnings": "warnings_20261115T121300Z.csv"
+  },
+  "python": {
+    "version": "3.11.9",
+    "implementation": "CPython",
+    "build": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "executable": "D:\\Rajasthan Royals\\SupeRR Selector Season 2 _ Problem Statement _ Data Pack\\SupeRR Selector Season 2 _ Data Pack\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "packages": [
+    {
+      "name": "pandas",
+      "pinned": "3.1.1",
+      "installed": "3.1.1"
+    },
+    {
+      "name": "numpy",
+      "pinned": "2.4.6",
+      "installed": "2.4.6"
+    },
+    {
+      "name": "scipy",
+      "pinned": "1.17.1",
+      "installed": "1.17.1"
+    },
+    {
+      "name": "scikit-learn",
+      "pinned": "1.9.1",
+      "installed": "1.9.1"
+    },
+    {
+      "name": "lightgbm",
+      "pinned": "4.7.0",
+      "installed": "4.7.0"
+    },
+    {
+      "name": "xgboost",
+      "pinned": "3.2.0",
+      "installed": "3.2.0"
+    },
+    {
+      "name": "matplotlib",
+      "pinned": "3.11.2",
+      "installed": "3.11.2"
+    },
+    {
+      "name": "python-docx",
+      "pinned": "1.2.0",
+      "installed": "1.2.0"
+    },
+    {
+      "name": "pytest",
+      "pinned": "9.2.0",
+      "installed": "9.2.0"
+    },
+    {
+      "name": "pyarrow",
+      "pinned": "26.0.1",
+      "installed": "26.0.1"
+    },
+    {
+      "name": "hypothesis",
+      "pinned": "6.170.15",
+      "installed": "6.170.15"
+    },
+    {
+      "name": "pypdf",
+      "pinned": "7.0.1",
+      "installed": "7.0.1"
+    }
+  ],
+  "config": {
+    "path": "config.py",
+    "sha256": "29e28ad3f1c09547d9f47230e48c56b4e94d26771da8886458a961fd77ebf0f3"
+  },
+  "source_csvs": [
+    {
+      "name": "ball_by_ball",
+      "path": "ball_by_ball.csv",
+      "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889"
+    },
+    {
+      "name": "matches",
+      "path": "matches.csv",
+      "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef"
+    },
+    {
+      "name": "playing_eleven",
+      "path": "playing_eleven.csv",
+      "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27"
+    },
+    {
+      "name": "competitions",
+      "path": "competitions.csv",
+      "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b"
+    },
+    {
+      "name": "teams",
+      "path": "teams.csv",
+      "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d"
+    },
+    {
+      "name": "mapping",
+      "path": "competition_team_player_mapping.csv",
+      "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12"
+    }
+  ],
+  "protected_files": {
+    "start": [
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/ball_by_ball.csv",
+        "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competition_team_player_mapping.csv",
+        "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competitions.csv",
+        "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/matches.csv",
+        "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/plan.md",
+        "sha256": "18f6049a1d413607bb6be742b9a915e449b63b1c569fc0e6c824903da44b020f"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/playing_eleven.csv",
+        "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure1.md",
+        "sha256": "5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure2.md",
+        "sha256": "b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure3.md",
+        "sha256": "8a96dbcff9339bdbaa63782df9498156c392e2916895c41f048df4edccc51200"
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/teams.csv",
+        "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d"
+      },
+      {
+        "path": "ball_by_ball.csv",
+        "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889"
+      },
+      {
+        "path": "competition_team_player_mapping.csv",
+        "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12"
+      },
+      {
+        "path": "competitions.csv",
+        "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b"
+      },
+      {
+        "path": "matches.csv",
+        "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef"
+      },
+      {
+        "path": "plan.md",
+        "sha256": "1d446d251f400df53a39be2d79963117d1d88268ae14a692d99a9de0edfc4507"
+      },
+      {
+        "path": "playing_eleven.csv",
+        "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27"
+      },
+      {
+        "path": "pressure1.md",
+        "sha256": "5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a"
+      },
+      {
+        "path": "pressure2.md",
+        "sha256": "b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04"
+      },
+      {
+        "path": "teams.csv",
+        "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d"
+      }
+    ],
+    "end": [
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/ball_by_ball.csv",
+        "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competition_team_player_mapping.csv",
+        "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/competitions.csv",
+        "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/matches.csv",
+        "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/plan.md",
+        "sha256": "18f6049a1d413607bb6be742b9a915e449b63b1c569fc0e6c824903da44b020f",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/playing_eleven.csv",
+        "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure1.md",
+        "sha256": "5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure2.md",
+        "sha256": "b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/pressure3.md",
+        "sha256": "8a96dbcff9339bdbaa63782df9498156c392e2916895c41f048df4edccc51200",
+        "changed": false
+      },
+      {
+        "path": "SupeRR Selector Season 2 _ Problem Statement _ Data Pack/SupeRR Selector Season 2 _ Data Pack/teams.csv",
+        "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d",
+        "changed": false
+      },
+      {
+        "path": "ball_by_ball.csv",
+        "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889",
+        "changed": false
+      },
+      {
+        "path": "competition_team_player_mapping.csv",
+        "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12",
+        "changed": false
+      },
+      {
+        "path": "competitions.csv",
+        "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b",
+        "changed": false
+      },
+      {
+        "path": "matches.csv",
+        "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef",
+        "changed": false
+      },
+      {
+        "path": "plan.md",
+        "sha256": "1d446d251f400df53a39be2d79963117d1d88268ae14a692d99a9de0edfc4507",
+        "changed": false
+      },
+      {
+        "path": "playing_eleven.csv",
+        "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27",
+        "changed": false
+      },
+      {
+        "path": "pressure1.md",
+        "sha256": "5614fdbc2ec2b187b5fa83c0d944a925958fdb4e45880cbfcc90f6b5b897da0a",
+        "changed": false
+      },
+      {
+        "path": "pressure2.md",
+        "sha256": "b2b5f4a632fd309a020e7271924b3f4f41245b577326a154079dc882a162cd04",
+        "changed": false
+      },
+      {
+        "path": "teams.csv",
+        "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d",
+        "changed": false
+      }
+    ],
+    "changed": []
+  },
+  "current_stage": null,
+  "failed_stage": null,
+  "stages": [
+    {
+      "name": "activity_comparison",
+      "status": "completed",
+      "seconds": 6.806537,
+      "utc": "2026-11-15T12:13:07.802149Z"
+    }
+  ],
+  "warnings": [
+    {
+      "utc": "2026-11-15T12:13:07.666316Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off): tau^2 of the batter Role's Pressure_Gap is -0.400902, at most 0, so it is set to 0 and every shrunk Pressure_Gap equals its prior (0): full shrinkage (Requirement 18, criterion 5)"
+    },
+    {
+      "utc": "2026-11-15T12:13:07.669647Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off): tau^2 of the batter Role's Uplift is -0.508512, at most 0, so it is set to 0 and every shrunk Uplift equals its prior (0): full shrinkage (Requirement 18, criterion 5)"
+    },
+    {
+      "utc": "2026-11-15T12:13:07.672246Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off): the Split_Half_Reliability rho_L of the batter Role's Clutch_Level is set to 0: it is negative (-0.359591, r = -0.152396) (139 qualifying players; Requirement 18, criterion 9)"
+    },
+    {
+      "utc": "2026-11-15T12:13:07.676595Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off): the Split_Half_Reliability rho_U of the batter Role's Uplift is set to 0: it is negative (-0.582565, r = -0.225576) (139 qualifying players; Requirement 18, criterion 9)"
+    },
+    {
+      "utc": "2026-11-15T12:13:07.679822Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off): both Split_Half_Reliability values of the batter Role are 0, so w_L = 1 and w_U = 0 (Requirement 18, criterion 10)"
+    },
+    {
+      "utc": "2026-11-15T12:13:07.683130Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off): tau^2 of the bowler Role's Uplift is -0.048317, at most 0, so it is set to 0 and every shrunk Uplift equals its prior (0): full shrinkage (Requirement 18, criterion 5)"
+    }
+  ],
+  "errors": [],
+  "notes": [
+    {
+      "utc": "2026-11-15T12:13:00.488013Z",
+      "stage": null,
+      "message": "copied plan.md to docs/plan.md; both have sha256 1d446d251f400df53a39be2d79963117d1d88268ae14a692d99a9de0edfc4507"
+    },
+    {
+      "utc": "2026-11-15T12:13:00.804342Z",
+      "stage": null,
+      "message": "--from-stage activity_comparison: reloaded the fits saved by skill (31), remaining_runs (50), win_prob (120), outcome (10) into the FitRegistry"
+    },
+    {
+      "utc": "2026-11-15T12:13:00.804342Z",
+      "stage": null,
+      "message": "--from-stage activity_comparison: reusing the saved outputs of load, audit, reconstruct, state, folds, skill, remaining_runs, win_prob, outcome, model_choice, pressure, validation, value, rating, bootstrap"
+    },
+    {
+      "utc": "2026-11-15T12:13:00.989213Z",
+      "stage": null,
+      "message": "running 1 Pipeline_Stage(s) in run order: activity_comparison"
+    },
+    {
+      "utc": "2026-11-15T12:13:07.626053Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off) inputs (Requirement 25, criteria 11 and 12): the rating checkpoint's contributions over 883 matches, so every Out_Of_Fold_Prediction, PI, Pressure_Ball flag, NBV, Dismissal_Charge and Delivery_Weight is the Main_Ranking's; the Main_Ranking's minimum Pressure_Ball counts batter 90, bowler 90, the D18 default minimum of 8 Pressure_Matches, the 2-Calendar_Year and share rules and the D12 percentile 25; the Main_Ranking's 2,000 saved Bootstrap_Resamples of the 867 resampled matches (seeds.bootstrap = 22, checked); no model is fitted. Check passed: one copy of every resampled match reproduces both comparison rankings bit for bit with their own Role-level values"
+    },
+    {
+      "utc": "2026-11-15T12:13:07.633923Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off), batter: 139 Eligible_Players of 882 players with a Delivery, against 130 in the Main_Ranking (9 added, none removed; failing: min_pressure_balls 743, min_pressure_matches 617, calendar_years 352, recent_activity 0, major_share 219). Its own Role-level values, held in each of its resamples: replacement_level -0.431303, tau2_usual 0.338739, tau2_gap 0, tau2_uplift 0, tau2_clutch 0, rho_L 0, rho_U 0, w_L 1, w_U 0; the Main_Ranking's: replacement_level -0.471737, tau2_usual 0.369257, tau2_gap 0, tau2_uplift 0, tau2_clutch 0, rho_L 0, rho_U 0, w_L 1, w_U 0. 139 ranked; 0 on the Clutch_Level fallback"
+    },
+    {
+      "utc": "2026-11-15T12:13:07.640538Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off) top 10, batter (names provisional): 1 Abhishek Sharma (6281) S +1.287 [+0.485, +2.052] P_Top10 0.965, Main rank 1; 2 Tim David (6396) S +1.062 [+0.372, +1.690] P_Top10 0.923, Main rank 2; 3 Heinrich Klaasen (4260) S +0.790 [-0.004, +1.380] P_Top10 0.697, Main rank 3; 4 Shivam Dube (4755) S +0.700 [+0.082, +1.254] P_Top10 0.674, Main rank 4; 5 Jos Buttler (813) S +0.616 [+0.057, +1.121] P_Top10 0.616, Main rank 5; 6 Phil Salt (5553) S +0.504 [-0.200, +1.184] P_Top10 0.487, Main rank 6; 7 Daryl Mitchell (4106) S +0.390 [-0.362, +0.923] P_Top10 0.255, Main rank 7; 8 Rajat Patidar (5039) S +0.365 [-0.388, +1.054] P_Top10 0.262, Main rank 8; 9 Andre Russell (1318) S +0.359 [-0.410, +1.097] P_Top10 0.264, Main rank 9; 10 Suryakumar Yadav (1699) S +0.340 [-0.429, +1.338] P_Top10 0.358, Main rank 10"
+    },
+    {
+      "utc": "2026-11-15T12:13:07.644053Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off) against the Main top 10, batter: 10 of 10 in both. Entering: none. Leaving: none"
+    },
+    {
+      "utc": "2026-11-15T12:13:07.651201Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off), bowler: 148 Eligible_Players of 644 players with a Delivery, against 139 in the Main_Ranking (9 added, none removed; failing: min_pressure_balls 496, min_pressure_matches 406, calendar_years 272, recent_activity 0, major_share 152). Its own Role-level values, held in each of its resamples: replacement_level -1.00478, tau2_usual 0.277501, tau2_gap 0.0736684, tau2_uplift 0, tau2_clutch 0.0702211, rho_L 0.201292, rho_U 0.0627388, w_L 0.762381, w_U 0.237619; the Main_Ranking's: replacement_level -0.812693, tau2_usual 0.272922, tau2_gap 0.116055, tau2_uplift 0, tau2_clutch 0.0445765, rho_L 0.300689, rho_U 0.157263, w_L 0.656595, w_U 0.343405. 148 ranked; 0 on the Clutch_Level fallback"
+    },
+    {
+      "utc": "2026-11-15T12:13:07.658980Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off) top 10, bowler (names provisional): 1 Varun Chakravarthy (6256) S +0.369 [-0.088, +0.719] P_Top10 0.930, Main rank 1; 2 Rashid Khan (4722) S +0.275 [-0.218, +0.656] P_Top10 0.809, Main rank 3; 3 Bhuvneshwar Kumar (360) S +0.236 [-0.126, +0.564] P_Top10 0.850, Main rank 2; 4 Mustafizur Rahman (4373) S +0.233 [-0.242, +0.622] P_Top10 0.732, Main rank 4; 5 Wanindu Hasaranga (4900) S +0.187 [-0.233, +0.449] P_Top10 0.710, Main rank 5; 6 Jasprit Bumrah (2933) S +0.148 [-0.307, +0.697] P_Top10 0.682, Main rank 6; 7 Sunil Narine (781) S +0.035 [-0.520, +0.606] P_Top10 0.505, Main rank 7; 8 Maheesh Theekshana (19316) S +0.025 [-0.328, +0.343] P_Top10 0.422, Main rank 10; 9 Eshan Malinga (39657) S +0.018 [-0.490, +0.455] P_Top10 0.388, Main rank 8; 10 Jason Holder (2633) S +0.006 [-0.349, +0.319] P_Top10 0.382, Main rank 9"
+    },
+    {
+      "utc": "2026-11-15T12:13:07.661960Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off) against the Main top 10, bowler: 10 of 10 in both. Entering: none. Leaving: none"
+    },
+    {
+      "utc": "2026-11-15T12:13:07.689092Z",
+      "stage": "activity_comparison",
+      "message": "Activity_Comparison_Ranking (Recent_Activity_Rule off) timing: rankings 69 ms; 2,000 resamples 6.0 s (3.02 ms per resample, both Roles); stage 6.6 s. Saved player_estimates, role_summary, eligibility_report, eligible_players, bootstrap, warnings, bootstrap_warnings and status in outputs/final/comparison/_stage/18_activity_comparison/; no other file was written"
+    }
+  ]
+}

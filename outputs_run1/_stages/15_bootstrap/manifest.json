@@ -1,0 +1,21 @@
+{
+  "completed_utc": "2026-11-16T13:08:07.936196Z",
+  "config_sha256": "70a6340732c9a938abfc32fbb1a443edf34eccae978a37f96186424b071eaa09",
+  "files": {
+    "_constants.json": "7b4b0f5fb663b62598fe818256d5db25f9864abafa9826f29ca9f2126137e7c5",
+    "bootstrap.parquet": "15b70eac635d874fe3a3a10899139467dfcb1f7138460e9adfd97a5d295479c6",
+    "bootstrap_warnings.parquet": "c9bfaede6dec07dd991442ad109605160acb6803c20ca6e0b20a9a8db773c14c",
+    "final_score_batter.npy": "364bbe9c233221ed709f911edd38eacf359704ef19c267301318fd1f762aee24",
+    "final_score_bowler.npy": "61e617c5d81de4069e3f6d6e52ce42b16cbfa72bcaef5eb6a085fc2374649a9b",
+    "rank_batter.npy": "3c8e84938440152d472c660d8fb0b22e4f76972ac06ada7c53cbc81b2551151a",
+    "rank_bowler.npy": "766c09f0d8c40cf51b2e58d1b705a6add5e90201a7024f51828a4ae1ad062439",
+    "resample_draws.npy": "9eb5c4f22304cef680dda2881cc75e3c76eab95fae718ace6ce8025e1c4c80b1",
+    "resample_matches.npy": "abbae9cbda9028424a0468521ba07ac5641429c55f1e04a02f9567f499cb4708"
+  },
+  "inputs": {
+    "load": "df00718327d335d7797c5e342d5cf897f1719f92da26b9901930e0cee4115ca7",
+    "rating": "0af332fa3ea61cd4b1839057c9378a22eefa934215d8b772b1c9eac426fb0a1c"
+  },
+  "stage": "bootstrap",
+  "stage_version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "completed_utc": "2026-11-16T13:28:19.356085Z",
+  "config_sha256": "70a6340732c9a938abfc32fbb1a443edf34eccae978a37f96186424b071eaa09",
+  "files": {
+    "_constants.json": "d2b0d4e7e4f05a1ac7db0a1980323c769c5b06c0782dd296ae186f0593ea5bfe",
+    "ball_by_ball.parquet": "073306b07ce12208f2e0a6d125217c48e2ea37e7fd7c85d242eb258ee7a2d769",
+    "competitions.parquet": "a1c5678cb9d92deb7e3ed4d8630691b4f20fc5f5489856756abf1d23bd761481",
+    "mapping.parquet": "0a10b487e3d132d2524f86cc91405ed162dcc9bc18a741827907de47513c6e0a",
+    "matches.parquet": "383561bd6ebfbb774bc1de8abab764d3a6f90992539e4cb278c1453363ad153d",
+    "playing_eleven.parquet": "3119b58476c60d9ac872acdd8e9bd823a28f24c7d5cba197b04905198958e0b6",
+    "teams.parquet": "3a4951075824c3e07206c7d98871d649c0085fc92a2e0759a1ed7ee459bb064d"
+  },
+  "inputs": {},
+  "stage": "load",
+  "stage_version": 1
+}

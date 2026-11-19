@@ -1,0 +1,2 @@
+utc,stage,message
+2026-11-15T13:43:15.321369Z,final_lists,"List_Builder: the bowler Main_List entry at rank 3, 'Rashid Khan' (player_id 4722), is an Unresolved_Entry (Requirement 25, criterion 3): 'Rashid Khan' is a Candidate_Name of 2 player_ids. Candidate_Names of player_id 4722: 'Rashid Khan' (21 mapping rows). player_ids with the Candidate_Name 'Rashid Khan': 4722, 20172. team_name values: player_id 4722: Afghanistan, Gujarat Titans; player_id 20172: Nepal. Confirm the entry against the Unstop dropdown with outputs/final/unstop_entry_checklist.md before submitting"

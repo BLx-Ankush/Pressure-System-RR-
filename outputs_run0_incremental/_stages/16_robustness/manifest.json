@@ -1,0 +1,31 @@
+{
+  "completed_utc": "2026-11-16T10:22:44.031654Z",
+  "config_sha256": "70a6340732c9a938abfc32fbb1a443edf34eccae978a37f96186424b071eaa09",
+  "files": {
+    "_constants.json": "f2a4e5a8f9baea13e0f3823ca1247117abb4f55a142081b843ad68b4b3bfe7d7",
+    "competition_spearman.parquet": "74cdea45bb7fabd64e0fa61600a4363c84984fe28ae51adb98e83c0015171739",
+    "cross_check_rankings.parquet": "19d5547f34e33492bf98b812ad657b24f5bf9d4f07667274ac00d6a014e16c89",
+    "period_holdout.parquet": "5f294e37d9057bb0baf8bda49ef7ef5cbb4efbf3f7f9347003161fab5869ccf4",
+    "period_spearman.parquet": "4a99dd362f50bc631e54910e7da3e929589c3c0a6bdc3ed97bda169ce33f4a4f",
+    "robustness_table.parquet": "7e1dfc9a2a22df9f06653049afb064519d9eddf8ca1c2ddc8e13e9a8720fe350",
+    "split_half_reliability.parquet": "255b81fc442d28ab3dd57c45ae168d8428c7984fd80e467942bc7a70eae9177e",
+    "v1_ipl.parquet": "eeaa6b5aab248570a6dd2ac28088e7d651c88d7ba541a6f8b6c2ebe58ec64dfc",
+    "v1_t20i.parquet": "d2a970800c91a7c6fbe79b9e0e6122c665e5ef40a5e2b63401906d8ea31f82bc"
+  },
+  "inputs": {
+    "folds": "74d9bd4f74ed2609d5f956240b96e6a34e14413b09441b0e0ae1e913b3f0f16e",
+    "load": "f52385a61575d6c18d59e81855ce49634e59724be8e78d6012c8ae3e05c6cc9e",
+    "model_choice": "9d5215a4400c1286ef45a8f8abeefdebccb5e80dd5d145b52512c7e7497b89ad",
+    "outcome": "b1ecb8a9381cf806ecd861a4b608ece6a2268cbab658a5cd91169af88d4dd999",
+    "pressure": "c5d832b39ddfa01e532b5a364f670cba3df61920949de54a161c4b2cb0c289b8",
+    "rating": "fa2920e7b97d5d3b398760068829a2c2858549134ad41f46479c66521d28a14a",
+    "reconstruct": "ee3f52e85a79ac92077b2d8ed5070b4cbd305038f96679b2364ccb9a34d287bf",
+    "remaining_runs": "3d96f1e9ef6ea23edbf920752652637ae3d56c920b2f41e218c983013cfe42a4",
+    "state": "aef24fcd5e6a88ff8a495fad63b89e5ff96cfc09387a13efb9565338b0342a2d",
+    "validation": "25e627b2f07c0d99368ddfb67b0328128408df2f57882d0429e5ff8a69ba5303",
+    "value": "24c3f621212b79d9df62b9a43f3909b165dc3df4b08828a00734236bb0dc47f6",
+    "win_prob": "d1b52d8d05a0b6f50242d01eb651a95e7e5ee189ab9ed1b46db07a505d6d6065"
+  },
+  "stage": "robustness",
+  "stage_version": 1
+}

@@ -1,0 +1,11 @@
+metric,model,value,n_legal_balls,description,warning
+rmse_bat_runs,M1,1.728045,181591,"pooled held-out RMSE of bat runs per training Legal_Ball; Out_Of_Fold_Predictions of the 5 outer M1 fits (Requirement 8, criterion 8)",
+rmse_bat_runs,baseline,1.732493,181591,"pooled held-out RMSE of bat runs per training Legal_Ball; Out_Of_Fold_Predictions of the 5 outer baseline fits, without batter and bowler indicators (Requirement 8, criterion 8)",
+log_loss_dismissal,M1,0.213192,181591,"pooled held-out log loss of the Counted_Wicket target, predictions clipped to [1e-06, 0.999999] (models.m1.prob_clip); Out_Of_Fold_Predictions of the 5 outer M1 fits (Requirement 8, criterion 8)",
+log_loss_dismissal,baseline,0.213636,181591,"pooled held-out log loss of the Counted_Wicket target, predictions clipped to [1e-06, 0.999999] (models.m1.prob_clip); Out_Of_Fold_Predictions of the 5 outer baseline fits, without batter and bowler indicators (Requirement 8, criterion 8)",
+batters_in_both_pools,,193,,"distinct batters (striker_id) with at least one training Legal_Ball in both the IPL Pool and the international Pool (T20I and A_Team) (Requirement 8, criterion 10)",
+batters_in_ipl_pool,,341,,"distinct batters (striker_id) with at least one training Legal_Ball in the IPL Pool (Requirement 8, criterion 10)",
+batters_in_international_pool,,734,,"distinct batters (striker_id) with at least one training Legal_Ball in the international Pool (T20I and A_Team) (Requirement 8, criterion 10)",
+bowlers_in_both_pools,,153,,"distinct bowlers (bowler_id) with at least one training Legal_Ball in both the IPL Pool and the international Pool (T20I and A_Team) (Requirement 8, criterion 10)",
+bowlers_in_ipl_pool,,257,,"distinct bowlers (bowler_id) with at least one training Legal_Ball in the IPL Pool (Requirement 8, criterion 10)",
+bowlers_in_international_pool,,540,,"distinct bowlers (bowler_id) with at least one training Legal_Ball in the international Pool (T20I and A_Team) (Requirement 8, criterion 10)",

@@ -1,0 +1,33 @@
+# CSV files in root directory
+/*.csv
+
+# Kiro and hypothesis directories
+.kiro/
+.hypothesis/
+
+# Markdown files to exclude
+/plan.md
+/pressure1.md
+/pressure2.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

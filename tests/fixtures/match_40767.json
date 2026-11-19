@@ -1,0 +1,17 @@
+{
+  "match_id": 40767,
+  "innings": 1,
+  "match": "IPL 2025 final, 3 June 2025: Royal Challengers Bengaluru (batting_team_id 5) batted first, made 190 for 9 in 20 overs and beat Punjab Kings by 6 runs",
+  "first_innings_total": 190,
+  "bat_runs": 181,
+  "wides": 9,
+  "wide_runs": 9,
+  "deliveries_by_extras_type": {"None": 120, "wide": 9},
+  "how_checked": [
+    "Checked by hand without the superr package: ball_by_ball.csv was read with Python's csv module and the 129 rows with match_id 40767 and innings 1 were kept.",
+    "extras_type is None on 120 rows and wide on 9 rows, so the innings holds 120 Legal_Balls, 9 Wides and no No_Ball (other or Overstep), bye, leg-bye or Penalty Delivery.",
+    "runs (the bat runs) sums to 181 over the 129 rows and is 0 on each Wide. extras_2_runs is 0 on every row.",
+    "Under every candidate Extras_Encoding (E1-E4) a plain Legal_Ball scores b + e = b and a Wide scores 1 + e = 1, so the total is 181 + 9 x 1 = 190 (design finding F-11).",
+    "The published scorecard agrees: Royal Challengers Bengaluru 190 for 9 (ESPNcricinfo match report, https://www.espncricinfo.com/series/ipl-2025-1449924/punjab-kings-vs-royal-challengers-bengaluru-final-1473511/match-report)."
+  ]
+}

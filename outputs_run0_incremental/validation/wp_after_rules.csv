@@ -1,0 +1,8 @@
+rule,innings,n_deliveries,mean_wp_after,mean_swing,max_swing
+next_delivery,1,98932,0.492005,0.009193,0.129396
+next_delivery,2,89100,0.480565,0.017976,0.931050
+innings1_end_state,1,794,0.475151,0.010887,0.146688
+innings1_stopped_state,1,25,0.528721,0.019924,0.064708
+innings2_result,2,786,0.512723,0.046962,1.000000
+innings2_tie,2,9,0.500000,0.400120,0.500000
+innings2_post_outcome,2,2,0.325719,0.053288,0.101048

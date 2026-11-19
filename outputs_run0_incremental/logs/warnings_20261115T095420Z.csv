@@ -1,0 +1,7 @@
+utc,stage,message
+2026-11-15T09:54:31.061264Z,rating,"tau^2 of the batter Role's Pressure_Gap is -0.334197, at most 0, so it is set to 0 and every shrunk Pressure_Gap equals its prior (0): full shrinkage (Requirement 18, criterion 5)"
+2026-11-15T09:54:31.066721Z,rating,"tau^2 of the batter Role's Uplift is -0.447304, at most 0, so it is set to 0 and every shrunk Uplift equals its prior (0): full shrinkage (Requirement 18, criterion 5)"
+2026-11-15T09:54:31.075193Z,rating,"the Split_Half_Reliability rho_L of the batter Role's Clutch_Level is set to 0: it is negative (-0.291999, r = -0.127399) (130 qualifying players; Requirement 18, criterion 9)"
+2026-11-15T09:54:31.078203Z,rating,"the Split_Half_Reliability rho_U of the batter Role's Uplift is set to 0: it is negative (-0.516286, r = -0.205178) (130 qualifying players; Requirement 18, criterion 9)"
+2026-11-15T09:54:31.081235Z,rating,"both Split_Half_Reliability values of the batter Role are 0, so w_L = 1 and w_U = 0 (Requirement 18, criterion 10)"
+2026-11-15T09:54:31.085038Z,rating,"tau^2 of the bowler Role's Uplift is -0.0932916, at most 0, so it is set to 0 and every shrunk Uplift equals its prior (0): full shrinkage (Requirement 18, criterion 5)"

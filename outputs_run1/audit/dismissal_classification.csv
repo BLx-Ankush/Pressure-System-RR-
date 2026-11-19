@@ -1,0 +1,9 @@
+dismissal_type_id,dismissal_types,rows,reappearance_share,classification,rule,reason
+1,Bowled,1775,,Counted_Wicket,base_code,codes 1-6 and 9 are Counted_Wickets
+2,Caught,7557,,Counted_Wicket,base_code,codes 1-6 and 9 are Counted_Wickets
+3,LBW,709,,Counted_Wicket,base_code,codes 1-6 and 9 are Counted_Wickets
+4,RunOut,600,,Counted_Wicket,base_code,codes 1-6 and 9 are Counted_Wickets
+5,Stump,214,,Counted_Wicket,base_code,codes 1-6 and 9 are Counted_Wickets
+6,Hit Wicket,17,,Counted_Wicket,base_code,codes 1-6 and 9 are Counted_Wickets
+9,Retire Out,6,,Counted_Wicket,base_code,codes 1-6 and 9 are Counted_Wickets
+10,Obstracting the field; Obstructing the field,3,0.000000,Counted_Wicket,default,"no label contains ""hurt"" or ""not out"", and the Reappearance_Share is 0 (0 of 3 rows)"

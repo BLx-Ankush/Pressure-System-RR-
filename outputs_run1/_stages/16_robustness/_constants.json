@@ -1,0 +1,25 @@
+{
+  "derived": {
+    "robustness.cross_check_undefined.batting_average": {
+      "component": "Robustness_Suite",
+      "stage": "robustness",
+      "value": 0
+    },
+    "robustness.cross_check_undefined.bowling_strike_rate": {
+      "component": "Robustness_Suite",
+      "stage": "robustness",
+      "value": 1
+    },
+    "robustness.cross_check_undefined.economy": {
+      "component": "Robustness_Suite",
+      "stage": "robustness",
+      "value": 0
+    },
+    "robustness.cross_check_undefined.strike_rate": {
+      "component": "Robustness_Suite",
+      "stage": "robustness",
+      "value": 0
+    }
+  },
+  "version": 1
+}

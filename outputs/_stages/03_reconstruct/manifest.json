@@ -1,0 +1,17 @@
+{
+  "completed_utc": "2026-11-16T13:28:21.183218Z",
+  "config_sha256": "70a6340732c9a938abfc32fbb1a443edf34eccae978a37f96186424b071eaa09",
+  "files": {
+    "_constants.json": "a33face4b9ed042631aedd501fb43aa12191244d19bd624d18cff7066e21eddf",
+    "balls.parquet": "c13039fb285c32502612996ecba42538d26b1498df73ff084af5c662a1614548",
+    "innings_info.parquet": "476897a926d8395955283e033be58aa9218e33f633d0037d9bd52dc17cd4a0ec",
+    "pass_rates.parquet": "987ccb3dd5d1c3c54ece24fddc561af19f9ea6599dc8866d4d5d37d1fb52c732",
+    "score_checks.parquet": "49bcd191f0468855d395b67c44b6979dac2a422bf3c0acff9d048bc2f2fc0831"
+  },
+  "inputs": {
+    "audit": "627c406963fc840886fc287db72dcef265c22e370f0c5be180838aa65fccf236",
+    "load": "7e29d7a894039d60e286415738b4c20b66267a1f5ada81f6d9776c66a0dc0fd7"
+  },
+  "stage": "reconstruct",
+  "stage_version": 1
+}

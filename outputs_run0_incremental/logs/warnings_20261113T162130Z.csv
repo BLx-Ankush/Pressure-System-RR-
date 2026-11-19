@@ -1,0 +1,7 @@
+utc,stage,message
+2026-11-13T16:21:34.751533Z,reconstruct,"the Exact_Pass_Rate of the runs_margin check under the selected Extras_Encoding byes_one is 31.873%, below 95.0% (Requirement 5, criterion 22); see outputs/audit/audit.md"
+2026-11-13T16:21:34.756001Z,reconstruct,"the Exact_Pass_Rate of the chase check under the selected Extras_Encoding byes_one is 52.267%, below 95.0% (Requirement 5, criterion 22); see outputs/audit/audit.md"
+2026-11-13T16:21:34.759274Z,reconstruct,"the Exact_Pass_Rate of the tie check under the selected Extras_Encoding byes_one is 50.000%, below 95.0% (Requirement 5, criterion 22); see outputs/audit/audit.md"
+2026-11-13T16:21:34.766552Z,reconstruct,"48 of 867 matches with Deliveries are excluded from model training and player rating at the Score_Tolerance of 6 runs (D20; Requirement 5, criterion 24); excluded at each grid tolerance: 0 runs: 486, 3 runs: 165, 6 runs: 48, 10 runs: 10; see outputs/audit/excluded_matches.csv"
+2026-11-13T16:21:36.199050Z,state,"6 side(s) list a player in more than one is_played row of playing_eleven (match 13613 team 20, match 13613 team 27, match 21176 team 17, match 21176 team 27, match 28962 team 18, match 28962 team 78); each such player counts once in Batters_To_Come, at his lowest batting_order"
+2026-11-13T16:21:36.202437Z,state,"1 side(s) have is_played rows without a batting_order in playing_eleven (11 rows: match 48512 team 25); Batters_To_Come puts those players after the others, in the order of playing_eleven.csv, so next_batter for those sides is uncertain"

@@ -1,0 +1,16 @@
+# Direct dependencies of the Pressure Rating System (package `superr`): exact pins only, no ranges.
+# Python 3.11 only (pyproject.toml: requires-python = ">=3.11,<3.12"). The same pins are in pyproject.toml.
+# Resolved on 2026-11-12 with pip 26.3 (--prefer-binary) on CPython 3.11.9, Windows win_amd64.
+# Full transitive set: requirements-lock.txt.
+pandas==3.1.1
+numpy==2.4.6
+scipy==1.17.1
+scikit-learn==1.9.1
+lightgbm==4.7.0
+xgboost==3.2.0
+matplotlib==3.11.2
+python-docx==1.2.0
+pytest==9.2.0
+pyarrow==26.0.1
+hypothesis==6.170.15
+pypdf==7.0.1

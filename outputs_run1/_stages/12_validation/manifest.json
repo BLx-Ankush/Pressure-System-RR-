@@ -1,0 +1,30 @@
+{
+  "completed_utc": "2026-11-16T13:07:56.528159Z",
+  "config_sha256": "70a6340732c9a938abfc32fbb1a443edf34eccae978a37f96186424b071eaa09",
+  "files": {
+    "_constants.json": "dd593a65fcdf7d1bc172fa64f3ed7f4c671f47e6cb7fa2ce0122a1917bafe344",
+    "oof_guard.parquet": "3541e989d030e8f8dc4c9823d40ba8a381a2ed168f16e72af275560f41e1380c",
+    "signal_model_matrix.parquet": "b1d3eac9ad4493c82f2546692a2fa1edb0729919417f36f575b6117a049e165c",
+    "v1_deciles.parquet": "2ac2ac2c7eafce5597120b9022757a2d509f8ec013e502318fba0d553277e274",
+    "v2_big_moments.parquet": "9114b1715b4a6be53383fda239435057d9a40760fd830a7835603a0a2a968334",
+    "v3_extras.parquet": "ead2695a75d45d971b2c0f1a769001f345bb7244772caa3af5daa552bf84338c",
+    "v3_extras_free.parquet": "980291bdb8e044570df8acf2642a06c0d73eaef18d4dba962913cd4b582f2817",
+    "v3_within_player.parquet": "f2d3445eaa8d7492258f4c536ea1a6bd47d7ad161e7daff8e64a431079a2d396",
+    "v4_dead_share.parquet": "f3855650f67fe56c56df59b651c24aa997a198f5df11f55c500c9f8ac31108a1",
+    "v4_high_leverage_unflagged.parquet": "c93bb5d414b6d4031503cee06a0fa5d6dd2ef810664502e2654321bcc14ee872",
+    "validation_deliveries.parquet": "f1738c5ca889c30465e4510fbde5369410bc6e4ae0162608f0a3d31e8aa0c7bd",
+    "wp_after_rules.parquet": "4a5a8c19d6c8813b1d2397fe66472e77942ee3b33de6d9bff36c53f1f06c193a"
+  },
+  "inputs": {
+    "folds": "484a65fad31c251037f6db245f0e5a5a338992ea46c2cee35883217e33a48717",
+    "model_choice": "3484b9dbbd19727db037d6df41d9e036106fc95a5f159e2f8746a668b44c1ca0",
+    "outcome": "55adf5b268e06dfb956fc848a7250adee8754bee0e616190d5da68b619c93fde",
+    "pressure": "59e7e983133036b0dcb6211567f1729726b8609db94889ca6c49301565df48d9",
+    "reconstruct": "03310d772894939f706d0161dba907f2e813325a191283a2d1cb6a4b8b149214",
+    "remaining_runs": "39edaf1592da3045d829199e54b52f5ad035752f17c3be2b81b4cfc64c2092d9",
+    "state": "b5e92031ec18c3e036e3f5039479eed91d3249affecac7d000e324798c057e07",
+    "win_prob": "0c865b9ac663fce21407b6646f637b73dc0f26ff7dbac9749870d17a34b262b0"
+  },
+  "stage": "validation",
+  "stage_version": 1
+}
