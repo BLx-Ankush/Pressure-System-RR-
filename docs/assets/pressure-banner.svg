@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="470" viewBox="0 0 1280 470" role="img" aria-labelledby="title desc">
+  <title id="title">Pressure, quantified. SupeRR Selector Season 2.</title>
+  <desc id="desc">A navy and pink cricket analytics banner. A stylized pitch connects a live contest, ball leverage, and role-specific stress to a pressure rating.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10152d"/><stop offset="1" stop-color="#071321"/></linearGradient>
+    <linearGradient id="pink" x2="1" y2="1"><stop stop-color="#ff74b3"/><stop offset="1" stop-color="#eb3687"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#8197bb" stroke-opacity=".07"/></pattern>
+  </defs>
+  <rect width="1280" height="470" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="470" rx="20" fill="url(#grid)"/>
+  <path d="M0 0H1280" stroke="#f653a0" stroke-width="8"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <rect x="60" y="49" width="10" height="10" rx="5" fill="#ff70b1"/>
+    <text x="83" y="59" fill="#edbed6" font-size="13" font-weight="600" letter-spacing="2">SUPERR SELECTOR / SEASON 2 / ROUND 1</text>
+    <text x="57" y="166" fill="#f8f9ff" font-size="82" font-weight="750" letter-spacing="-3">Pressure,</text>
+    <text x="57" y="254" fill="url(#pink)" font-size="82" font-weight="750" letter-spacing="-3">quantified.</text>
+    <text x="61" y="307" fill="#c3d0e4" font-size="22">From every ball to a defensible top 10.</text>
+    <path d="M61 352H591" stroke="#354158"/>
+    <text x="61" y="387" fill="#f1f4fa" font-size="15" font-weight="600">CONTEXT</text>
+    <text x="163" y="387" fill="#6c7b97" font-size="16">/</text>
+    <text x="188" y="387" fill="#f1f4fa" font-size="15" font-weight="600">COMPARISON</text>
+    <text x="333" y="387" fill="#6c7b97" font-size="16">/</text>
+    <text x="358" y="387" fill="#f1f4fa" font-size="15" font-weight="600">CONFIDENCE</text>
+    <text x="61" y="429" fill="#8192ad" font-size="12" letter-spacing="1.5">PRESSURE RATING SYSTEM</text>
+    <g transform="translate(697 58)">
+      <rect width="522" height="354" rx="16" fill="#101d30" stroke="#344258"/>
+      <text x="26" y="36" fill="#cbd5e7" font-size="12" font-weight="600" letter-spacing="2">THE PRESSURE LENS</text>
+      <circle cx="488" cy="31" r="4" fill="#ff71b2"/>
+      <g fill="none" stroke="#59708a">
+        <ellipse cx="155" cy="187" rx="116" ry="116" stroke-opacity=".4"/>
+        <ellipse cx="155" cy="187" rx="90" ry="101" stroke-dasharray="3 7" stroke-opacity=".65"/>
+        <rect x="133" y="114" width="44" height="147" rx="3" fill="#223443" stroke="#85a4ad"/>
+        <path d="M122 133H188M122 242H188" stroke="#d4e6eb"/>
+        <path d="M148 122V137M155 122V137M162 122V137M148 237V252M155 237V252M162 237V252" stroke="#f3d6e5" stroke-width="2"/>
+        <path d="M183 210Q218 184 234 140" stroke="#f46aa7" stroke-width="2" stroke-dasharray="4 5"/>
+      </g>
+      <circle cx="233" cy="140" r="7" fill="#ff70b1"/>
+      <path d="M229 137L237 143" stroke="#ffeaf3" stroke-width="1.4"/>
+      <g transform="translate(289 85)">
+        <text y="0" fill="#8499b6" font-size="10" letter-spacing="1.5">01 / IS THE CONTEST LIVE?</text>
+        <text y="26" fill="#f2f5fc" font-size="18" font-weight="600">Win probability</text>
+        <path d="M0 45H201" stroke="#31445d"/>
+        <text y="79" fill="#8499b6" font-size="10" letter-spacing="1.5">02 / CAN THIS BALL SWING IT?</text>
+        <text y="105" fill="#f2f5fc" font-size="18" font-weight="600">Ball leverage</text>
+        <path d="M0 124H201" stroke="#31445d"/>
+        <text y="158" fill="#8499b6" font-size="10" letter-spacing="1.5">03 / HOW HARD IS THIS ROLE?</text>
+        <text y="184" fill="#f2f5fc" font-size="18" font-weight="600">Situational stress</text>
+      </g>
+      <rect x="25" y="306" width="472" height="27" rx="5" fill="#f05b9e" fill-opacity=".13"/>
+      <text x="261" y="324" text-anchor="middle" fill="#ff9ac8" font-size="11" font-weight="600" letter-spacing="1.4">ONE MATCH. TWO ROLES. DIFFERENT PRESSURES.</text>
+    </g>
+  </g>
+</svg>
